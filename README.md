@@ -12,16 +12,11 @@
 </div>
 
 <div align="center">
-
-  
 ### :man_technologist: About Me :
 I'm a Python developer <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30">  from Russian Federatoin.
 :zap: I am an expert in the field of electric power industry (0.4 - 750 kV).
-
 💻: I implement automated process control systems; self-propelled guns and SCADA
-
 🦭: I love traveling and the sea.
-
 
 ### :hammer_and_wrench: Languages and Tools :
 <div id="header" align="center">
@@ -33,11 +28,8 @@ I'm a Python developer <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtB
   <img src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-plain-wordmark.svg"  title="CSS3" alt="CSS" width="100" height="100"/>&nbsp;
 </div>
 
-
 ### :fire: My Stats  
-
 [![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=your-github-username&theme=dark&background=000000)](https://git.io/streak-stats)
-
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=your-github-username&layout=compact&theme=vision-friendly-dark)
 </div>  
   
