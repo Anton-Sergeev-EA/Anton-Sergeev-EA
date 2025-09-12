@@ -11,7 +11,8 @@
 </div>
 ---
 <div id="header" align="center">
-### :fire: My Stats :
+  
+### :fire: My Stats  width="100" height="100"/>&nbsp:
   
 [![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=your-github-username&theme=dark&background=000000)](https://git.io/streak-stats)
 
