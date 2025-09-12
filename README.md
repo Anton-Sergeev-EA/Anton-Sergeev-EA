@@ -14,8 +14,11 @@
 <div align="center">
 ### :man_technologist: About Me :
 I'm a Python developer <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30">  from Russian Federatoin.
+
 :zap: I am an expert in the field of electric power industry (0.4 - 750 kV).
+
 💻: I implement automated process control systems; self-propelled guns and SCADA
+
 🦭: I love traveling and the sea.
 
 ### :hammer_and_wrench: Languages and Tools :
