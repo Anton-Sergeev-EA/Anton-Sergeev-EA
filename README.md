@@ -18,11 +18,11 @@
   
 ### :man_technologist: About Me :
 I'm a Python developer <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30">  from Russian Federatoin.
-- :zap: I am an expert in the field of electric power industry (0.4 - 750 kV).
+:zap: I am an expert in the field of electric power industry (0.4 - 750 kV).
 
-- 💻: I implement automated process control systems; self-propelled guns and SCADA
+💻: I implement automated process control systems; self-propelled guns and SCADA
 
-- 🦭: I love traveling and the sea.
+🦭: I love traveling and the sea.
 <div>
   <img src="https://github.com/devicons/devicon/blob/master/icons/mysql/mysql-original-wordmark.svg" title="MySQL"  alt="MySQL" width="40" height="40"/>&nbsp;
   <img src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg" title="JavaScript" alt="JavaScript" width="40" height="40"/>&nbsp;
