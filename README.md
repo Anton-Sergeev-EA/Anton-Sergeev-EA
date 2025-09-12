@@ -12,7 +12,9 @@
 </div>
 
 <div align="center">
+  
 ### :man_technologist: About Me :
+
 I'm a Python developer <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30">  from Russian Federatoin.
 
 :zap: I am an expert in the field of electric power industry (0.4 - 750 kV).
