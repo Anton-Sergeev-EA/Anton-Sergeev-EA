@@ -12,6 +12,7 @@
 </div>
 
 <div align="center">
+
   
 ### :man_technologist: About Me :
 
@@ -22,6 +23,7 @@ I'm a Python developer <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtB
 💻: I implement automated process control systems; self-propelled guns and SCADA
 
 🦭: I love traveling and the sea.
+
 
 ### :hammer_and_wrench: Languages and Tools :
 <div id="header" align="center">
