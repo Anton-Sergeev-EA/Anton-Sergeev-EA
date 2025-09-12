@@ -18,11 +18,11 @@
   
 ### :man_technologist: About Me :
 I'm a Python developer <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30">  from Russian Federatoin.
-- :zap: I am an expert in the field of electric power industry (0.4 - 750 kV).
+- zap: I am an expert in the field of electric power industry (0.4 - 750 kV).
 
 - 💻: Exploring Technical Content Writing.
 
-- :zap: In my free time, I solve problems on GeeksforGeeks and read tech articles.
+- 🦭: I love traveling and the sea.
 
 ---
 
