@@ -13,7 +13,7 @@
 
 <div align="center">
 
-  
+ --- 
 ### :man_technologist: About Me :
 
 I'm a Python developer <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30">  from Russian Federatoin.
@@ -24,7 +24,7 @@ I'm a Python developer <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtB
 
 🦭: I love traveling and the sea.
 
-
+---
 ### :hammer_and_wrench: Languages and Tools :
 <div id="header" align="center">
   <img src="https://github.com/devicons/devicon/blob/master/icons/python/python-original-wordmark.svg" title="python" alt="python" width="200" height="200"/>&nbsp;
@@ -35,6 +35,7 @@ I'm a Python developer <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtB
   <img src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-plain-wordmark.svg"  title="CSS3" alt="CSS" width="200" height="200"/>&nbsp;
 </div>
 
+---
 ### :fire: My Stats  
 [![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=your-github-username&theme=dark&background=000000)](https://git.io/streak-stats)
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=your-github-username&layout=compact&theme=vision-friendly-dark)
