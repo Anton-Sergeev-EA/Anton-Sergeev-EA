@@ -17,8 +17,8 @@
 ---
   
 ### :man_technologist: About Me :
-I'm a Python developer. <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30">  from Russian Federatoin.
-- :telescope: I’m working as a Software Engineer and contributing to frontend and backend for building web applications.
+I'm a Python developer <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30">  from Russian Federatoin.
+- :lightning: I’m working as a Software Engineer and contributing to frontend and backend for building web applications.
 
 - :seedling: Exploring Technical Content Writing.
 
