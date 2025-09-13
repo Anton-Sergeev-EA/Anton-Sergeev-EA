@@ -21,11 +21,11 @@ I'm a Python developer <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtB
 
 :zap::zap::zap:: I am an expert in the field of electric power industry (0.4 - 750 kV).
 
-💻: I implement:
+<div>💻: I implement:
  Automated Process Control System (APCS);
- Automatic control systems;
- SCADA (Supervisory Control and Data Acquisition).
-
+ Automatic control systems (ACS);
+ Supervisory Control and Data Acquisition (SCADA).
+</div>
 🦭: I love traveling and the sea.
 
 ---
