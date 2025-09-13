@@ -23,8 +23,8 @@ I'm a Python developer <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtB
 
 <div>💻: I implement:
  <p> <span class="star">&#x2605;</span> Automated Process Control System (APCS);</p>
- <p> * Automatic control systems (ACS);</p>
- <p> * Supervisory Control and Data Acquisition (SCADA).</p>
+ <p> <span class="star">&#x2605;</span> Automatic control systems (ACS);</p>
+ <p> <span class="star">&#x2605;</span> Supervisory Control and Data Acquisition (SCADA).</p>
 </div>
 🦭: I love traveling and the sea.
 
