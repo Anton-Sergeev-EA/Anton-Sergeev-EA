@@ -22,9 +22,9 @@ I'm a Python developer <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtB
 :zap::zap::zap:: I am an expert in the field of electric power industry (0.4 - 750 kV).
 
 <div>💻: I implement:
- <p> <span class="star">&#x2605;</span> Automated Process Control System (APCS);</p>
- <p> <span class="star">&#x2605;</span> Automatic control systems (ACS);</p>
- <p> <span class="star">&#x2605;</span> Supervisory Control and Data Acquisition (SCADA).</p>
+ <p> <span class="star">&#x2605;</span> Automated Process Control System (APCS)<span class="star">&#x2605;</span></p>
+ <p> <span class="star">&#x2605;</span> Automatic control systems (ACS)<span class="star">&#x2605;</span></p>
+ <p> <span class="star">&#x2605;</span> Supervisory Control and Data Acquisition (SCADA)<span class="star">&#x2605;</span></p>
 </div>
 🦭: I love traveling and the sea.
 
