@@ -16,12 +16,24 @@
 </div>
 
 ---
-<div id="header" style="text-align: center;">
+<style>
+    .header-container {
+        text-align: center;
+        animation: fadeIn 1s ease;
+    }
+    
+    @keyframes fadeIn {
+        from { opacity: 0; }
+        to { opacity: 1; }
+    }
+</style>
+
+<div class="header-container">
     <h3>
         <span role="img" aria-label="technician">:man_technologist:</span> About Me
     </h3>
     
-    <p style="font-size: 18px; margin: 10px 0;">
+    <p>
         I'm a Python developer from Russian Federation.
     </p>
 </div>
