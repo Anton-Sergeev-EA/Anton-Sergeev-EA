@@ -4,9 +4,7 @@
              alt="Typing SVG" 
              style="display: block; margin: 0 auto;">
     </a>
-    
     <br>
-    
     <a href="https://git.io/typing-svg">
         <img src="https://readme-typing-svg.herokuapp.com?color=FF0000&lines=Developer+of+APCS%2C+ACS%2C+SCADA&font=Ubuntu&size=24&width=400&height=100" 
              alt="Typing SVG" 
