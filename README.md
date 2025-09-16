@@ -42,7 +42,7 @@ I'm a Python developer from Russian Federatoin.
 ---
 
 ### :fire: My Stats :
-[![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=Anton-Sergeev-EA&theme=dark&background=000000)](https://git.io/streak-stats)
+![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=Anton-Sergeev-EA&theme=dark&background=000000)(https://git.io/streak-stats)
 <div id="header" align="center">
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=your-github-username&layout=compact&theme=vision-friendly-dark)
