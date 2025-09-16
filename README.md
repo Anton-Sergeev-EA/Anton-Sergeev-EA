@@ -59,7 +59,7 @@ I'm a Python developer from Russian Federatoin.
 </div>
 
 ---
-<div style="background-color: #000; padding: 20px;">
+<div style="background-color: red; padding: 20px;">
 
 ### 📊 My Stats :
 
@@ -72,5 +72,3 @@ I'm a Python developer from Russian Federatoin.
 </picture>
 
 </div>
-
-  
