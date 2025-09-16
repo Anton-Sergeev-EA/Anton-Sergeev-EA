@@ -83,14 +83,3 @@ style="max-width: 100%; height: auto;"
     >
 </p>
 </div>
-
-<p href="https://github.com/Anton-Sergeev-EA" target="_blank">
-    <div style="color: gold;">
-        <img 
-            src="https://github-readme-stats.vercel.app/api/top-langs/?username=Anton-Sergeev-EA&layout=compact&theme=dark"
-            alt="Languages"
-            style="max-width: 100%; height: auto;"
-        >
-    </div>
-</p>
-
