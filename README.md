@@ -103,7 +103,7 @@ I'm a Python developer from Russian Federatoin.
                 style="max-width: 100%; height: auto;"
             >
         </a>
-    </div>
+    :fire: My Stats :
 
 <a href="https://github.com/Anton-Sergeev-EA" target="_blank">
         <img 
