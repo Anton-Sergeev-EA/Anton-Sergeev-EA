@@ -59,24 +59,15 @@ I'm a Python developer from Russian Federatoin.
 </div>
 
 ---
-<style>
-  .stats-container {
-    background-color: #000;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.5);
-  }
-</style>
+<div style="background-color: #000; padding: 20px;">
 
-<div class="stats-container">
+### 📊 Статистика профиля
 
-### 📊 My Stats :
-
-[!Stats(https://github-readme-stats.vercel.app/api?username=Anton-Sergeev-EA&theme=dark&show_icons=true)(https://github.com/anuraghazra/github-readme-stats)
-
-[!Top Langs(https://github-readme-stats.vercel.app/api/top-langs/?username=Anton-Sergeev-EA&layout=compact&theme=dark)(https://github.com/anuraghazra/github-readme-stats)
-
-[!Streak(https://github-readme-streak-stats.herokuapp.com/?user=Anton-Sergeev-EA&year=2025&theme=dark)(https://git.io/streak-stats)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=Anton-Sergeev-EA&theme=dark">
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=Anton-Sergeev-EA&theme=default">
+  <img alt="Stats" src="https://github-readme-stats.vercel.app/api?username=Anton-Sergeev-EA&theme=dark">
+</picture>
 
 </div>
 
