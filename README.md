@@ -61,7 +61,9 @@ I'm a Python developer from Russian Federatoin.
 ---
 <div style="background-color: #000; padding: 20px;">
 
-### 📊 Статистика профиля
+### 📊 My Stats :
+
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Anton-Sergeev-EA&layout=compact&theme=vision-friendly-dark)](https://github.com/anuraghazra/github-readme-stats)
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=Anton-Sergeev-EA&theme=dark">
