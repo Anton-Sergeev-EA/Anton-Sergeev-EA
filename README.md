@@ -1,10 +1,6 @@
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=Developer of automated systems)](https://git.io/typing-svg)
 <div id="header" align="center">
   <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExam5jZ3Rob2lseG44dTlranFlc2hsMXRtdGpjNTV0N2hyMnhveDh4MiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/NBYIO02n8BWtq/giphy.gif" width="250"/>
 </div>
-
----
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=Developer of automated systems)](https://git.io/typing-svg)
 
 ---
 <h1 id="header" align="center" width="300px" height="150px">
@@ -45,7 +41,9 @@ I'm a Python developer from Russian Federatoin.
 ---
 
 ### :fire: My Stats :
-[![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=your-github-username&theme=dark&background=000000)](https://git.io/streak-stats)
+[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Anton-Sergeev-EA)](https://git.io/streak-stats)
+
+[![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=your-github-Anton-Sergeev-EA&theme=dark&background=000000)](https://git.io/streak-stats)
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Anton-Sergeev-EA&layout=compact&theme=vision-friendly-dark)](https://github.com/anuraghazra/github-readme-stats)
 
