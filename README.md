@@ -1,5 +1,4 @@
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?color=FF0000&lines=My+name+is+Anton&font=Ubuntu&size=24&width=400&height=100)](https://git.io/typing-svg)
- ---
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?color=FF0000&lines=Developer+of+APCS,+ACS,+SCADA&font=Ubuntu&size=24&width=400&height=100)](https://git.io/typing-svg)
  ---
 <div id="header" align="center">
