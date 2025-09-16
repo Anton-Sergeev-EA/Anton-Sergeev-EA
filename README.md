@@ -94,8 +94,7 @@ I'm a Python developer from Russian Federatoin.
                 alt="GitHub Streak" 
                 style="max-width: 100%; height: auto;"
             >
-        </a>
-
+   
 <a href="https://github.com/Anton-Sergeev-EA" target="_blank">
             <img 
                 src="https://github-readme-stats.vercel.app/api?username=Anton-Sergeev-EA&theme=dark" 
