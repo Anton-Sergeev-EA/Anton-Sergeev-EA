@@ -1,5 +1,5 @@
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?color=ff0000BCF7&lines=Developer+of+automated+systems)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?color=FF0000&lines=Developer+of+automated+systems)](https://git.io/typing-svg)
 
   
 <div id="header" align="center">
