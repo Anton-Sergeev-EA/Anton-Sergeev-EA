@@ -3,6 +3,9 @@
 </div>
 
 ---
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=Developer of automated systems)](https://git.io/typing-svg)
+
+---
 <h1 id="header" align="center" width="300px" height="150px">
   Hello, World! 
   <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"/>
