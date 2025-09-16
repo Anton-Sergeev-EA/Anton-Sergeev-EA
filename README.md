@@ -57,4 +57,18 @@ I'm a Python developer from Russian Federatoin.
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Anton-Sergeev-EA&layout=compact&theme=vision-friendly-dark)](https://github.com/anuraghazra/github-readme-stats)
 
 </div>
+
+---
+### 📊 Profile Overview
+
+<div style="display: flex; gap: 20px;">
+
+  [![Stats](https://github-readme-stats.vercel.app/api?username=Anton-Sergeev-EA&theme=vue&show_icons=true)](https://github.com/anuraghazra/github-readme-stats)
+  
+  [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Anton-Sergeev-EA&theme=vue&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
+  
+  [![Streak](https://github-readme-streak-stats.herokuapp.com/?user=Anton-Sergeev-EA&year=2025&theme=vue)](https://git.io/streak-stats)
+  
+</div>
+
   
