@@ -77,6 +77,8 @@ I'm a Python developer from Russian Federatoin.
 
 
 ---
+### :fire: My Stats :
+
 <div style="
     display: flex;
     flex-direction: column;
