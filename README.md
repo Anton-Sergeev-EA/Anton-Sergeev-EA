@@ -16,7 +16,10 @@
 </div>
 
 --- 
+<div align="center">
+    
 ### :man_technologist: About Me :
+
 <div id="header" align="center">
 I'm a Python developer from Russian Federatoin.
 
