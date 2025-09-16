@@ -15,7 +15,18 @@
     </a>
 </div>
 
- --- 
+---
+<div id="header" style="text-align: center;">
+    <h3>
+        <span role="img" aria-label="technician">:man_technologist:</span> About Me
+    </h3>
+    
+    <p style="font-size: 18px; margin: 10px 0;">
+        I'm a Python developer from Russian Federation.
+    </p>
+</div>
+
+--- 
 ### :man_technologist: About Me :
 <div id="header" align="center">
 I'm a Python developer from Russian Federatoin.
