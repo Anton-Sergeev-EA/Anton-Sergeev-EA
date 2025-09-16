@@ -33,6 +33,7 @@ I'm a Python developer from Russian Federatoin.
  <p> <span class="star">&#x2605;</span> Supervisory Control and Data Acquisition (SCADA) <span class="star">&#x2605;</span></p>
 </div>
 </div>
+
 ---
 ### :hammer_and_wrench: Languages and Tools :
 <div id="header" align="center">
@@ -45,7 +46,6 @@ I'm a Python developer from Russian Federatoin.
 </div>
 
 ---
-
 ### :fire: My Stats :
 [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=DenverCoder1)](https://git.io/streak-stats)
 
