@@ -58,7 +58,6 @@ I'm a Python developer from Russian Federatoin.
 
 </div>
 
----
 <div style="
     background-color: red;
     padding: 10px;
@@ -76,20 +75,3 @@ I'm a Python developer from Russian Federatoin.
   </picture>
 </div>
 
----
-<div style="
-    background-color: #FF0000 !important; /* Ярко-красный цвет с !important */
-    padding: 10px;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
-    margin: 20px;
-">
-    <picture>
-        <source media="(prefers-color-scheme: dark)" 
-                srcset="https://github-readme-stats.vercel.app/api?username=Anton-Sergeev-EA&theme=dark">
-        <source media="(prefers-color-scheme: light)" 
-                srcset="https://github-readme-stats.vercel.app/api?username=Anton-Sergeev-EA&theme=default">
-        <img alt="Stats" 
-             src="https://github-readme-stats.vercel.app/api?username=Anton-Sergeev-EA&theme=dark">
-    </picture>
-</div>
