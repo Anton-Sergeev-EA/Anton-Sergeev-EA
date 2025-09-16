@@ -105,11 +105,11 @@ style="max-width: 100%; height: auto;"
 </p>
 
 <p href="https://github.com/Anton-Sergeev-EA" target="_blank">
-<img
-src="https://github-readme-stats.vercel.app/api/top-langs/?username=Anton-Sergeev-EA&layout=compact"
-alt="Languages"
-style="max-width: 100%; height: auto;"
->
+    <img 
+        src="https://github-readme-stats.vercel.app/api/top-langs/?username=Anton-Sergeev-EA&layout=compact&theme=dark"
+        alt="Languages"
+        style="max-width: 100%; height: auto;"
+    >
 </p>
 </div>
 
