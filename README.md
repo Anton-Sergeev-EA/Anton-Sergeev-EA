@@ -20,18 +20,6 @@
   <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExam5jZ3Rob2lseG44dTlranFlc2hsMXRtdGpjNTV0N2hyMnhveDh4MiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/NBYIO02n8BWtq/giphy.gif" width="250"/>
 </div>
 
----
-<h1 id="header" align="center" width="300px" height="150px">
-  Hello, World! 
-  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"/>
-</h1>
-
-<div id="header" align="center">
-  <img src="https://media.giphy.com/media/dWesBcTLavkZuG35MI/giphy.gif" width="300" height="150"/>
-</div>
-
-<div align="center">
-
  --- 
 ### :man_technologist: About Me :
 
