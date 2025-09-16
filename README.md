@@ -41,9 +41,13 @@ I'm a Python developer from Russian Federatoin.
 </div>
 
 ---
+<div align="center">
+
 ### :fire: My Stats :
+
 [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=DenverCoder1)](https://git.io/streak-stats)
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Anton-Sergeev-EA&layout=compact&theme=vision-friendly-dark)](https://github.com/anuraghazra/github-readme-stats)
 
+</div>
   
