@@ -14,13 +14,12 @@
              style="display: block; margin: 0 auto;">
     </a>
 </div>
-
  ---
 <div id="header" align="center">
   <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExam5jZ3Rob2lseG44dTlranFlc2hsMXRtdGpjNTV0N2hyMnhveDh4MiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/NBYIO02n8BWtq/giphy.gif" width="250"/>
 </div>
-
  --- 
+<div id="header" align="center">
 ### :man_technologist: About Me :
 
 I'm a Python developer from Russian Federatoin.
@@ -32,7 +31,7 @@ I'm a Python developer from Russian Federatoin.
  <p> <span class="star">&#x2605;</span> Automatic control systems (ACS) <span class="star">&#x2605;</span></p>
  <p> <span class="star">&#x2605;</span> Supervisory Control and Data Acquisition (SCADA) <span class="star">&#x2605;</span></p>
 </div>
-
+</div>
 ---
 ### :hammer_and_wrench: Languages and Tools :
 <div id="header" align="center">
