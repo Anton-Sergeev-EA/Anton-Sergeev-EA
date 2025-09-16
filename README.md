@@ -72,11 +72,11 @@ I'm a Python developer from Russian Federatoin.
 
 ### 📊 My Stats :
 
-!Stats(https://github-readme-stats.vercel.app/api?username=Anton-Sergeev-EA&theme=dark&show_icons=true)(https://github.com/anuraghazra/github-readme-stats)
+[!Stats(https://github-readme-stats.vercel.app/api?username=Anton-Sergeev-EA&theme=dark&show_icons=true)(https://github.com/anuraghazra/github-readme-stats)
 
-!Top Langs(https://github-readme-stats.vercel.app/api/top-langs/?username=Anton-Sergeev-EA&layout=compact&theme=dark)(https://github.com/anuraghazra/github-readme-stats)
+[!Top Langs(https://github-readme-stats.vercel.app/api/top-langs/?username=Anton-Sergeev-EA&layout=compact&theme=dark)(https://github.com/anuraghazra/github-readme-stats)
 
-!Streak(https://github-readme-streak-stats.herokuapp.com/?user=Anton-Sergeev-EA&year=2025&theme=dark)(https://git.io/streak-stats)
+[!Streak(https://github-readme-streak-stats.herokuapp.com/?user=Anton-Sergeev-EA&year=2025&theme=dark)(https://git.io/streak-stats)
 
 </div>
 
