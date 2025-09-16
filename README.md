@@ -1,5 +1,3 @@
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?color=FF0000&lines=My+name+is+Anton+and+I+am+a+developer+of+automated+control+systems)](https://git.io/typing-svg)
-
 <p align="center">
   ![Typing SVG](https://readme-typing-svg.herokuapp.com?color=FF0000&lines=My+name+is+Anton+and+I+am+a+developer+of+automated+control+systems)
 </p>
