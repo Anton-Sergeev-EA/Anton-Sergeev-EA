@@ -26,7 +26,6 @@ I'm a Python developer from Russian Federatoin.
  <p> <span class="star">&#x2605;</span> Automatic control systems (ACS) <span class="star">&#x2605;</span></p>
  <p> <span class="star">&#x2605;</span> Supervisory Control and Data Acquisition (SCADA) <span class="star">&#x2605;</span></p>
 </div>
-🦭 I love traveling and the sea 🦭
 
 ---
 ### :hammer_and_wrench: Languages and Tools :
