@@ -17,7 +17,7 @@
  --- 
 ### :man_technologist: About Me :
 
-I'm a Python developer <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30">  from Russian Federatoin.
+I'm a Python developer from Russian Federatoin.
 
 :zap::zap::zap: I am an expert in the field of electric power industry (0.4 - 750 kV) :zap::zap::zap:
 
