@@ -75,6 +75,7 @@ I'm a Python developer from Russian Federatoin.
   </picture>
 </div>
 
+
 ---
 <div style="
     display: flex;
@@ -82,13 +83,9 @@ I'm a Python developer from Russian Federatoin.
     gap: 20px;
     padding: 20px;
     background-color: #f9f9f9;
-    border-radius: 8px;
-">
-
-    <!-- Статистика коммитов -->
-    <div style="display: flex; gap: 20px;">
-        <!-- GitHub Streak -->
-        <a href="https://git.io/streak-stats" target="_blank">
+    border-radius: 8px;">
+<div style="display: flex; gap: 20px;">
+             <a href="https://git.io/streak-stats" target="_blank">
             <img 
                 src="https://github-readme-streak-stats.herokuapp.com/?user=Anton-Sergeev-EA&year=2025" 
                 alt="GitHub Streak" 
@@ -96,8 +93,7 @@ I'm a Python developer from Russian Federatoin.
             >
         </a>
 
-        <!-- GitHub Stats -->
-        <a href="https://github.com/Anton-Sergeev-EA" target="_blank">
+<a href="https://github.com/Anton-Sergeev-EA" target="_blank">
             <img 
                 src="https://github-readme-stats.vercel.app/api?username=Anton-Sergeev-EA&theme=dark" 
                 alt="GitHub Stats" 
@@ -106,8 +102,7 @@ I'm a Python developer from Russian Federatoin.
         </a>
     </div>
 
-    <!-- Статистика репозиториев -->
-    <a href="https://github.com/Anton-Sergeev-EA" target="_blank">
+<a href="https://github.com/Anton-Sergeev-EA" target="_blank">
         <img 
             src="https://github-readme-stats.vercel.app/api/top-langs/?username=Anton-Sergeev-EA&layout=compact" 
             alt="Languages" 
