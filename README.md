@@ -48,35 +48,6 @@ I'm a Python developer from Russian Federatoin.
 </div>
 
 ---
-<div align="center">
-
-### :fire: My Stats :
-
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Anton-Sergeev-EA&year=2025)](https://git.io/streak-stats)
-
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Anton-Sergeev-EA&layout=compact&theme=vision-friendly-dark)](https://github.com/anuraghazra/github-readme-stats)
-
-</div>
-
-<div style="
-    background-color: red;
-    padding: 10px;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
-    margin: 20px;
-">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" 
-            srcset="https://github-readme-stats.vercel.app/api?username=Anton-Sergeev-EA&theme=dark">
-    <source media="(prefers-color-scheme: light)" 
-            srcset="https://github-readme-stats.vercel.app/api?username=Anton-Sergeev-EA&theme=default">
-    <img alt="Stats" 
-         src="https://github-readme-stats.vercel.app/api?username=Anton-Sergeev-EA&theme=dark">
-  </picture>
-</div>
-
-
----
 ### :fire: My Stats :
 
 <div style="
