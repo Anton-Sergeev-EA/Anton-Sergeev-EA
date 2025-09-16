@@ -15,29 +15,6 @@
     </a>
 </div>
 
----
-<style>
-    .header-container {
-        text-align: center;
-        animation: fadeIn 1s ease;
-    }
-    
-    @keyframes fadeIn {
-        from { opacity: 0; }
-        to { opacity: 1; }
-    }
-</style>
-
-<div class="header-container">
-    <h3>
-        <span role="img" aria-label="technician">:man_technologist:</span> About Me
-    </h3>
-    
-    <p>
-        I'm a Python developer from Russian Federation.
-    </p>
-</div>
-
 --- 
 ### :man_technologist: About Me :
 <div id="header" align="center">
