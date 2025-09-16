@@ -86,6 +86,7 @@ I'm a Python developer from Russian Federatoin.
     padding: 20px;
     background-color: #f9f9f9;
     border-radius: 8px;">
+    
 <div style="display: flex; gap: 20px;">
              <a href="https://git.io/streak-stats" target="_blank">
             <img 
