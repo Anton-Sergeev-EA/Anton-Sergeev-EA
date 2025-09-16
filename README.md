@@ -72,3 +72,15 @@ I'm a Python developer from Russian Federatoin.
 </picture>
 
 </div>
+
+---
+<div style="background-color: red; padding: 10px;">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" 
+            srcset="https://github-readme-stats.vercel.app/api?username=Anton-Sergeev-EA&theme=dark">
+    <source media="(prefers-color-scheme: light)" 
+            srcset="https://github-readme-stats.vercel.app/api?username=Anton-Sergeev-EA&theme=default">
+    <img alt="Stats" 
+         src="https://github-readme-stats.vercel.app/api?username=Anton-Sergeev-EA&theme=dark">
+  </picture>
+</div>
