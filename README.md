@@ -59,16 +59,25 @@ I'm a Python developer from Russian Federatoin.
 </div>
 
 ---
-### 📊 Profile Overview
+<style>
+  .stats-container {
+    background-color: #000;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+  }
+</style>
 
-<div style="display: flex; gap: 20px;">
+<div class="stats-container">
 
-  [![Stats](https://github-readme-stats.vercel.app/api?username=Anton-Sergeev-EA&theme=vue&show_icons=true)](https://github.com/anuraghazra/github-readme-stats)
-  
-  [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Anton-Sergeev-EA&theme=vue&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
-  
-  [![Streak](https://github-readme-streak-stats.herokuapp.com/?user=Anton-Sergeev-EA&year=2025&theme=vue)](https://git.io/streak-stats)
-  
+### 📊 My Stats :
+
+!Stats(https://github-readme-stats.vercel.app/api?username=Anton-Sergeev-EA&theme=dark&show_icons=true)(https://github.com/anuraghazra/github-readme-stats)
+
+!Top Langs(https://github-readme-stats.vercel.app/api/top-langs/?username=Anton-Sergeev-EA&layout=compact&theme=dark)(https://github.com/anuraghazra/github-readme-stats)
+
+!Streak(https://github-readme-streak-stats.herokuapp.com/?user=Anton-Sergeev-EA&year=2025&theme=dark)(https://git.io/streak-stats)
+
 </div>
 
   
