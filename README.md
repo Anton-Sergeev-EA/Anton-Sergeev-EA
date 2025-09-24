@@ -55,7 +55,11 @@ I'm a Python developer from Russian Federatoin.
 ### :fire: My Stats :
 <div>
 <p href="https://github-readme-streak-stats.herokuapp.com?user=Anton-Sergeev-EA" target="_blank">
-    
+  <img
+    src="https://github-readme-streak-stats.herokuapp.com?user=Anton-Sergeev-EA"
+    alt="GitHub Steak"
+    style="max-width: 100%; height: auto;"
+  />   
 </p>
 
 <p href="https://github.com/Anton-Sergeev-EA" target="_blank">
