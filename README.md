@@ -78,5 +78,5 @@ I'm a Python developer from Russian Federatoin.
     >
 </p>
 
-[![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=Anton-Sergeev-EA)](https://git.io/streak-stats)
+<a href="https://git.io/streak-stats"><img src="http://github-readme-streak-stats.herokuapp.com?user=Anton-Sergeev-EA" alt="GitHub Streak" /></a>
 
