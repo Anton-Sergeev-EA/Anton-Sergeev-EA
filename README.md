@@ -72,11 +72,28 @@ I'm a Python developer from Russian Federatoin.
     >
 </p>
 
-<p href="https://git.io/streak-stats">
-    <img 
-        src="http://github-readme-streak-stats.herokuapp.com?user=Anton-Sergeev-EA" 
-        alt="GitHub Streak"
-        style="max-width: 100%; height: auto;"
-    >
-</p>
+---
+### :fire: My Stats :
+
+<!-- GitHub Streak -->
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=Anton-Sergeev-EA&theme=dark)
+
+<!-- GitHub Stats -->
+<a href="https://github.com/Anton-Sergeev-EA" target="_blank">
+  <img
+    src="https://github-readme-stats.vercel.app/api?username=Anton-Sergeev-EA&theme=dark"
+    alt="GitHub Stats"
+    style="max-width: 100%; height: auto;"
+  />
+</a>
+
+<!-- Top Languages -->
+<a href="https://github.com/Anton-Sergeev-EA" target="_blank">
+  <img 
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=Anton-Sergeev-EA&layout=compact&theme=dark"
+    alt="Languages"
+    style="max-width: 100%; height: auto;"
+  />
+</a>
+
 
