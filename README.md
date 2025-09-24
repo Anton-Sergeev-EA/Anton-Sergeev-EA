@@ -62,14 +62,14 @@ padding: 20px;
 background-color: #f9f9f9;
 border-radius: 8px;">
 
-<div style="display: flex; gap: 20px;">
+<div style="display: flex; gap: 20px;"
 <p href="https://git.io/streak-stats" target="_blank">
 <img
 src="https://github-readme-streak-stats.herokuapp.com/?user=Anton-Sergeev-EA&year=2025"
 alt="GitHub Streak"
 style="max-width: 100%; height: auto;"
->
 </p>
+>
 
 <p href="https://github.com/Anton-Sergeev-EA" target="_blank">
 <img
