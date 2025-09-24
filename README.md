@@ -78,5 +78,11 @@ I'm a Python developer from Russian Federatoin.
     >
 </p>
 
-<a href="https://git.io/streak-stats"><img src="http://github-readme-streak-stats.herokuapp.com?user=Anton-Sergeev-EA" alt="GitHub Streak" /></a>
+<p href="https://git.io/streak-stats">
+    <img 
+        src="http://github-readme-streak-stats.herokuapp.com?user=Anton-Sergeev-EA" 
+        alt="GitHub Streak"
+        style="max-width: 100%; height: auto;"
+    >
+</p>
 
