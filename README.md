@@ -54,7 +54,8 @@ I'm a Python developer from Russian Federatoin.
 ---
 ### :fire: My Stats :
 
-[![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=Anton-Sergeev-EA)](https://git.io/streak-stats)
+<!-- GitHub Streak -->
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=Anton-Sergeev-EA&theme=dark)
     
 <p href="https://github.com/Anton-Sergeev-EA" target="_blank">
   <img
@@ -80,20 +81,20 @@ I'm a Python developer from Russian Federatoin.
 ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=Anton-Sergeev-EA&theme=dark)
 
 <!-- GitHub Stats -->
-<a href="https://github.com/Anton-Sergeev-EA" target="_blank">
+<p href="https://github.com/Anton-Sergeev-EA" target="_blank">
     <img
         src="https://github-readme-stats.vercel.app/api?username=Anton-Sergeev-EA&theme=dark"
         alt="GitHub Stats"
         style="max-width: 100%; height: auto; display: block; margin: 10px 0;"
     />
-</a>
+</p>
 
 <!-- Top Languages -->
-<a href="https://github.com/Anton-Sergeev-EA" target="_blank">
+<p href="https://github.com/Anton-Sergeev-EA" target="_blank">
     <img 
         src="https://github-readme-stats.vercel.app/api/top-langs/?username=Anton-Sergeev-EA&layout=compact&theme=dark"
         alt="Languages"
         style="max-width: 100%; height: auto; display: block; margin: 10px 0;"
     />
-</a>
+</p>
 
