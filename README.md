@@ -52,6 +52,7 @@ I'm a Python developer from Russian Federatoin.
  <img src="https://github.com/devicons/devicon/blob/master/icons/json/json-original.svg" title="Json" alt="Json" width="70" height="70"/>&nbsp;
   <img src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-original.svg" title="HTML5" alt="HTML5" width="70" height="70"/>&nbsp;
   <img src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-plain-wordmark.svg" title="CSS3" alt="CSS3" width="70" height="70"/>&nbsp;
+  <img src=" https://github.com/devicons/devicon/blob/master/icons/linux/linux-original.svg" title="Linux" alt="Linux" width="70" height="70"/>&nbsp;
 </div>
 </div>
 
