@@ -23,7 +23,7 @@
 <div id="header" align="center">
 <p> I'm a Python developer from Russian Federatoin </p>
 <p>
-    <img src="https://example.com/ai-icon.png" alt="🤖" width="20" style="vertical-align: middle;">
+    <alt="🤖" width="20" style="vertical-align: middle;">
     My interest is artificial intelligence
 </p>
 
