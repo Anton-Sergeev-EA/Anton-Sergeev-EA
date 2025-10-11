@@ -22,7 +22,10 @@
 
 <div id="header" align="center">
 <p> I'm a Python developer from Russian Federatoin </p>
-<p> My interest is artificial intelligence img src="https://example.com/ai-icon.png" alt="🤖" width="20" </p>
+<p>
+    <img src="https://example.com/ai-icon.png" alt="🤖" width="20" style="vertical-align: middle;">
+    My interest is artificial intelligence
+</p>
 
 :zap::zap::zap: I am an expert in the field of electric power industry (0.4 - 750 kV) :zap::zap::zap:
 
