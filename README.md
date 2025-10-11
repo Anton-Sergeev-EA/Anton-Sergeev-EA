@@ -22,6 +22,7 @@
 
 <div id="header" align="center">
 I'm a Python developer from Russian Federatoin.
+My interest is artificial intelligence.
 
 :zap::zap::zap: I am an expert in the field of electric power industry (0.4 - 750 kV) :zap::zap::zap:
 
