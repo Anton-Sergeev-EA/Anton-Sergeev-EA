@@ -23,9 +23,13 @@
 <div id="header" align="center">
 <p> I'm a Python developer from Russian Federatoin </p>
 <p>
-    <alt="🤖" width="20" style="vertical-align: middle;">
-    My interest is artificial intelligence
-</p>
+        <img 
+            src="https://via.placeholder.com/150?text=AI+Icon" 
+            alt="🤖" 
+            width="20" 
+            height="20">
+        My interest is artificial intelligence
+    </p>
 
 :zap::zap::zap: I am an expert in the field of electric power industry (0.4 - 750 kV) :zap::zap::zap:
 
