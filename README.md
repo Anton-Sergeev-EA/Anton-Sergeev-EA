@@ -22,11 +22,15 @@
 
 <div id="header" align="center">
 <p> I'm a Python developer from Russian Federatoin </p>
-<p> 🤖 My interest is artificial intelligence 🤖</p>
+<p> My interest is artificial intelligence </p>
 
 :zap::zap::zap: I am an expert in the field of electric power industry (0.4 - 750 kV) :zap::zap::zap:
 
 <div>💻 <b>I implement</b> 💻
+ <p> <span class="star">&#x2605;</span> Data science <span class="star">&#x2605;</span></p>
+ <p> <span class="star">&#x2605;</span> Machine Learning <span class="star">&#x2605;</span></p> 
+ <p> <span class="star">&#x2605;</span> Retrieval-Augmented Generation <span class="star">&#x2605;</span></p>
+ <p> <span class="star">&#x2605;</span> Large Language Model <span class="star">&#x2605;</span></p>   
  <p> <span class="star">&#x2605;</span> Automated Process Control System (APCS) <span class="star">&#x2605;</span></p>
  <p> <span class="star">&#x2605;</span> Automatic control systems (ACS) <span class="star">&#x2605;</span></p>
  <p> <span class="star">&#x2605;</span> Supervisory Control and Data Acquisition (SCADA) <span class="star">&#x2605;</span></p>
