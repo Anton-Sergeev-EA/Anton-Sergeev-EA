@@ -44,13 +44,12 @@
     
 <div align="center">
   <img src="https://github.com/devicons/devicon/blob/master/icons/python/python-original-wordmark.svg" title="Python" alt="Python" width="70" height="70"/>&nbsp;
-
   <img src="https://github.com/devicons/devicon/blob/master/icons/bash/bash-original.svg" title="Вash" alt="Вash" width="70" height="70"/>&nbsp;
   <img src="https://github.com/devicons/devicon/blob/master/icons/powershell/powershell-original.svg" title="Powershell" alt="Powershell" width="70" height="70"/>&nbsp;
   <img src="https://github.com/Ensono/azure-vector-icons/blob/master/icons/Machine%20Learning.svg" title="Machine Learning" alt="Machine Learning" width="70" height="70"/>&nbsp;
   <img src="https://github.com/devicons/devicon/blob/master/icons/numpy/numpy-original.svg" title="Numpy" alt="Numpy" width="70" height="70"/>&nbsp;
   <img src="https://github.com/devicons/devicon/blob/master/icons/pandas/pandas-original.svg" title="Pandas" alt="Pandas" width="70" height="70"/>&nbsp;
-  <img src="https://github.com/modernstrategist/rag-articles/blob/main/Applications%20of%20RAG.svg" title="Pandas" alt="Pandas" width="70" height="70"/>&nbsp;    
+  <img src="https://github.com/modernstrategist/rag-articles/blob/main/Applications%20of%20RAG.svg" title="rag-articles" alt="rag-articles" width="70" height="70"/>&nbsp;    
   <img src="https://github.com/devicons/devicon/blob/master/icons/postgresql/postgresql-original.svg" title="PostgreSQL"  alt="PostgreSQL" width="70" height="70"/>&nbsp;
   <img src="https://github.com/devicons/devicon/blob/master/icons/dbeaver/dbeaver-original.svg" title="DBeaver"  alt="DBeaver" width="70" height="70"/>&nbsp;
   <img src="https://github.com/devicons/devicon/blob/master/icons/docker/docker-original-wordmark.svg" title="Docker"  alt="Docker" width="70" height="70"/>&nbsp;
