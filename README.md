@@ -21,7 +21,7 @@
 ### :man_technologist: About Me :
 
 <div id="header" align="center">
-<p> I'm a Python developer from Russian Federatoin </p>
+<p> I'm a Full-Stack Developer from Russian Federatoin </p>
 <p> My interest is artificial intelligence </p>
 
 :zap::zap::zap: I am an expert in the field of electric power industry (0.4 - 750 kV) :zap::zap::zap:
