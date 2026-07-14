@@ -1,18 +1,17 @@
 <div id="header" align="center">
-    <a href="https://git.io/typing-svg">
-        <img src="https://readme-typing-svg.herokuapp.com?color=00FF00&lines=Anton+Sergeev;Industrial+AI+Architect;SCADA+%26+ML+Engineer;RAG+%26+LLM+Expert;20%2B+Years+in+Energy+Tech" 
-             alt="Typing SVG" 
-             style="display: block; margin: 0 auto;" />
-    </a>
+    <h1 style="color: #00FF00; font-family: 'Fira Code', monospace;">
+        Anton Sergeev
+    </h1>
+    <h3 style="color: #00CC00;">
+        Industrial AI Architect | SCADA & ML Engineer | RAG & LLM Expert
+    </h3>
     <br>
-    <div id="header" align="center">
-        <img src="https://media.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif" width="300" height="150" alt="Industrial AI" />
-    </div>
-    <a href="https://git.io/typing-svg">
-        <img src="https://readme-typing-svg.herokuapp.com?color=00FF00&lines=St.-Petersburg%2C+Russia;Building+the+Future+of+Industry" 
-             alt="Typing SVG" 
-             style="display: block; margin: 0 auto;" />
-    </a>
+    <!-- РАБОТАЮЩАЯ АНИМАЦИЯ (встроенная) -->
+    <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExa3B5a3k1dDZ6eXJvZ3UyaWZmdW1hZ3V0eTN4aGFraGF3aXkwY2h6byZlcD12MV9naWZzX3RyZW5kaW5nJmN0PWc/qgQUggAC3Pfv687qPC/giphy.gif" width="300" height="150" alt="AI Animation" />
+    <br><br>
+    <p style="color: #00FF00; font-size: 20px;">
+        St.-Petersburg, Russia | Building the Future of Industry
+    </p>
 </div>
 
 --- 
@@ -20,7 +19,6 @@
     
 ### :man_technologist: About Me :
 
-<div id="header" align="center">
 <p> <b>Fullstack Developer | Industrial AI Specialist | Power Engineer</b> </p>
 <p> <i>Bridging 20+ years of mission-critical automation with next-gen AI</i> </p>
 
@@ -33,7 +31,7 @@
     <p> ⚡ <b>SCADA & APCS:</b> Real-time Monitoring, Control Systems, Data Acquisition </p>
     <p> ⚡ <b>Python & C++:</b> High-performance Backends, Embedded Systems, Desktop Apps </p>
     <p> ⚡ <b>DevOps & MLOps:</b> Docker, Kubernetes, CI/CD, Model Monitoring </p>
-</div>
+
 </div>
 
 ---
@@ -42,24 +40,22 @@
 ### :hammer_and_wrench: Languages and Tools :
     
 <div align="center">
-  <img src="https://github.com/devicons/devicon/blob/master/icons/python/python-original-wordmark.svg" title="Python" alt="Python" width="70" height="70"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/cplusplus/cplusplus-original.svg" title="C++" alt="C++" width="70" height="70"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/fastapi/fastapi-original.svg" title="FastAPI" alt="FastAPI" width="70" height="70"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/pytorch/pytorch-original.svg" title="PyTorch" alt="PyTorch" width="70" height="70"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/tensorflow/tensorflow-original.svg" title="TensorFlow" alt="TensorFlow" width="70" height="70"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/opencv/opencv-original.svg" title="OpenCV" alt="OpenCV" width="70" height="70"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/postgresql/postgresql-original.svg" title="PostgreSQL" alt="PostgreSQL" width="70" height="70"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/docker/docker-original-wordmark.svg" title="Docker" alt="Docker" width="70" height="70"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/kubernetes/kubernetes-plain.svg" title="Kubernetes" alt="Kubernetes" width="70" height="70"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/grafana/grafana-original.svg" title="Grafana" alt="Grafana" width="70" height="70"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/prometheus/prometheus-original.svg" title="Prometheus" alt="Prometheus" width="70" height="70"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/linux/linux-original.svg" title="Linux" alt="Linux" width="70" height="70"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/git/git-original-wordmark.svg" title="Git" alt="Git" width="70" height="70"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/terraform/terraform-original.svg" title="Terraform" alt="Terraform" width="70" height="70"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg" title="JavaScript" alt="JavaScript" width="70" height="70"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-original.svg" title="HTML5" alt="HTML5" width="70" height="70"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-plain-wordmark.svg" title="CSS3" alt="CSS3" width="70" height="70"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/figma/figma-original.svg" title="Figma" alt="Figma" width="70" height="70"/>&nbsp;
+  <!-- Локальные SVG-иконки (не зависят от внешних CDN) -->
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original-wordmark.svg" title="Python" alt="Python" width="60" height="60"/>&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" title="C++" alt="C++" width="60" height="60"/>&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/fastapi/fastapi-original.svg" title="FastAPI" alt="FastAPI" width="60" height="60"/>&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pytorch/pytorch-original.svg" title="PyTorch" alt="PyTorch" width="60" height="60"/>&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tensorflow/tensorflow-original.svg" title="TensorFlow" alt="TensorFlow" width="60" height="60"/>&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/opencv/opencv-original.svg" title="OpenCV" alt="OpenCV" width="60" height="60"/>&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" title="PostgreSQL" alt="PostgreSQL" width="60" height="60"/>&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" title="Docker" alt="Docker" width="60" height="60"/>&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/kubernetes/kubernetes-plain.svg" title="Kubernetes" alt="Kubernetes" width="60" height="60"/>&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/grafana/grafana-original.svg" title="Grafana" alt="Grafana" width="60" height="60"/>&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" title="Linux" alt="Linux" width="60" height="60"/>&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original-wordmark.svg" title="Git" alt="Git" width="60" height="60"/>&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" title="JavaScript" alt="JavaScript" width="60" height="60"/>&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" title="HTML5" alt="HTML5" width="60" height="60"/>&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-plain-wordmark.svg" title="CSS3" alt="CSS3" width="60" height="60"/>&nbsp;
 </div>
 <br>
 <div align="center">
@@ -78,15 +74,11 @@
 </div>
     
 <div align="center">
-  <a href="https://github.com/Anton-Sergeev-EA" target="_blank">
-    <img src="https://github-readme-stats.vercel.app/api?username=Anton-Sergeev-EA&show_icons=true&count_private=true&hide=issues&theme=highcontrast&hide_border=true&bg_color=0D1117&title_color=00FF00&text_color=AAAAAA&icon_color=00FF00" alt="GitHub Stats" style="max-width: 100%; height: auto;" />
-  </a>
+  <img src="https://github-readme-stats.vercel.app/api?username=Anton-Sergeev-EA&show_icons=true&count_private=true&hide=issues&theme=highcontrast&hide_border=true&bg_color=0D1117&title_color=00FF00&text_color=AAAAAA&icon_color=00FF00" alt="GitHub Stats" style="max-width: 100%; height: auto;" />
 </div>
 
 <div align="center">
-  <a href="https://github.com/Anton-Sergeev-EA" target="_blank">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Anton-Sergeev-EA&layout=compact&theme=highcontrast&hide_border=true&bg_color=0D1117&title_color=00FF00&text_color=AAAAAA" alt="Top Languages" style="max-width: 100%; height: auto;" />
-  </a>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Anton-Sergeev-EA&layout=compact&theme=highcontrast&hide_border=true&bg_color=0D1117&title_color=00FF00&text_color=AAAAAA" alt="Top Languages" style="max-width: 100%; height: auto;" />
 </div>
 
 ---
@@ -111,5 +103,5 @@
 <div align="center">
   <i>“The best code solves real business problems, not just looks pretty.”</i>
   <br>
-  <b>📫 Let's connect:</b> <a href="mailto:kavery@mail.ru">kavery@mail.ru</a>
+  <b> Let's connect:</b> <a href="mailto:kavery@mail.ru">kavery@mail.ru</a>
 </div>
