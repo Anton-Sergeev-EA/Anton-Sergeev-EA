@@ -1,13 +1,13 @@
 <div id="header" align="center">
     <a href="https://git.io/typing-svg">
-        <img src="https://readme-typing-svg.vercel.app?font=Fira+Code&weight=600&size=28&pause=1000&color=00FF00&width=800&height=80&lines=Anton+Sergeev;Industrial+AI+Architect;SCADA+%26+ML+Engineer;RAG+%26+LLM+Expert;20%2B+Years+in+Energy+Tech" 
+        <img src="https://readme-typing-svg.vercel.app?font=Fira+Code&weight=600&size=28&pause=1000&color=FF0000&width=800&height=80&lines=Anton+Sergeev;Industrial+AI+Architect;SCADA+%26+ML+Engineer;RAG+%26+LLM+Expert;20%2B+Years+in+Energy+Tech" 
              alt="Typing SVG" />
     </a>
     <br><br>
     <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExa3B5a3k1dDZ6eXJvZ3UyaWZmdW1hZ3V0eTN4aGFraGF3aXkwY2h6byZlcD12MV9naWZzX3RyZW5kaW5nJmN0PWc/qgQUggAC3Pfv687qPC/giphy.gif" width="300" height="150" alt="AI Animation" />
     <br><br>
     <a href="https://git.io/typing-svg">
-        <img src="https://readme-typing-svg.vercel.app?font=Fira+Code&weight=500&size=24&pause=1000&color=00FF00&width=500&height=60&lines=St.-Petersburg%2C+Russia;Building+the+Future+of+Industry" 
+        <img src="https://readme-typing-svg.vercel.app?font=Fira+Code&weight=500&size=24&pause=1000&color=FF0000&width=500&height=60&lines=St.-Petersburg%2C+Russia;Building+the+Future+of+Industry" 
              alt="Typing SVG" />
     </a>
 </div>
@@ -56,17 +56,16 @@
 </div>
 <br>
 <div align="center">
-  <img src="https://img.shields.io/badge/RAG-Expert-00FF00?style=for-the-badge&logo=ai&logoColor=white" alt="RAG Expert" />
-  <img src="https://img.shields.io/badge/SCADA-Professional-00FF00?style=for-the-badge&logo=industrial&logoColor=white" alt="SCADA Professional" />
-  <img src="https://img.shields.io/badge/MLOps-Practitioner-00FF00?style=for-the-badge&logo=mlflow&logoColor=white" alt="MLOps Practitioner" />
-  <img src="https://img.shields.io/badge/APCS-Expert-00FF00?style=for-the-badge&logo=automation&logoColor=white" alt="APCS Expert" />
+  <img src="https://img.shields.io/badge/RAG-Expert-FF0000?style=for-the-badge&logo=ai&logoColor=white" alt="RAG Expert" />
+  <img src="https://img.shields.io/badge/SCADA-Professional-FF0000?style=for-the-badge&logo=industrial&logoColor=white" alt="SCADA Professional" />
+  <img src="https://img.shields.io/badge/MLOps-Practitioner-FF0000?style=for-the-badge&logo=mlflow&logoColor=white" alt="MLOps Practitioner" />
+  <img src="https://img.shields.io/badge/APCS-Expert-FF0000?style=for-the-badge&logo=automation&logoColor=white" alt="APCS Expert" />
 </div>
 </div>
 
 ---
 ### 🔥 My Stats :
 
-<!-- СТАТИСТИКА В ВИДЕ БЕЙДЖЕЙ (РАБОТАЕТ ВСЕГДА) -->
 <div align="center">
   <img src="https://img.shields.io/badge/Commits-18-blue?style=for-the-badge&logo=github" />
   <img src="https://img.shields.io/badge/Repositories-6-blue?style=for-the-badge&logo=github" />
@@ -76,38 +75,36 @@
 
 <br>
 
-<!-- ТАБЛИЦА СТАТИСТИКИ -->
 <div align="center">
   
-| Показатель | Значение |
-|------------|----------|
-| **Всего коммитов** | ~18 |
-| **Публичных репозиториев** | 6 |
-| **Звёзд на проектах** | 4 |
-| **Основные языки** | Python, C++, HTML |
-| **Любимый фреймворк** | FastAPI, PyTorch |
+| Metric | Value |
+|--------|-------|
+| **Total Commits** | ~18 |
+| **Public Repositories** | 6 |
+| **Stars on Projects** | 4 |
+| **Main Languages** | Python, C++, HTML |
+| **Favorite Framework** | FastAPI, PyTorch |
   
 </div>
 
 ---
 ### ⭐ Flagship Projects
 
-<!-- ТАБЛИЦА С ПРОЕКТАМИ (РАБОТАЕТ ВСЕГДА) -->
 <div align="center">
   <table>
     <tr>
       <td width="50%">
         <h3><a href="https://github.com/Anton-Sergeev-EA/Currency-Analytics-from-Sergeev-Anton">💰 Currency Analytics</a></h3>
-        <p>Анализ валют с ML-прогнозированием и RAG-ассистентом</p>
+        <p>Currency analysis with ML forecasting and RAG assistant</p>
         <p>
           <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
           <img src="https://img.shields.io/badge/ML-FF6F00?style=flat-square&logo=tensorflow&logoColor=white" />
-          <img src="https://img.shields.io/badge/RAG-00FF00?style=flat-square&logo=ai&logoColor=white" />
+          <img src="https://img.shields.io/badge/RAG-FF0000?style=flat-square&logo=ai&logoColor=white" />
         </p>
       </td>
       <td width="50%">
         <h3><a href="https://github.com/Anton-Sergeev-EA/YOLOv8">👁️ YOLOv8 Detector</a></h3>
-        <p>Детектор объектов с поддержкой русского языка</p>
+        <p>Object detector with Russian language support</p>
         <p>
           <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
           <img src="https://img.shields.io/badge/YOLO-00FFFF?style=flat-square&logo=ai&logoColor=black" />
@@ -118,7 +115,7 @@
     <tr>
       <td width="50%">
         <h3><a href="https://github.com/Anton-Sergeev-EA/racing_simulator">🏎️ Racing Simulator</a></h3>
-        <p>Симулятор гонок на C++ (курсовой проект)</p>
+        <p>Racing simulator in C++ (course project)</p>
         <p>
           <img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white" />
           <img src="https://img.shields.io/badge/CMake-064F8C?style=flat-square&logo=cmake&logoColor=white" />
@@ -126,7 +123,7 @@
       </td>
       <td width="50%">
         <h3><a href="https://github.com/Anton-Sergeev-EA/ai-predictor-game">🤖 AI Predictor Game</a></h3>
-        <p>Игра с AI-генерацией контента (95% кода написано Claude)</p>
+        <p>Game with AI-generated content (95% code by Claude)</p>
         <p>
           <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
           <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white" />
@@ -137,7 +134,7 @@
     <tr>
       <td width="50%">
         <h3><a href="https://github.com/Anton-Sergeev-EA/authentication_and_authorization_system">🔐 Auth System</a></h3>
-        <p>Кастомная система аутентификации на Django + DRF</p>
+        <p>Custom authentication system on Django + DRF</p>
         <p>
           <img src="https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white" />
           <img src="https://img.shields.io/badge/DRF-ff1709?style=flat-square&logo=django&logoColor=white" />
@@ -146,7 +143,7 @@
       </td>
       <td width="50%">
         <h3><a href="https://github.com/Anton-Sergeev-EA/cosmic_identity">🌌 Cosmic Identity</a></h3>
-        <p>Космос + AI: музыка, фракталы и визуализация данных</p>
+        <p>Space + AI: music, fractals and data visualization</p>
         <p>
           <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
           <img src="https://img.shields.io/badge/AI_Art-FF6F00?style=flat-square&logo=ai&logoColor=white" />
@@ -159,7 +156,7 @@
 
 ---
 <div align="center">
-  <i>“The best code solves real business problems, not just looks pretty.”</i>
+  <i>"The best code solves real business problems, not just looks pretty."</i>
   <br>
   <b>📫 Let's connect:</b> <a href="mailto:kavery@mail.ru">kavery@mail.ru</a>
 </div>
