@@ -1,20 +1,19 @@
 <div id="header" align="center">
-    <!-- АНИМАЦИЯ ПЕЧАТАЮЩЕГОСЯ ТЕКСТА (РАБОТАЕТ) -->
+    <a href="https://git.io/typing-svg">
+        <img src="https://readme-typing-svg.herokuapp.com?color=FF0000&lines=Anton+Sergeev&font=Ubuntu&size=28&width=600&height=100" 
+             alt="Typing SVG" 
+             style="display: block; margin: 0 auto;">
+    </a>
+    <br>
     <div align="center">
-        <img src="https://readme-typing-svg.vercel.app?font=Fira+Code&weight=600&size=28&pause=1000&color=FF0000&width=800&height=80&lines=Anton+Sergeev;Industrial+AI+Architect;SCADA+%26+ML+Engineer;RAG+%26+LLM+Expert;20%2B+Years+in+Energy+Tech" 
-             alt="Typing SVG" />
+        <img src="https://media.giphy.com/media/dWesBcTLavkZuG35MI/giphy.gif" width="300" height="150"/>
     </div>
-    <br><br>
-    <!-- GIF АНИМАЦИЯ (РАБОТАЕТ) -->
-    <div align="center">
-        <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExa3B5a3k1dDZ6eXJvZ3UyaWZmdW1hZ3V0eTN4aGFraGF3aXkwY2h6byZlcD12MV9naWZzX3RyZW5kaW5nJmN0PWc/qgQUggAC3Pfv687qPC/giphy.gif" width="300" height="150" alt="AI Animation" />
-    </div>
-    <br><br>
-    <!-- ВТОРАЯ АНИМАЦИЯ (РАБОТАЕТ) -->
-    <div align="center">
-        <img src="https://readme-typing-svg.vercel.app?font=Fira+Code&weight=500&size=24&pause=1000&color=FF0000&width=500&height=60&lines=St.-Petersburg%2C+Russia;Building+the+Future+of+Industry" 
-             alt="Typing SVG" />
-    </div>
+    <br>
+    <a href="https://git.io/typing-svg">
+        <img src="https://readme-typing-svg.herokuapp.com?color=FF0000&lines=St.-Petersburg%2C+Russia;Building+the+Future+of+Industry&font=Ubuntu&size=24&width=600&height=100" 
+             alt="Typing SVG" 
+             style="display: block; margin: 0 auto;">
+    </a>
 </div>
 
 --- 
@@ -71,23 +70,21 @@
 ---
 ### :fire: My Stats :
 
-<!-- СТАТИСТИКА НЕ ОТОБРАЖАЕТСЯ, НО ЭТИ ССЫЛКИ РАБОЧИЕ -->
 <div align="center">
-  <a href="https://github.com/Anton-Sergeev-EA">
-    <img src="https://github-readme-stats.vercel.app/api?username=Anton-Sergeev-EA&show_icons=true&count_private=true&hide=issues&theme=highcontrast&hide_border=true&bg_color=0D1117&title_color=FF0000&text_color=AAAAAA&icon_color=FF0000" alt="GitHub Stats" />
-  </a>
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=Anton-Sergeev-EA&theme=highcontrast&hide_border=true&date_format=M%20j%5B%2C%20Y%5D&background=0D1117&stroke=FF0000&ring=FF0000&fire=FF0000&currStreakNum=FFFFFF&sideNums=FF0000&currStreakLabel=FF0000&sideLabels=FF0000&dates=AAAAAA" alt="GitHub Streak" />
+</div>
+    
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Anton-Sergeev-EA&show_icons=true&count_private=true&hide=issues&theme=highcontrast&hide_border=true&bg_color=0D1117&title_color=FF0000&text_color=AAAAAA&icon_color=FF0000" alt="GitHub Stats" />
 </div>
 
 <div align="center">
-  <a href="https://github.com/Anton-Sergeev-EA">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Anton-Sergeev-EA&layout=compact&theme=highcontrast&hide_border=true&bg_color=0D1117&title_color=FF0000&text_color=AAAAAA" alt="Top Languages" />
-  </a>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Anton-Sergeev-EA&layout=compact&theme=highcontrast&hide_border=true&bg_color=0D1117&title_color=FF0000&text_color=AAAAAA" alt="Top Languages" />
 </div>
 
 ---
 ### :star: Flagship Projects
 
-<!-- КАРТОЧКИ ПРОЕКТОВ ЧЕРЕЗ VEREL (РАБОТАЮТ) -->
 <div align="center">
   <a href="https://github.com/Anton-Sergeev-EA/ai_pipeline_agent">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=Anton-Sergeev-EA&repo=ai_pipeline_agent&theme=highcontrast&hide_border=true&bg_color=0D1117&title_color=FF0000&text_color=AAAAAA&icon_color=FF0000" />
