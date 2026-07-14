@@ -1,4 +1,3 @@
-```html
 <div id="header" align="center">
     <a href="https://git.io/typing-svg">
         <img src="https://readme-typing-svg.herokuapp.com?color=00FF00&lines=Anton+Sergeev;Industrial+AI+Architect;SCADA+%26+ML+Engineer;RAG+%26+LLM+Expert;20%2B+Years+in+Energy+Tech" 
@@ -114,4 +113,3 @@
   <br>
   <b>📫 Let's connect:</b> <a href="mailto:kavery@mail.ru">kavery@mail.ru</a>
 </div>
-```
