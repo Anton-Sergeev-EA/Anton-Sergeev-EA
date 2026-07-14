@@ -67,24 +67,27 @@
 </div>
 
 ---
-### :fire: My Stats :
+### 🔥 My Stats :
 
-<div align="center">
-  <img src="https://github-readme-streak-stats.vercel.app?user=Anton-Sergeev-EA&theme=highcontrast&hide_border=true&date_format=M%20j%5B%2C%20Y%5D&background=0D1117&stroke=00FF00&ring=00FF00&fire=00FF00&currStreakNum=FFFFFF&sideNums=00FF00&currStreakLabel=00FF00&sideLabels=00FF00&dates=AAAAAA" alt="GitHub Streak" />
-</div>
-    
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Anton-Sergeev-EA&show_icons=true&count_private=true&hide=issues&theme=highcontrast&hide_border=true&bg_color=0D1117&title_color=00FF00&text_color=AAAAAA&icon_color=00FF00" alt="GitHub Stats" />
-</div>
+<p align="center">
+  <a href="https://github.com/anuraghazra/github-readme-stats">
+    <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Anton-Sergeev-EA&show_icons=true&theme=highcontrast&hide_border=true&bg_color=0D1117&title_color=00FF00&text_color=AAAAAA&icon_color=00FF00&count_private=true&hide=issues"/>
+  </a>
+  <a href="https://github.com/anuraghazra/github-readme-stats">
+    <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Anton-Sergeev-EA&layout=compact&theme=highcontrast&hide_border=true&bg_color=0D1117&title_color=00FF00&text_color=AAAAAA"/>
+  </a>
+</p>
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Anton-Sergeev-EA&layout=compact&theme=highcontrast&hide_border=true&bg_color=0D1117&title_color=00FF00&text_color=AAAAAA" alt="Top Languages" />
-</div>
+<p align="center">
+  <a href="https://git.io/streak-stats">
+    <img src="https://github-readme-streak-stats.vercel.app?user=Anton-Sergeev-EA&theme=highcontrast&hide_border=true&background=0D1117&stroke=00FF00&ring=00FF00&fire=00FF00&currStreakNum=FFFFFF&sideNums=00FF00&currStreakLabel=00FF00&sideLabels=00FF00&dates=AAAAAA"/>
+  </a>
+</p>
 
 ---
-### :star: Flagship Projects
+### ⭐ Flagship Projects
 
-<div align="center">
+<p align="center">
   <a href="https://github.com/Anton-Sergeev-EA/ai_pipeline_agent">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=Anton-Sergeev-EA&repo=ai_pipeline_agent&theme=highcontrast&hide_border=true&bg_color=0D1117&title_color=00FF00&text_color=AAAAAA&icon_color=00FF00" />
   </a>
@@ -97,7 +100,8 @@
   <a href="https://github.com/Anton-Sergeev-EA/YOLOv8">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=Anton-Sergeev-EA&repo=YOLOv8&theme=highcontrast&hide_border=true&bg_color=0D1117&title_color=00FF00&text_color=AAAAAA&icon_color=00FF00" />
   </a>
-</div>
+</p>
+
 
 ---
 <div align="center">
