@@ -6,7 +6,6 @@
         Industrial AI Architect | SCADA & ML Engineer | RAG & LLM Expert
     </h3>
     <br>
-    <!-- РАБОТАЮЩАЯ АНИМАЦИЯ (встроенная) -->
     <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExa3B5a3k1dDZ6eXJvZ3UyaWZmdW1hZ3V0eTN4aGFraGF3aXkwY2h6byZlcD12MV9naWZzX3RyZW5kaW5nJmN0PWc/qgQUggAC3Pfv687qPC/giphy.gif" width="300" height="150" alt="AI Animation" />
     <br><br>
     <p style="color: #00FF00; font-size: 20px;">
@@ -40,7 +39,6 @@
 ### :hammer_and_wrench: Languages and Tools :
     
 <div align="center">
-  <!-- Локальные SVG-иконки (не зависят от внешних CDN) -->
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original-wordmark.svg" title="Python" alt="Python" width="60" height="60"/>&nbsp;
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" title="C++" alt="C++" width="60" height="60"/>&nbsp;
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/fastapi/fastapi-original.svg" title="FastAPI" alt="FastAPI" width="60" height="60"/>&nbsp;
@@ -69,16 +67,17 @@
 ---
 ### :fire: My Stats :
 
+<!-- ФИКС: используем прокси-сервер GitHub для карточек -->
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=Anton-Sergeev-EA&theme=highcontrast&hide_border=true&date_format=M%20j%5B%2C%20Y%5D&background=0D1117&stroke=00FF00&ring=00FF00&fire=00FF00&currStreakNum=FFFFFF&sideNums=00FF00&currStreakLabel=00FF00&sideLabels=00FF00&dates=AAAAAA" alt="GitHub Streak" />
+  <img src="https://github-readme-streak-stats-production.vercel.app?user=Anton-Sergeev-EA&theme=highcontrast&hide_border=true&date_format=M%20j%5B%2C%20Y%5D&background=0D1117&stroke=00FF00&ring=00FF00&fire=00FF00&currStreakNum=FFFFFF&sideNums=00FF00&currStreakLabel=00FF00&sideLabels=00FF00&dates=AAAAAA" alt="GitHub Streak" />
 </div>
     
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Anton-Sergeev-EA&show_icons=true&count_private=true&hide=issues&theme=highcontrast&hide_border=true&bg_color=0D1117&title_color=00FF00&text_color=AAAAAA&icon_color=00FF00" alt="GitHub Stats" style="max-width: 100%; height: auto;" />
+  <img src="https://github-readme-stats-production.vercel.app/api?username=Anton-Sergeev-EA&show_icons=true&count_private=true&hide=issues&theme=highcontrast&hide_border=true&bg_color=0D1117&title_color=00FF00&text_color=AAAAAA&icon_color=00FF00" alt="GitHub Stats" />
 </div>
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Anton-Sergeev-EA&layout=compact&theme=highcontrast&hide_border=true&bg_color=0D1117&title_color=00FF00&text_color=AAAAAA" alt="Top Languages" style="max-width: 100%; height: auto;" />
+  <img src="https://github-readme-stats-production.vercel.app/api/top-langs/?username=Anton-Sergeev-EA&layout=compact&theme=highcontrast&hide_border=true&bg_color=0D1117&title_color=00FF00&text_color=AAAAAA" alt="Top Languages" />
 </div>
 
 ---
@@ -86,16 +85,16 @@
 
 <div align="center">
   <a href="https://github.com/Anton-Sergeev-EA/ai_pipeline_agent">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Anton-Sergeev-EA&repo=ai_pipeline_agent&theme=highcontrast&hide_border=true&bg_color=0D1117&title_color=00FF00&text_color=AAAAAA&icon_color=00FF00" />
+    <img src="https://github-readme-stats-production.vercel.app/api/pin/?username=Anton-Sergeev-EA&repo=ai_pipeline_agent&theme=highcontrast&hide_border=true&bg_color=0D1117&title_color=00FF00&text_color=AAAAAA&icon_color=00FF00" />
   </a>
   <a href="https://github.com/Anton-Sergeev-EA/wiki_demon">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Anton-Sergeev-EA&repo=wiki_demon&theme=highcontrast&hide_border=true&bg_color=0D1117&title_color=00FF00&text_color=AAAAAA&icon_color=00FF00" />
+    <img src="https://github-readme-stats-production.vercel.app/api/pin/?username=Anton-Sergeev-EA&repo=wiki_demon&theme=highcontrast&hide_border=true&bg_color=0D1117&title_color=00FF00&text_color=AAAAAA&icon_color=00FF00" />
   </a>
   <a href="https://github.com/Anton-Sergeev-EA/RetailGenius">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Anton-Sergeev-EA&repo=RetailGenius&theme=highcontrast&hide_border=true&bg_color=0D1117&title_color=00FF00&text_color=AAAAAA&icon_color=00FF00" />
+    <img src="https://github-readme-stats-production.vercel.app/api/pin/?username=Anton-Sergeev-EA&repo=RetailGenius&theme=highcontrast&hide_border=true&bg_color=0D1117&title_color=00FF00&text_color=AAAAAA&icon_color=00FF00" />
   </a>
   <a href="https://github.com/Anton-Sergeev-EA/YOLOv8">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Anton-Sergeev-EA&repo=YOLOv8&theme=highcontrast&hide_border=true&bg_color=0D1117&title_color=00FF00&text_color=AAAAAA&icon_color=00FF00" />
+    <img src="https://github-readme-stats-production.vercel.app/api/pin/?username=Anton-Sergeev-EA&repo=YOLOv8&theme=highcontrast&hide_border=true&bg_color=0D1117&title_color=00FF00&text_color=AAAAAA&icon_color=00FF00" />
   </a>
 </div>
 
@@ -103,5 +102,5 @@
 <div align="center">
   <i>“The best code solves real business problems, not just looks pretty.”</i>
   <br>
-  <b> Let's connect:</b> <a href="mailto:kavery@mail.ru">kavery@mail.ru</a>
+  <b>📫 Let's connect:</b> <a href="mailto:kavery@mail.ru">kavery@mail.ru</a>
 </div>
