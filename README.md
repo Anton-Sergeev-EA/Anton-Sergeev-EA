@@ -1,5 +1,4 @@
 <div id="header" align="center">
-    <!-- ПЕРВАЯ АНИМАЦИЯ (КРАСНЫЙ ТЕКСТ ПО ЦЕНТРУ) -->
     <div align="center">
         <a href="https://git.io/typing-svg">
             <img src="https://readme-typing-svg.vercel.app?font=Fira+Code&weight=600&size=28&pause=1000&color=FF0000&width=800&height=80&lines=Anton+Sergeev;Industrial+AI+Architect;SCADA+%26+ML+Engineer;RAG+%26+LLM+Expert;20%2B+Years+in+Energy+Tech" 
@@ -7,12 +6,10 @@
         </a>
     </div>
     <br><br>
-    <!-- АНИМАЦИЯ С КАРТИНКОЙ (ПО ЦЕНТРУ) -->
     <div align="center">
         <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExa3B5a3k1dDZ6eXJvZ3UyaWZmdW1hZ3V0eTN4aGFraGF3aXkwY2h6byZlcD12MV9naWZzX3RyZW5kaW5nJmN0PWc/qgQUggAC3Pfv687qPC/giphy.gif" width="300" height="150" alt="AI Animation" />
     </div>
     <br><br>
-    <!-- ВТОРАЯ АНИМАЦИЯ (КРАСНЫЙ ТЕКСТ ПО ЦЕНТРУ) -->
     <div align="center">
         <a href="https://git.io/typing-svg">
             <img src="https://readme-typing-svg.vercel.app?font=Fira+Code&weight=500&size=24&pause=1000&color=FF0000&width=500&height=60&lines=St.-Petersburg%2C+Russia;Building+the+Future+of+Industry" 
@@ -75,8 +72,9 @@
 ---
 ### :fire: My Stats :
 
+<!-- ИСПОЛЬЗУЕМ ОФИЦИАЛЬНЫЙ ПРОКСИ GITHUB -->
 <div align="center">
-  <img src="https://github-readme-streak-stats.vercel.app?user=Anton-Sergeev-EA&theme=highcontrast&hide_border=true&date_format=M%20j%5B%2C%20Y%5D&background=0D1117&stroke=FF0000&ring=FF0000&fire=FF0000&currStreakNum=FFFFFF&sideNums=FF0000&currStreakLabel=FF0000&sideLabels=FF0000&dates=AAAAAA" alt="GitHub Streak" />
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=Anton-Sergeev-EA&theme=highcontrast&hide_border=true&date_format=M%20j%5B%2C%20Y%5D&background=0D1117&stroke=FF0000&ring=FF0000&fire=FF0000&currStreakNum=FFFFFF&sideNums=FF0000&currStreakLabel=FF0000&sideLabels=FF0000&dates=AAAAAA" alt="GitHub Streak" />
 </div>
     
 <div align="center">
