@@ -88,20 +88,25 @@
 ### ⭐ Flagship Projects
 
 <p align="center">
-  <a href="https://github.com/Anton-Sergeev-EA/ai_pipeline_agent">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Anton-Sergeev-EA&repo=ai_pipeline_agent&theme=highcontrast&hide_border=true&bg_color=0D1117&title_color=00FF00&text_color=AAAAAA&icon_color=00FF00" />
-  </a>
-  <a href="https://github.com/Anton-Sergeev-EA/wiki_demon">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Anton-Sergeev-EA&repo=wiki_demon&theme=highcontrast&hide_border=true&bg_color=0D1117&title_color=00FF00&text_color=AAAAAA&icon_color=00FF00" />
-  </a>
-  <a href="https://github.com/Anton-Sergeev-EA/RetailGenius">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Anton-Sergeev-EA&repo=RetailGenius&theme=highcontrast&hide_border=true&bg_color=0D1117&title_color=00FF00&text_color=AAAAAA&icon_color=00FF00" />
+  <a href="https://github.com/Anton-Sergeev-EA/Currency-Analytics-from-Sergeev-Anton">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Anton-Sergeev-EA&repo=Currency-Analytics-from-Sergeev-Anton&theme=highcontrast&hide_border=true&bg_color=0D1117&title_color=00FF00&text_color=AAAAAA&icon_color=00FF00" />
   </a>
   <a href="https://github.com/Anton-Sergeev-EA/YOLOv8">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=Anton-Sergeev-EA&repo=YOLOv8&theme=highcontrast&hide_border=true&bg_color=0D1117&title_color=00FF00&text_color=AAAAAA&icon_color=00FF00" />
   </a>
+  <a href="https://github.com/Anton-Sergeev-EA/racing_simulator">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Anton-Sergeev-EA&repo=racing_simulator&theme=highcontrast&hide_border=true&bg_color=0D1117&title_color=00FF00&text_color=AAAAAA&icon_color=00FF00" />
+  </a>
+  <a href="https://github.com/Anton-Sergeev-EA/ai-predictor-game">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Anton-Sergeev-EA&repo=ai-predictor-game&theme=highcontrast&hide_border=true&bg_color=0D1117&title_color=00FF00&text_color=AAAAAA&icon_color=00FF00" />
+  </a>
+  <a href="https://github.com/Anton-Sergeev-EA/authentication_and_authorization_system">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Anton-Sergeev-EA&repo=authentication_and_authorization_system&theme=highcontrast&hide_border=true&bg_color=0D1117&title_color=00FF00&text_color=AAAAAA&icon_color=00FF00" />
+  </a>
+  <a href="https://github.com/Anton-Sergeev-EA/cosmic_identity">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Anton-Sergeev-EA&repo=cosmic_identity&theme=highcontrast&hide_border=true&bg_color=0D1117&title_color=00FF00&text_color=AAAAAA&icon_color=00FF00" />
+  </a>
 </p>
-
 
 ---
 <div align="center">
