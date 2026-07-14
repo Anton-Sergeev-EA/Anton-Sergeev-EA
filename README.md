@@ -1,14 +1,11 @@
 <div id="header" align="center">
-    <!-- АНИМАЦИЯ ПЕЧАТАЮЩЕГОСЯ ТЕКСТА (работает через vercel) -->
     <a href="https://git.io/typing-svg">
         <img src="https://readme-typing-svg.vercel.app?font=Fira+Code&weight=600&size=28&pause=1000&color=00FF00&width=800&height=80&lines=Anton+Sergeev;Industrial+AI+Architect;SCADA+%26+ML+Engineer;RAG+%26+LLM+Expert;20%2B+Years+in+Energy+Tech" 
              alt="Typing SVG" />
     </a>
     <br><br>
-    <!-- АНИМАЦИЯ С КАРТИНКОЙ (GIF) -->
     <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExa3B5a3k1dDZ6eXJvZ3UyaWZmdW1hZ3V0eTN4aGFraGF3aXkwY2h6byZlcD12MV9naWZzX3RyZW5kaW5nJmN0PWc/qgQUggAC3Pfv687qPC/giphy.gif" width="300" height="150" alt="AI Animation" />
     <br><br>
-    <!-- ВТОРАЯ АНИМАЦИЯ С ГОРОДОМ -->
     <a href="https://git.io/typing-svg">
         <img src="https://readme-typing-svg.vercel.app?font=Fira+Code&weight=500&size=24&pause=1000&color=00FF00&width=500&height=60&lines=St.-Petersburg%2C+Russia;Building+the+Future+of+Industry" 
              alt="Typing SVG" />
@@ -69,44 +66,96 @@
 ---
 ### 🔥 My Stats :
 
-<p align="center">
-  <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Anton-Sergeev-EA&show_icons=true&theme=highcontrast&hide_border=true&bg_color=0D1117&title_color=00FF00&text_color=AAAAAA&icon_color=00FF00&count_private=true&hide=issues"/>
-  </a>
-  <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Anton-Sergeev-EA&layout=compact&theme=highcontrast&hide_border=true&bg_color=0D1117&title_color=00FF00&text_color=AAAAAA"/>
-  </a>
-</p>
+<!-- СТАТИСТИКА В ВИДЕ БЕЙДЖЕЙ (РАБОТАЕТ ВСЕГДА) -->
+<div align="center">
+  <img src="https://img.shields.io/badge/Commits-18-blue?style=for-the-badge&logo=github" />
+  <img src="https://img.shields.io/badge/Repositories-6-blue?style=for-the-badge&logo=github" />
+  <img src="https://img.shields.io/badge/Stars-4-brightgreen?style=for-the-badge&logo=github" />
+  <img src="https://img.shields.io/badge/Followers-1-blueviolet?style=for-the-badge&logo=github" />
+</div>
 
-<p align="center">
-  <a href="https://git.io/streak-stats">
-    <img src="https://github-readme-streak-stats.vercel.app?user=Anton-Sergeev-EA&theme=highcontrast&hide_border=true&background=0D1117&stroke=00FF00&ring=00FF00&fire=00FF00&currStreakNum=FFFFFF&sideNums=00FF00&currStreakLabel=00FF00&sideLabels=00FF00&dates=AAAAAA"/>
-  </a>
-</p>
+<br>
+
+<!-- ТАБЛИЦА СТАТИСТИКИ -->
+<div align="center">
+  
+| Показатель | Значение |
+|------------|----------|
+| **Всего коммитов** | ~18 |
+| **Публичных репозиториев** | 6 |
+| **Звёзд на проектах** | 4 |
+| **Основные языки** | Python, C++, HTML |
+| **Любимый фреймворк** | FastAPI, PyTorch |
+  
+</div>
 
 ---
 ### ⭐ Flagship Projects
 
-<p align="center">
-  <a href="https://github.com/Anton-Sergeev-EA/Currency-Analytics-from-Sergeev-Anton">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Anton-Sergeev-EA&repo=Currency-Analytics-from-Sergeev-Anton&theme=highcontrast&hide_border=true&bg_color=0D1117&title_color=00FF00&text_color=AAAAAA&icon_color=00FF00" />
-  </a>
-  <a href="https://github.com/Anton-Sergeev-EA/YOLOv8">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Anton-Sergeev-EA&repo=YOLOv8&theme=highcontrast&hide_border=true&bg_color=0D1117&title_color=00FF00&text_color=AAAAAA&icon_color=00FF00" />
-  </a>
-  <a href="https://github.com/Anton-Sergeev-EA/racing_simulator">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Anton-Sergeev-EA&repo=racing_simulator&theme=highcontrast&hide_border=true&bg_color=0D1117&title_color=00FF00&text_color=AAAAAA&icon_color=00FF00" />
-  </a>
-  <a href="https://github.com/Anton-Sergeev-EA/ai-predictor-game">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Anton-Sergeev-EA&repo=ai-predictor-game&theme=highcontrast&hide_border=true&bg_color=0D1117&title_color=00FF00&text_color=AAAAAA&icon_color=00FF00" />
-  </a>
-  <a href="https://github.com/Anton-Sergeev-EA/authentication_and_authorization_system">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Anton-Sergeev-EA&repo=authentication_and_authorization_system&theme=highcontrast&hide_border=true&bg_color=0D1117&title_color=00FF00&text_color=AAAAAA&icon_color=00FF00" />
-  </a>
-  <a href="https://github.com/Anton-Sergeev-EA/cosmic_identity">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Anton-Sergeev-EA&repo=cosmic_identity&theme=highcontrast&hide_border=true&bg_color=0D1117&title_color=00FF00&text_color=AAAAAA&icon_color=00FF00" />
-  </a>
-</p>
+<!-- ТАБЛИЦА С ПРОЕКТАМИ (РАБОТАЕТ ВСЕГДА) -->
+<div align="center">
+  <table>
+    <tr>
+      <td width="50%">
+        <h3><a href="https://github.com/Anton-Sergeev-EA/Currency-Analytics-from-Sergeev-Anton">💰 Currency Analytics</a></h3>
+        <p>Анализ валют с ML-прогнозированием и RAG-ассистентом</p>
+        <p>
+          <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+          <img src="https://img.shields.io/badge/ML-FF6F00?style=flat-square&logo=tensorflow&logoColor=white" />
+          <img src="https://img.shields.io/badge/RAG-00FF00?style=flat-square&logo=ai&logoColor=white" />
+        </p>
+      </td>
+      <td width="50%">
+        <h3><a href="https://github.com/Anton-Sergeev-EA/YOLOv8">👁️ YOLOv8 Detector</a></h3>
+        <p>Детектор объектов с поддержкой русского языка</p>
+        <p>
+          <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+          <img src="https://img.shields.io/badge/YOLO-00FFFF?style=flat-square&logo=ai&logoColor=black" />
+          <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white" />
+        </p>
+      </td>
+    </tr>
+    <tr>
+      <td width="50%">
+        <h3><a href="https://github.com/Anton-Sergeev-EA/racing_simulator">🏎️ Racing Simulator</a></h3>
+        <p>Симулятор гонок на C++ (курсовой проект)</p>
+        <p>
+          <img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white" />
+          <img src="https://img.shields.io/badge/CMake-064F8C?style=flat-square&logo=cmake&logoColor=white" />
+        </p>
+      </td>
+      <td width="50%">
+        <h3><a href="https://github.com/Anton-Sergeev-EA/ai-predictor-game">🤖 AI Predictor Game</a></h3>
+        <p>Игра с AI-генерацией контента (95% кода написано Claude)</p>
+        <p>
+          <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+          <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white" />
+          <img src="https://img.shields.io/badge/WebSocket-010101?style=flat-square&logo=socket.io&logoColor=white" />
+        </p>
+      </td>
+    </tr>
+    <tr>
+      <td width="50%">
+        <h3><a href="https://github.com/Anton-Sergeev-EA/authentication_and_authorization_system">🔐 Auth System</a></h3>
+        <p>Кастомная система аутентификации на Django + DRF</p>
+        <p>
+          <img src="https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white" />
+          <img src="https://img.shields.io/badge/DRF-ff1709?style=flat-square&logo=django&logoColor=white" />
+          <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
+        </p>
+      </td>
+      <td width="50%">
+        <h3><a href="https://github.com/Anton-Sergeev-EA/cosmic_identity">🌌 Cosmic Identity</a></h3>
+        <p>Космос + AI: музыка, фракталы и визуализация данных</p>
+        <p>
+          <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+          <img src="https://img.shields.io/badge/AI_Art-FF6F00?style=flat-square&logo=ai&logoColor=white" />
+          <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" />
+        </p>
+      </td>
+    </tr>
+  </table>
+</div>
 
 ---
 <div align="center">
