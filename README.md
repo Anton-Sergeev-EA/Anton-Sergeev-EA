@@ -6,7 +6,7 @@ Power and automation engineer with 20+ years around mission-critical energy and 
 
 My strongest engineering intersection is **power systems + industrial automation + C++/Python + applied ML**: telemetry acquisition, SCADA/OT integration, anomaly detection, predictive maintenance, edge-oriented analytics, APIs and production engineering.
 
-> I am not positioning this profile as generic “junior ML”. The portfolio is organized around industrial systems where domain engineering, reliability and software architecture matter together.
+> This portfolio focuses on industrial systems where domain engineering, reliability, software architecture, and applied AI come together.
 
 ### What I build
 
