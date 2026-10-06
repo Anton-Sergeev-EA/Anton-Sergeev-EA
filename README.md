@@ -20,7 +20,7 @@ My strongest engineering intersection is **power systems + industrial automation
 
 | Project | Engineering signal | What to inspect |
 |---|---|---|
-| [GridGuard](https://github.com/Anton-Sergeev-EA/GridGuard) | **Digital-substation laboratory / C++20 + Python** | Real libIEC61850 MMS reports, explicit synthetic/quality provenance, synced CRC WAL, SQLite/PostgreSQL replay, read-only OT adapters and fault-recovery tests; implementation under PR review |
+| [GridGuard](https://github.com/Anton-Sergeev-EA/GridGuard) | **Digital-substation laboratory / C++20 + Python** | Real libIEC61850 MMS reports, explicit synthetic/quality provenance, synced CRC WAL, SQLite/PostgreSQL replay, read-only OT adapters and fault-recovery tests; inspect implementation, test contracts and documented limits |
 | [Ironpulse](https://github.com/Anton-Sergeev-EA/Ironpulse) | **C++20 industrial telemetry / edge monitoring** | Asio Modbus TCP, strands/timeouts/recovery, WAL/export, EWMA/CUSUM, REST/WebSocket/Prometheus, sanitizers + Docker smoke CI |
 | [ARGUS-NEURO](https://github.com/Anton-Sergeev-EA/ARGUS-NEURO) | **Predictive health / power-electronics ML** | C++20 signal core + pybind11, Isolation Forest/LSTM/GRU, ONNX, evidence/provenance, abstention and synthetic-RUL reliability contract |
 | [SCADA Generator](https://github.com/Anton-Sergeev-EA/SCADA_Generator) | **SCADA / OT digitalization** | Config-generated HMI, Modbus/OPC UA/MQTT/IEC-104 adapters, alarm lifecycle, C++ streaming analytics, PCA/MSPC and pre-alarms |
@@ -59,7 +59,7 @@ limitations, test contracts and CI at a specific revision before relying on a cl
 
 GridGuard currently has a tested laboratory scope: real IEC 61850 MMS/URCB,
 read-only protocol adapters, deterministic fault scenarios and durable replay.
-Its implementation remains under PR review. No buffered-report recovery, GOOSE/SV,
+Its supported profile and limitations are documented. No buffered-report recovery, GOOSE/SV,
 IEC certification, field deployment or calibrated predictive performance is claimed.
 
 ## Supporting projects
