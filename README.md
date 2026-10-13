@@ -1,47 +1,58 @@
+**English** · [Русский](README.ru.md) · [中文](README.zh.md) · [हिन्दी](README.hi.md) · [Español](README.es.md) · [العربية](README.ar.md) · [Deutsch](README.de.md) · [日本語](README.ja.md) · [Italiano](README.it.md)
+
 # Anton Sergeev
+### ML/DL & C++/Python Engineer · Industrial AI · Power Systems & Automation
 
-### Industrial AI · Machine Learning & Deep Learning · Power Systems · C++ / Python
+**I connect industrial domain knowledge with software engineering and machine learning.** My background spans electrical diagnostics, process automation and technical project leadership. Today, I develop ML/DL models, native computing modules and data services for monitoring, forecasting and engineering decision support.
 
-I am a power systems and industrial automation engineer with more than 20 years of experience in energy and industrial infrastructure. I now develop C++/Python software and ML/DL models for industrial telemetry, condition monitoring and engineering analytics.
+My strength is understanding the complete problem: what a measurement means, how equipment can fail, how data reaches a model, and how a software system behaves when a connection or component fails.
 
-**Interested in:** Machine Learning / Deep Learning Engineering, Industrial AI, Industrial Software and SCADA/OT Software roles, and collaboration on diagnostics, time-series modelling and telemetry.
+## Professional background
 
-## Machine Learning & Deep Learning
+- **2001–2023 · Engineering and leadership:** electrical-equipment diagnostics at **0.4–750 kV**, including partial-discharge and dielectric-loss measurements; leadership of automation work on major industrial projects.
+- **Industrial projects:** automation for SIBUR's polypropylene plant in Tobolsk and a **120 MW power-plant project** for Gazprom; electrical, control and communications work on projects including Leningrad NPP-2 and the Lavna port.
+- **Since September 2024 · Apollonian:** ML engineering and project leadership; LSTM and gradient-boosting models for vibration, pressure and temperature telemetry; data buffering, S3 archives and REST/WebSocket integration.
+- **Education:** master's degree in Electrical Power Engineering, Peter the Great St. Petersburg Polytechnic University, **2021**. Further training in ML/DL, computer vision, RAG, C++, Python and DevOps.
 
-- **Classical ML and signal analysis:** anomaly detection, Isolation Forest, PCA/MSPC and condition monitoring.
-- **Deep Learning:** PyTorch, LSTM/GRU sequence models, time-series forecasting and remaining-useful-life research in [ARGUS-NEURO](https://github.com/Anton-Sergeev-EA/ARGUS-NEURO); synthetic CNN/LSTM experiments in [Smart_Guard_AI](https://github.com/Anton-Sergeev-EA/Smart_Guard_AI).
-- **ML engineering:** documented data splits and baselines, experiment artifacts, native C++/Python integration and ONNX inference.
-- **Retrieval systems:** local RAG workflows, vector search and evidence mapping in [Cognivore](https://github.com/Anton-Sergeev-EA/Cognivore).
+This industrial experience informs my software work; the public repositories below provide inspectable examples of my implementation and evaluation approach.
 
-Model results are tied to the datasets and evaluation conditions documented in each repository. Synthetic experiments demonstrate laboratory behaviour; they do not establish field accuracy.
+## Selected engineering work
 
-## Start here
+### [ARGUS-NEURO](https://github.com/Anton-Sergeev-EA/ARGUS-NEURO) — machine learning for equipment diagnostics
+C++20 signal features exposed through pybind11, classical anomaly detection, PyTorch LSTM/GRU models and ONNX inference. The reliability work documents data splits, baselines, provenance and abstention: the system can decline to provide an unsupported estimate.
 
-- **[GridGuard](https://github.com/Anton-Sergeev-EA/GridGuard):** IEC 61850 MMS/URCB laboratory, telemetry quality and durable replay. [Measurement boundaries](https://github.com/Anton-Sergeev-EA/GridGuard/blob/main/docs/BENCHMARKS.md) · [CI](https://github.com/Anton-Sergeev-EA/GridGuard/actions).
-- **[Ironpulse](https://github.com/Anton-Sergeev-EA/Ironpulse):** C++20 Modbus TCP acquisition, reconnects, WAL storage and monitoring APIs. [Tests](https://github.com/Anton-Sergeev-EA/Ironpulse/tree/main/tests) · [CI](https://github.com/Anton-Sergeev-EA/Ironpulse/actions).
-- **[ARGUS-NEURO](https://github.com/Anton-Sergeev-EA/ARGUS-NEURO):** C++/Python signal processing, classical ML and PyTorch LSTM/GRU models for anomaly detection and synthetic RUL experiments. [Reliability contract](https://github.com/Anton-Sergeev-EA/ARGUS-NEURO/blob/main/docs/RELIABILITY.md) · [Experiments](https://github.com/Anton-Sergeev-EA/ARGUS-NEURO/tree/main/experiments) · [CI](https://github.com/Anton-Sergeev-EA/ARGUS-NEURO/actions).
+**Inspect:** [reliability contract](https://github.com/Anton-Sergeev-EA/ARGUS-NEURO/blob/main/docs/RELIABILITY.md) · [experiment artifacts](https://github.com/Anton-Sergeev-EA/ARGUS-NEURO/tree/main/experiments) · [CI](https://github.com/Anton-Sergeev-EA/ARGUS-NEURO/actions).
 
-## More engineering work
+### [Ironpulse](https://github.com/Anton-Sergeev-EA/Ironpulse) — resilient industrial telemetry in C++20
+Asynchronous Modbus TCP acquisition, timeouts and reconnection, WAL storage, statistical anomaly detection and REST/WebSocket interfaces. The focus is preserving useful behaviour under communication and storage failures.
 
-- [SCADA Generator](https://github.com/Anton-Sergeev-EA/SCADA_Generator): configuration-driven HMI, protocol adapters, alarm lifecycle and C++/Python analytics.
-- [Cognivore](https://github.com/Anton-Sergeev-EA/Cognivore): local retrieval workflows, a native C++ vector index, evidence mapping and workload-specific benchmarks.
-- [Adaptive capacity allocator](https://github.com/Anton-Sergeev-EA/adaptive_capacity_allocator): C++17/20 container growth policies with measured memory/time trade-offs.
+**Inspect:** [tests](https://github.com/Anton-Sergeev-EA/Ironpulse/tree/main/tests) · [build, sanitizers and integration CI](https://github.com/Anton-Sergeev-EA/Ironpulse/actions).
 
-Supporting repositories cover service reliability, forecasting, computer vision, graphics and concurrency. Their READMEs identify status and evaluation limits.
+### [Cognivore](https://github.com/Anton-Sergeev-EA/Cognivore) — local document retrieval and RAG
+Native C++ exact/approximate vector indexes integrated with Python, embeddings, BM25 retrieval and APIs. Index tests and workload-specific benchmarks make retrieval behaviour and performance trade-offs inspectable.
 
-## Validation and engineering approach
+**Inspect:** [native implementation](https://github.com/Anton-Sergeev-EA/Cognivore/tree/main/native) · [benchmarks](https://github.com/Anton-Sergeev-EA/Cognivore/tree/main/benchmarks) · [CI](https://github.com/Anton-Sergeev-EA/Cognivore/actions).
 
-My industrial employment experience and the validation of these public software projects are separate. Laboratory protocol tests, synthetic telemetry and synthetic RUL experiments do not establish field accuracy, industrial deployment or independent IEC certification.
+### Additional systems work
 
-GridGuard covers a documented MMS/URCB laboratory profile and read-only adapters. Buffered-report recovery, GOOSE/SV, certification and field deployment are outside its demonstrated scope. ML results should be read with their dataset, split, baseline and experiment revision.
+- **[GridGuard](https://github.com/Anton-Sergeev-EA/GridGuard):** IEC 61850 MMS/URCB laboratory, telemetry quality, CRC-protected WAL and database replay.
+- **[SCADA Generator](https://github.com/Anton-Sergeev-EA/SCADA_Generator):** configuration-generated HMI, industrial protocol adapters, alarm lifecycle and C++/Python analytics.
+- **[Adaptive capacity allocator](https://github.com/Anton-Sergeev-EA/adaptive_capacity_allocator):** C++17/20 container growth policies with reproducible memory/time trade-offs.
 
-I focus on explicit failure modes, useful tests, reproducible measurements and documented trade-offs. Review each project's source, tests, limitations and CI at the revision relevant to your use case.
+## Technical toolkit
 
-## Technical focus
+| Area | Technologies and methods |
+|---|---|
+| Machine Learning & Deep Learning | PyTorch, scikit-learn, LightGBM/XGBoost, LSTM/GRU, anomaly detection, time series, PCA, ONNX |
+| Software and data | C++17/20, Python, CMake, pybind11, FastAPI, REST/WebSocket, PostgreSQL, SQLite |
+| Retrieval and delivery | RAG, embeddings, BM25, vector search, Linux, Docker, GitHub Actions, pytest, CTest, Ruff, sanitizers |
 
-C++17/20 · Python · CMake · pybind11 · asynchronous I/O · industrial protocols · PyTorch / scikit-learn · ONNX · FastAPI · PostgreSQL / SQLite · Linux · Docker · CI and sanitizers
+## How I work
+
+I translate operational requirements into testable software contracts, keep model evaluation tied to data and baselines, and measure performance before making claims. **Industrial employment experience and public-project validation are distinct:** synthetic ML experiments and laboratory protocol tests demonstrate their stated scope, not field accuracy, deployment or certification. Each repository documents its own limits.
 
 ## Work and collaboration
 
-Open to international engineering teams and relocation. For project discussions, use the relevant repository's issue tracker. Please keep sensitive operational data out of public issues.
+Interested in **ML/DL Engineering, C++/Python Development and Industrial AI**: diagnostics, forecasting, retrieval systems, telemetry and reliable data services. Open to relocation and international teams.
 
+**Contact:** [kavery@mail.ru](mailto:kavery@mail.ru) · [Apollonian](https://apollonian.ru/) · [all repositories](https://github.com/Anton-Sergeev-EA?tab=repositories).
