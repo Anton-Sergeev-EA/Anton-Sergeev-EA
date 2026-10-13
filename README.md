@@ -1,20 +1,11 @@
-**English** · [Русский](README.ru.md) · [中文](README.zh.md) · [हिन्दी](README.hi.md) · [Español](README.es.md) · [العربية](README.ar.md) · [Deutsch](README.de.md) · [日本語](README.ja.md) · [Italiano](README.it.md)
+**English** · [Русский](README.ru.md) · [中文](README.zh.md) · [हिन्दी](README.hi.md) · [Español](README.es.md) · [العربية](README.ar.md) · [Français](README.fr.md) · [Português](README.pt.md) · [Deutsch](README.de.md) · [日本語](README.ja.md) · [Italiano](README.it.md) · [Ελληνικά](README.el.md) · [Čeština](README.cs.md)
 
 # Anton Sergeev
 ### ML/DL & C++/Python Engineer · Industrial AI · Power Systems & Automation
 
-**I connect industrial domain knowledge with software engineering and machine learning.** My background spans electrical diagnostics, process automation and technical project leadership. Today, I develop ML/DL models, native computing modules and data services for monitoring, forecasting and engineering decision support.
+**I build systems at the intersection of machine learning, modern C++ and industrial engineering.** My work spans ML/DL models, native computing modules, telemetry pipelines and retrieval systems—from the meaning of a signal to the behaviour of the software that processes it.
 
-My strength is understanding the complete problem: what a measurement means, how equipment can fail, how data reaches a model, and how a software system behaves when a connection or component fails.
-
-## Professional background
-
-- **2001–2023 · Engineering and leadership:** electrical-equipment diagnostics at **0.4–750 kV**, including partial-discharge and dielectric-loss measurements; leadership of automation work on major industrial projects.
-- **Industrial projects:** automation for SIBUR's polypropylene plant in Tobolsk and a **120 MW power-plant project** for Gazprom; electrical, control and communications work on projects including Leningrad NPP-2 and the Lavna port.
-- **Since September 2024 · Apollonian:** ML engineering and project leadership; LSTM and gradient-boosting models for vibration, pressure and temperature telemetry; data buffering, S3 archives and REST/WebSocket integration.
-- **Education:** master's degree in Electrical Power Engineering, Peter the Great St. Petersburg Polytechnic University, **2021**. Further training in ML/DL, computer vision, RAG, C++, Python and DevOps.
-
-This industrial experience informs my software work; the public repositories below provide inspectable examples of my implementation and evaluation approach.
+I focus on the hard parts: noisy data, failure recovery, concurrency, model evaluation and measurable performance trade-offs.
 
 ## Selected engineering work
 
@@ -49,10 +40,6 @@ Native C++ exact/approximate vector indexes integrated with Python, embeddings, 
 
 ## How I work
 
-I translate operational requirements into testable software contracts, keep model evaluation tied to data and baselines, and measure performance before making claims. **Industrial employment experience and public-project validation are distinct:** synthetic ML experiments and laboratory protocol tests demonstrate their stated scope, not field accuracy, deployment or certification. Each repository documents its own limits.
-
-## Work and collaboration
-
-Interested in **ML/DL Engineering, C++/Python Development and Industrial AI**: diagnostics, forecasting, retrieval systems, telemetry and reliable data services. Open to relocation and international teams.
+I translate operational requirements into testable software contracts, keep model evaluation tied to data and baselines, and measure performance before making claims. Synthetic ML experiments and laboratory protocol tests demonstrate their stated scope, not field accuracy, deployment or certification. Each repository documents its own limits.
 
 **Contact:** [kavery@mail.ru](mailto:kavery@mail.ru) · [Apollonian](https://apollonian.ru/) · [all repositories](https://github.com/Anton-Sergeev-EA?tab=repositories).

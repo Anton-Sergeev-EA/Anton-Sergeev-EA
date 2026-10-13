@@ -1,20 +1,11 @@
-[English](README.md) · [Русский](README.ru.md) · [中文](README.zh.md) · [हिन्दी](README.hi.md) · [Español](README.es.md) · [العربية](README.ar.md) · [Deutsch](README.de.md) · [日本語](README.ja.md) · **Italiano**
+[English](README.md) · [Русский](README.ru.md) · [中文](README.zh.md) · [हिन्दी](README.hi.md) · [Español](README.es.md) · [العربية](README.ar.md) · [Français](README.fr.md) · [Português](README.pt.md) · [Deutsch](README.de.md) · [日本語](README.ja.md) · **Italiano** · [Ελληνικά](README.el.md) · [Čeština](README.cs.md)
 
 # Anton Sergeev
 ### Ingegnere ML/DL e C++/Python · IA industriale · Sistemi elettrici e automazione
 
-**Unisco la conoscenza del settore industriale all'ingegneria del software e al machine learning.** Il mio percorso comprende diagnostica delle apparecchiature elettriche, automazione di processo e gestione di progetti tecnici. Oggi sviluppo modelli ML/DL, moduli di calcolo nativi e servizi dati per monitoraggio, previsione e supporto alle decisioni ingegneristiche.
+**Sviluppo sistemi all'incrocio tra machine learning, C++ moderno e ingegneria industriale.** I miei progetti comprendono modelli ML/DL, calcolo nativo, telemetria e sistemi di ricerca: dal significato del segnale al comportamento del software che lo elabora.
 
-Il mio punto di forza è comprendere il problema nella sua interezza: il significato di una misura, le modalità di guasto, il percorso dei dati verso il modello e il comportamento del software quando una connessione o un componente non funziona.
-
-## Esperienza professionale
-
-- **2001–2023 · Ruoli tecnici e di responsabilità:** diagnostica di apparecchiature elettriche da **0,4 a 750 kV**, comprese misure di scariche parziali e perdite dielettriche; direzione di lavori di automazione in grandi progetti industriali.
-- **Progetti industriali:** automazione dello stabilimento di polipropilene SIBUR a Tobolsk e di un progetto di centrale da **120 MW** per Gazprom; lavori elettrici, di controllo e comunicazione in progetti tra cui Leningrad NPP-2 e il porto di Lavna.
-- **Da settembre 2024 · Apollonian:** ingegneria ML e gestione di progetto; modelli LSTM e gradient boosting per telemetria di vibrazioni, pressione e temperatura; buffering dei dati, archivi S3 e integrazione REST/WebSocket.
-- **Formazione:** laurea magistrale in Ingegneria dell'energia elettrica, Università Politecnica Pietro il Grande di San Pietroburgo, **2021**. Ulteriore formazione in ML/DL, computer vision, RAG, C++, Python e DevOps.
-
-L'esperienza industriale orienta il mio lavoro software; i repository pubblici mostrano implementazioni e metodi di valutazione verificabili.
+Mi concentro sulle sfide più complesse: dati rumorosi, recupero dai guasti, concorrenza, valutazione dei modelli e compromessi prestazionali misurabili.
 
 ## Progetti selezionati
 
@@ -49,10 +40,6 @@ Indici vettoriali esatti/approssimati in C++ integrati con Python, embeddings, B
 
 ## Metodo di lavoro
 
-Traduco requisiti operativi in contratti software verificabili, valuto i modelli rispetto a dati e baseline e misuro le prestazioni prima di formulare affermazioni. **Esperienza lavorativa industriale e validazione dei progetti pubblici sono distinte:** esperimenti ML sintetici e test di laboratorio dimostrano il loro ambito dichiarato, non accuratezza sul campo, deployment o certificazione. Ogni repository documenta i propri limiti.
-
-## Lavoro e collaborazione
-
-Interessato a **ingegneria ML/DL, sviluppo C++/Python e IA industriale**: diagnostica, previsioni, sistemi di ricerca, telemetria e servizi dati affidabili. Disponibile al trasferimento e al lavoro in team internazionali.
+Traduco requisiti operativi in contratti software verificabili, valuto i modelli rispetto a dati e baseline e misuro le prestazioni prima di formulare affermazioni.  esperimenti ML sintetici e test di laboratorio dimostrano il loro ambito dichiarato, non accuratezza sul campo, deployment o certificazione. Ogni repository documenta i propri limiti.
 
 **Contatti:** [kavery@mail.ru](mailto:kavery@mail.ru) · [Apollonian](https://apollonian.ru/) · [tutti i repository](https://github.com/Anton-Sergeev-EA?tab=repositories).

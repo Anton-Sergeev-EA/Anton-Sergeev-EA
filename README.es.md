@@ -1,20 +1,11 @@
-[English](README.md) · [Русский](README.ru.md) · [中文](README.zh.md) · [हिन्दी](README.hi.md) · **Español** · [العربية](README.ar.md) · [Deutsch](README.de.md) · [日本語](README.ja.md) · [Italiano](README.it.md)
+[English](README.md) · [Русский](README.ru.md) · [中文](README.zh.md) · [हिन्दी](README.hi.md) · **Español** · [العربية](README.ar.md) · [Français](README.fr.md) · [Português](README.pt.md) · [Deutsch](README.de.md) · [日本語](README.ja.md) · [Italiano](README.it.md) · [Ελληνικά](README.el.md) · [Čeština](README.cs.md)
 
 # Anton Sergeev
 ### Ingeniero de ML/DL y C++/Python · IA industrial · Sistemas eléctricos y automatización
 
-**Conecto el conocimiento industrial con la ingeniería de software y el aprendizaje automático.** Mi trayectoria abarca el diagnóstico de equipos eléctricos, la automatización de procesos y la dirección de proyectos técnicos. Actualmente desarrollo modelos ML/DL, módulos de cálculo nativos y servicios de datos para monitorización, predicción y apoyo a decisiones de ingeniería.
+**Desarrollo sistemas en la intersección del aprendizaje automático, C++ moderno y la ingeniería industrial.** Mi trabajo abarca modelos ML/DL, módulos de cálculo nativos, telemetría y sistemas de búsqueda: desde el significado de una señal hasta el comportamiento del software que la procesa.
 
-Mi fortaleza es comprender el problema completo: qué significa una medición, cómo falla un equipo, cómo llegan los datos al modelo y cómo se comporta el software cuando falla una conexión o un componente.
-
-## Trayectoria profesional
-
-- **2001–2023 · Ingeniería y dirección:** diagnóstico de equipos eléctricos de **0,4–750 kV**, incluidas mediciones de descargas parciales y pérdidas dieléctricas; dirección de trabajos de automatización en grandes proyectos industriales.
-- **Proyectos industriales:** automatización de la planta de polipropileno de SIBUR en Tobolsk y de un proyecto de central de **120 MW** para Gazprom; trabajos eléctricos, de control y comunicaciones en proyectos como Leningrad NPP-2 y el puerto de Lavna.
-- **Desde septiembre de 2024 · Apollonian:** ingeniería de ML y dirección de proyecto; modelos LSTM y gradient boosting para telemetría de vibración, presión y temperatura; almacenamiento temporal de datos, archivos S3 e integración REST/WebSocket.
-- **Formación:** máster en Ingeniería Eléctrica, Universidad Politécnica Pedro el Grande de San Petersburgo, **2021**. Formación adicional en ML/DL, visión artificial, RAG, C++, Python y DevOps.
-
-Esta experiencia industrial orienta mi trabajo de software; los repositorios públicos muestran implementaciones y métodos de evaluación que pueden revisarse.
+Me centro en los retos difíciles: datos ruidosos, recuperación ante fallos, concurrencia, evaluación de modelos y compromisos de rendimiento medibles.
 
 ## Proyectos destacados
 
@@ -49,10 +40,6 @@ Adquisición asíncrona Modbus TCP, tiempos de espera y reconexión, almacenamie
 
 ## Forma de trabajar
 
-Convierto requisitos operativos en contratos de software verificables, evalúo modelos respecto a datos y baselines y mido antes de afirmar mejoras de rendimiento. **La experiencia laboral industrial y la validación de proyectos públicos son distintas:** los experimentos sintéticos y las pruebas de laboratorio demuestran su alcance declarado, no precisión en campo, despliegue ni certificación. Cada repositorio documenta sus límites.
-
-## Trabajo y colaboración
-
-Interesado en **ingeniería ML/DL, desarrollo C++/Python e IA industrial**: diagnóstico, predicción, sistemas de búsqueda, telemetría y servicios de datos fiables. Disponible para reubicación y equipos internacionales.
+Convierto requisitos operativos en contratos de software verificables, evalúo modelos respecto a datos y baselines y mido antes de afirmar mejoras de rendimiento.  los experimentos sintéticos y las pruebas de laboratorio demuestran su alcance declarado, no precisión en campo, despliegue ni certificación. Cada repositorio documenta sus límites.
 
 **Contacto:** [kavery@mail.ru](mailto:kavery@mail.ru) · [Apollonian](https://apollonian.ru/) · [todos los repositorios](https://github.com/Anton-Sergeev-EA?tab=repositories).

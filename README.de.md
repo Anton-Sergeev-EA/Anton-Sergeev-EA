@@ -1,20 +1,11 @@
-[English](README.md) · [Русский](README.ru.md) · [中文](README.zh.md) · [हिन्दी](README.hi.md) · [Español](README.es.md) · [العربية](README.ar.md) · **Deutsch** · [日本語](README.ja.md) · [Italiano](README.it.md)
+[English](README.md) · [Русский](README.ru.md) · [中文](README.zh.md) · [हिन्दी](README.hi.md) · [Español](README.es.md) · [العربية](README.ar.md) · [Français](README.fr.md) · [Português](README.pt.md) · **Deutsch** · [日本語](README.ja.md) · [Italiano](README.it.md) · [Ελληνικά](README.el.md) · [Čeština](README.cs.md)
 
 # Anton Sergeev
 ### ML/DL- und C++/Python-Engineer · Industrielle KI · Energietechnik und Automatisierung
 
-**Ich verbinde industrielles Fachwissen mit Softwareentwicklung und maschinellem Lernen.** Mein beruflicher Hintergrund umfasst die Diagnose elektrischer Betriebsmittel, Prozessautomatisierung und technische Projektleitung. Heute entwickle ich ML/DL-Modelle, native Rechenmodule und Datendienste für Überwachung, Prognosen und technische Entscheidungsunterstützung.
+**Ich entwickle Systeme an der Schnittstelle von maschinellem Lernen, modernem C++ und industrieller Technik.** Meine Projekte verbinden ML/DL-Modelle, native Rechenmodule, Telemetrie und Suchsysteme—von der Bedeutung eines Signals bis zum Verhalten der verarbeitenden Software.
 
-Meine Stärke ist der Blick auf die gesamte Aufgabe: die Bedeutung eines Messwerts, Ausfallmechanismen der Anlage, den Datenweg zum Modell und das Verhalten der Software beim Ausfall einer Verbindung oder Komponente.
-
-## Beruflicher Hintergrund
-
-- **2001–2023 · Ingenieur- und Führungsaufgaben:** Diagnose elektrischer Betriebsmittel im Bereich **0,4–750 kV**, einschließlich Teilentladungs- und Verlustfaktormessungen; Leitung von Automatisierungsarbeiten in großen Industrieprojekten.
-- **Industrieprojekte:** Prozessautomatisierung für das Polypropylenwerk von SIBUR in Tobolsk und ein **120-MW-Kraftwerksprojekt** für Gazprom; Elektro-, Steuerungs- und Kommunikationsarbeiten in Projekten wie Leningrad NPP-2 und dem Hafen Lavna.
-- **Seit September 2024 · Apollonian:** ML-Engineering und Projektleitung; LSTM- und Gradient-Boosting-Modelle für Schwingungs-, Druck- und Temperaturdaten; Datenpufferung, S3-Archive und REST/WebSocket-Integration.
-- **Ausbildung:** Master in elektrischer Energietechnik, Peter-der-Große-Polytechnische Universität Sankt Petersburg, **2021**. Weiterbildungen in ML/DL, Computer Vision, RAG, C++, Python und DevOps.
-
-Diese Industrieerfahrung prägt meine Softwarearbeit. Die öffentlichen Repositories zeigen nachvollziehbare Implementierungen und Evaluationsverfahren.
+Mein Fokus liegt auf anspruchsvollen Aufgaben: verrauschten Daten, Fehlerbehebung, Nebenläufigkeit, Modellevaluation und messbaren Leistungskompromissen.
 
 ## Ausgewählte Projekte
 
@@ -49,10 +40,6 @@ Native C++-Indizes für exakte/approximative Vektorsuche mit Python-Anbindung, E
 
 ## Arbeitsweise
 
-Ich übersetze betriebliche Anforderungen in testbare Softwareverträge, bewerte Modelle anhand von Daten und Baselines und messe Leistung vor Leistungsversprechen. **Industrieberufserfahrung und die Validierung öffentlicher Projekte sind getrennt:** synthetische ML-Experimente und Protokolltests im Labor belegen ihren dokumentierten Umfang, keine Feldgenauigkeit, Inbetriebnahme oder Zertifizierung. Jedes Repository beschreibt seine Grenzen.
-
-## Arbeit und Zusammenarbeit
-
-Interesse an **ML/DL-Engineering, C++/Python-Entwicklung und industrieller KI**: Diagnose, Prognosen, Suchsysteme, Telemetrie und zuverlässige Datendienste. Offen für einen Umzug und internationale Teams.
+Ich übersetze betriebliche Anforderungen in testbare Softwareverträge, bewerte Modelle anhand von Daten und Baselines und messe Leistung vor Leistungsversprechen.  synthetische ML-Experimente und Protokolltests im Labor belegen ihren dokumentierten Umfang, keine Feldgenauigkeit, Inbetriebnahme oder Zertifizierung. Jedes Repository beschreibt seine Grenzen.
 
 **Kontakt:** [kavery@mail.ru](mailto:kavery@mail.ru) · [Apollonian](https://apollonian.ru/) · [alle Repositories](https://github.com/Anton-Sergeev-EA?tab=repositories).
