@@ -7,6 +7,13 @@
 
 Мой фокус — сложные инженерные задачи: шумные данные, восстановление после сбоев, многопоточность, оценка моделей и измеримые компромиссы производительности.
 
+## Системы в действии
+
+| ARGUS-NEURO | Ironpulse | Cognivore |
+|---|---|---|
+| [![ARGUS-NEURO](assets/argus-experiment.png)](https://github.com/Anton-Sergeev-EA/ARGUS-NEURO/blob/289671868e36cd1dee7a9ca55410851482e61e44/experiments/2026-09-30_reliability/metrics.json) | [![Ironpulse](assets/ironpulse-online.png)](https://github.com/Anton-Sergeev-EA/Ironpulse/blob/ff989c50f1e67ea7a65405904ab7dc73f6be6303/README.md) | [![Cognivore](https://raw.githubusercontent.com/Anton-Sergeev-EA/Cognivore/8ca2aaad23280cf283731191be442c398f0f6ed1/docs/screenshots/web-ui-en.png)](https://github.com/Anton-Sergeev-EA/Cognivore/blob/8ca2aaad23280cf283731191be442c398f0f6ed1/README.md) |
+| Результаты синтетического эксперимента | Работающие симулятор Modbus и панель | Снимок интерфейса из репозитория |
+
 ## Избранные инженерные проекты
 
 ### [ARGUS-NEURO](https://github.com/Anton-Sergeev-EA/ARGUS-NEURO) — машинное обучение для диагностики оборудования
@@ -30,6 +37,50 @@
 - **[SCADA Generator](https://github.com/Anton-Sergeev-EA/SCADA_Generator):** HMI из конфигурации, промышленные протоколы, жизненный цикл аварийных сообщений и аналитика C++/Python.
 - **[Adaptive capacity allocator](https://github.com/Anton-Sergeev-EA/adaptive_capacity_allocator):** политики роста контейнеров C++17/20 с воспроизводимыми измерениями памяти и времени.
 
+## Измеримые результаты
+
+Сохранённые эксперименты и бенчмарки репозиториев; условия и ограничения описаны в пояснениях к результатам.
+
+| Проект / метрика | Результат | Условия / сравнение / источник |
+|---|---|---|
+| ARGUS · RUL normalized MAE ↓ | **0.1875** vs **0.2880** | Синтетический тест; базовая модель — медиана целевой переменной обучения; [2026-09-30](https://github.com/Anton-Sergeev-EA/ARGUS-NEURO/blob/289671868e36cd1dee7a9ca55410851482e61e44/experiments/2026-09-30_reliability/metrics.json) |
+| ARGUS · anomaly autoencoder | F1 **0.669** · recall **0.585** | 2 030 синтетических тестовых окон; разбиение по траекториям; [metrics](https://github.com/Anton-Sergeev-EA/ARGUS-NEURO/blob/289671868e36cd1dee7a9ca55410851482e61e44/experiments/2026-09-30_reliability/metrics.json) |
+| Cognivore · index build ↓ | C++ **0.027 s** vs NumPy **0.615 s** | 3 000 × 384 случайных векторов; 2 ядра; NumPy: цикл `.add()`; [benchmark](https://github.com/Anton-Sergeev-EA/Cognivore/blob/8ca2aaad23280cf283731191be442c398f0f6ed1/README.md#benchmarks) |
+| Cognivore · NSW Recall@10 / latency | **0.93 / 0.46 ms** | 3 000 векторов; ef=150; тот же бенчмарк; [method](https://github.com/Anton-Sergeev-EA/Cognivore/blob/8ca2aaad23280cf283731191be442c398f0f6ed1/benchmarks/bench_index.py) |
+
+## Архитектура
+
+Три независимых проекта; схема не означает их совместное внедрение.
+
+```mermaid
+flowchart TB
+  subgraph ARGUS[ARGUS-NEURO]
+    A[Sensor windows] --> B[C++ features / pybind11]
+    B --> C[ML / DL inference]
+    C --> D[Evidence / abstention]
+  end
+  subgraph IRON[Ironpulse]
+    E[Modbus TCP] --> F[Async polling / recovery]
+    F --> G[Ring buffer / WAL]
+    G --> H[Detection / REST / WebSocket]
+  end
+  subgraph COG[Cognivore]
+    I[Documents] --> J[Chunks / embeddings / BM25]
+    J --> K[C++ exact / NSW indexes]
+    K --> L[Retrieval / grounded answers]
+  end
+```
+
+## Инженерные решения
+
+- **ARGUS-NEURO:** Разделять траектории обучения, валидации и тестирования; настраивать предобработку и пороги без тестовых данных. [↗](https://github.com/Anton-Sergeev-EA/ARGUS-NEURO/blob/289671868e36cd1dee7a9ca55410851482e61e44/docs/RELIABILITY.md)
+- **Ironpulse:** Хранить свежие данные в ограниченном буфере и восстанавливать историю из WAL; учитывать ограничения пакетной записи. [ADR ↗](https://github.com/Anton-Sergeev-EA/Ironpulse/blob/ff989c50f1e67ea7a65405904ab7dc73f6be6303/docs/adr/0002-storage-format.md)
+- **Cognivore:** Выбирать точный или приближённый поиск по размеру коллекции, задержке и полноте; скорость построения индекса не равна скорости всего приложения. [↗](https://github.com/Anton-Sergeev-EA/Cognivore/blob/8ca2aaad23280cf283731191be442c398f0f6ed1/README.md#benchmarks)
+
+## Как проверить
+
+[Источники, конфигурация, условия измерений и команды проверки](docs/EVIDENCE.md) · [ARGUS-NEURO](https://github.com/Anton-Sergeev-EA/ARGUS-NEURO/blob/289671868e36cd1dee7a9ca55410851482e61e44/README.md) · [Ironpulse](https://github.com/Anton-Sergeev-EA/Ironpulse/blob/ff989c50f1e67ea7a65405904ab7dc73f6be6303/README.md) · [Cognivore](https://github.com/Anton-Sergeev-EA/Cognivore/blob/8ca2aaad23280cf283731191be442c398f0f6ed1/README.md)
+
 ## Технический инструментарий
 
 | Направление | Технологии и методы |
@@ -43,3 +94,4 @@
 Перевожу эксплуатационные требования в проверяемые программные контракты, оцениваю модели относительно данных и базовых решений, измеряю производительность до заявлений об ускорении.  синтетические ML-эксперименты и протокольные стенды показывают заявленный лабораторный результат, а не точность на реальном объекте, внедрение или сертификацию. Границы описаны в каждом репозитории.
 
 **Связь:** [avsergeev1981@gmail.com](mailto:avsergeev1981@gmail.com) · [Apollonian](https://apollonian.ru/) · [все репозитории](https://github.com/Anton-Sergeev-EA?tab=repositories).
+

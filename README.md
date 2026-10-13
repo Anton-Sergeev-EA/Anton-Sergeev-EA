@@ -7,6 +7,13 @@
 
 I focus on the hard parts: noisy data, failure recovery, concurrency, model evaluation and measurable performance trade-offs.
 
+## Systems in action
+
+| ARGUS-NEURO | Ironpulse | Cognivore |
+|---|---|---|
+| [![ARGUS-NEURO](assets/argus-experiment.png)](https://github.com/Anton-Sergeev-EA/ARGUS-NEURO/blob/289671868e36cd1dee7a9ca55410851482e61e44/experiments/2026-09-30_reliability/metrics.json) | [![Ironpulse](assets/ironpulse-online.png)](https://github.com/Anton-Sergeev-EA/Ironpulse/blob/ff989c50f1e67ea7a65405904ab7dc73f6be6303/README.md) | [![Cognivore](https://raw.githubusercontent.com/Anton-Sergeev-EA/Cognivore/8ca2aaad23280cf283731191be442c398f0f6ed1/docs/screenshots/web-ui-en.png)](https://github.com/Anton-Sergeev-EA/Cognivore/blob/8ca2aaad23280cf283731191be442c398f0f6ed1/README.md) |
+| Synthetic experiment results | Live Modbus simulator and dashboard | Repository interface snapshot |
+
 ## Selected engineering work
 
 ### [ARGUS-NEURO](https://github.com/Anton-Sergeev-EA/ARGUS-NEURO) — machine learning for equipment diagnostics
@@ -30,6 +37,50 @@ Native C++ exact/approximate vector indexes integrated with Python, embeddings, 
 - **[SCADA Generator](https://github.com/Anton-Sergeev-EA/SCADA_Generator):** configuration-generated HMI, industrial protocol adapters, alarm lifecycle and C++/Python analytics.
 - **[Adaptive capacity allocator](https://github.com/Anton-Sergeev-EA/adaptive_capacity_allocator):** C++17/20 container growth policies with reproducible memory/time trade-offs.
 
+## Measured results
+
+Recorded experiments and repository benchmarks; conditions and limitations are documented in the evidence notes.
+
+| Project / metric | Result | Test / baseline / source |
+|---|---|---|
+| ARGUS · RUL normalized MAE ↓ | **0.1875** vs **0.2880** | Synthetic held-out test; training-target median baseline; [2026-09-30](https://github.com/Anton-Sergeev-EA/ARGUS-NEURO/blob/289671868e36cd1dee7a9ca55410851482e61e44/experiments/2026-09-30_reliability/metrics.json) |
+| ARGUS · anomaly autoencoder | F1 **0.669** · recall **0.585** | 2,030 synthetic test windows; trajectory split; [metrics](https://github.com/Anton-Sergeev-EA/ARGUS-NEURO/blob/289671868e36cd1dee7a9ca55410851482e61e44/experiments/2026-09-30_reliability/metrics.json) |
+| Cognivore · index build ↓ | C++ **0.027 s** vs NumPy **0.615 s** | 3,000 × 384 uniform random vectors; 2-core CI-class machine; NumPy `.add()` loop; [benchmark](https://github.com/Anton-Sergeev-EA/Cognivore/blob/8ca2aaad23280cf283731191be442c398f0f6ed1/README.md#benchmarks) |
+| Cognivore · NSW Recall@10 / latency | **0.93 / 0.46 ms** | 3,000 vectors; ef=150; same reported benchmark; [method](https://github.com/Anton-Sergeev-EA/Cognivore/blob/8ca2aaad23280cf283731191be442c398f0f6ed1/benchmarks/bench_index.py) |
+
+## Architecture
+
+Three independent project pipelines; the diagram does not imply an integrated deployment.
+
+```mermaid
+flowchart TB
+  subgraph ARGUS[ARGUS-NEURO]
+    A[Sensor windows] --> B[C++ features / pybind11]
+    B --> C[ML / DL inference]
+    C --> D[Evidence / abstention]
+  end
+  subgraph IRON[Ironpulse]
+    E[Modbus TCP] --> F[Async polling / recovery]
+    F --> G[Ring buffer / WAL]
+    G --> H[Detection / REST / WebSocket]
+  end
+  subgraph COG[Cognivore]
+    I[Documents] --> J[Chunks / embeddings / BM25]
+    J --> K[C++ exact / NSW indexes]
+    K --> L[Retrieval / grounded answers]
+  end
+```
+
+## Engineering decisions
+
+- **ARGUS-NEURO:** Keep training, validation and test trajectories separate; fit preprocessing and thresholds without test data. [↗](https://github.com/Anton-Sergeev-EA/ARGUS-NEURO/blob/289671868e36cd1dee7a9ca55410851482e61e44/docs/RELIABILITY.md)
+- **Ironpulse:** Use a bounded recent-data buffer and WAL replay; accept the documented durability limits of batched writes. [ADR ↗](https://github.com/Anton-Sergeev-EA/Ironpulse/blob/ff989c50f1e67ea7a65405904ab7dc73f6be6303/docs/adr/0002-storage-format.md)
+- **Cognivore:** Choose exact or approximate search from measured collection size, latency and recall; native indexing alone is not a claim about end-to-end speed. [↗](https://github.com/Anton-Sergeev-EA/Cognivore/blob/8ca2aaad23280cf283731191be442c398f0f6ed1/README.md#benchmarks)
+
+## Verify the work
+
+[Source, configuration, benchmark scope and verification commands](docs/EVIDENCE.md) · [ARGUS-NEURO](https://github.com/Anton-Sergeev-EA/ARGUS-NEURO/blob/289671868e36cd1dee7a9ca55410851482e61e44/README.md) · [Ironpulse](https://github.com/Anton-Sergeev-EA/Ironpulse/blob/ff989c50f1e67ea7a65405904ab7dc73f6be6303/README.md) · [Cognivore](https://github.com/Anton-Sergeev-EA/Cognivore/blob/8ca2aaad23280cf283731191be442c398f0f6ed1/README.md)
+
 ## Technical toolkit
 
 | Area | Technologies and methods |
@@ -43,3 +94,4 @@ Native C++ exact/approximate vector indexes integrated with Python, embeddings, 
 I translate operational requirements into testable software contracts, keep model evaluation tied to data and baselines, and measure performance before making claims. Synthetic ML experiments and laboratory protocol tests demonstrate their stated scope, not field accuracy, deployment or certification. Each repository documents its own limits.
 
 **Contact:** [avsergeev1981@gmail.com](mailto:avsergeev1981@gmail.com) · [Apollonian](https://apollonian.ru/) · [all repositories](https://github.com/Anton-Sergeev-EA?tab=repositories).
+

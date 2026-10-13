@@ -9,6 +9,13 @@
 
 أركّز على التحديات الهندسية الصعبة: البيانات المشوشة، والتعافي من الأعطال، والتزامن، وتقييم النماذج، والمفاضلات القابلة للقياس في الأداء.
 
+## الأنظمة أثناء العمل
+
+| ARGUS-NEURO | Ironpulse | Cognivore |
+|---|---|---|
+| [![ARGUS-NEURO](assets/argus-experiment.png)](https://github.com/Anton-Sergeev-EA/ARGUS-NEURO/blob/289671868e36cd1dee7a9ca55410851482e61e44/experiments/2026-09-30_reliability/metrics.json) | [![Ironpulse](assets/ironpulse-online.png)](https://github.com/Anton-Sergeev-EA/Ironpulse/blob/ff989c50f1e67ea7a65405904ab7dc73f6be6303/README.md) | [![Cognivore](https://raw.githubusercontent.com/Anton-Sergeev-EA/Cognivore/8ca2aaad23280cf283731191be442c398f0f6ed1/docs/screenshots/web-ui-en.png)](https://github.com/Anton-Sergeev-EA/Cognivore/blob/8ca2aaad23280cf283731191be442c398f0f6ed1/README.md) |
+| نتائج تجربة ببيانات اصطناعية | محاكي Modbus ولوحة متابعة يعملان فعلياً | لقطة الواجهة من المستودع |
+
 ## مشاريع هندسية مختارة
 
 ### [ARGUS-NEURO](https://github.com/Anton-Sergeev-EA/ARGUS-NEURO) — التعلّم الآلي لتشخيص المعدات
@@ -32,6 +39,50 @@
 - **[SCADA Generator](https://github.com/Anton-Sergeev-EA/SCADA_Generator):** توليد HMI من الإعدادات، ومهايئات بروتوكولات صناعية، ودورة حياة الإنذارات، وتحليلات C++/Python.
 - **[Adaptive capacity allocator](https://github.com/Anton-Sergeev-EA/adaptive_capacity_allocator):** سياسات نمو حاويات C++17/20 مع قياسات قابلة للتكرار للمفاضلة بين الذاكرة والزمن.
 
+## نتائج مقاسة
+
+تجارب محفوظة واختبارات أداء من المستودعات؛ الشروط والحدود موضحة في ملاحظات الأدلة.
+
+| المشروع / المقياس | النتيجة | الشروط / المرجع / المصدر |
+|---|---|---|
+| ARGUS · RUL normalized MAE ↓ | **0.1875** vs **0.2880** | اختبار اصطناعي؛ المرجع وسيط هدف التدريب; [2026-09-30](https://github.com/Anton-Sergeev-EA/ARGUS-NEURO/blob/289671868e36cd1dee7a9ca55410851482e61e44/experiments/2026-09-30_reliability/metrics.json) |
+| ARGUS · anomaly autoencoder | F1 **0.669** · recall **0.585** | 2,030 نافذة اختبار اصطناعية؛ فصل حسب المسارات; [metrics](https://github.com/Anton-Sergeev-EA/ARGUS-NEURO/blob/289671868e36cd1dee7a9ca55410851482e61e44/experiments/2026-09-30_reliability/metrics.json) |
+| Cognivore · index build ↓ | C++ **0.027 s** vs NumPy **0.615 s** | 3,000 × 384 متجهات عشوائية؛ نواتان؛ حلقة NumPy `.add()`; [benchmark](https://github.com/Anton-Sergeev-EA/Cognivore/blob/8ca2aaad23280cf283731191be442c398f0f6ed1/README.md#benchmarks) |
+| Cognivore · NSW Recall@10 / latency | **0.93 / 0.46 ms** | 3,000 متجه؛ ef=150؛ الاختبار نفسه; [method](https://github.com/Anton-Sergeev-EA/Cognivore/blob/8ca2aaad23280cf283731191be442c398f0f6ed1/benchmarks/bench_index.py) |
+
+## البنية
+
+ثلاثة مشاريع مستقلة؛ لا يمثل المخطط نشراً موحداً.
+
+```mermaid
+flowchart TB
+  subgraph ARGUS[ARGUS-NEURO]
+    A[Sensor windows] --> B[C++ features / pybind11]
+    B --> C[ML / DL inference]
+    C --> D[Evidence / abstention]
+  end
+  subgraph IRON[Ironpulse]
+    E[Modbus TCP] --> F[Async polling / recovery]
+    F --> G[Ring buffer / WAL]
+    G --> H[Detection / REST / WebSocket]
+  end
+  subgraph COG[Cognivore]
+    I[Documents] --> J[Chunks / embeddings / BM25]
+    J --> K[C++ exact / NSW indexes]
+    K --> L[Retrieval / grounded answers]
+  end
+```
+
+## قرارات هندسية
+
+- **ARGUS-NEURO:** فصل المسارات بين التدريب والتحقق والاختبار؛ ضبط المعالجة والعتبات دون استخدام بيانات الاختبار. [↗](https://github.com/Anton-Sergeev-EA/ARGUS-NEURO/blob/289671868e36cd1dee7a9ca55410851482e61e44/docs/RELIABILITY.md)
+- **Ironpulse:** استخدام مخزن محدود للبيانات الحديثة واستعادة التاريخ عبر WAL؛ توضيح حدود متانة الكتابة على دفعات. [ADR ↗](https://github.com/Anton-Sergeev-EA/Ironpulse/blob/ff989c50f1e67ea7a65405904ab7dc73f6be6303/docs/adr/0002-storage-format.md)
+- **Cognivore:** اختيار البحث الدقيق أو التقريبي وفق حجم المجموعة والزمن والاسترجاع؛ سرعة بناء الفهرس لا تثبت سرعة التطبيق كله. [↗](https://github.com/Anton-Sergeev-EA/Cognivore/blob/8ca2aaad23280cf283731191be442c398f0f6ed1/README.md#benchmarks)
+
+## كيفية التحقق
+
+[المصادر والإعدادات ونطاق القياس وأوامر التحقق](docs/EVIDENCE.md) · [ARGUS-NEURO](https://github.com/Anton-Sergeev-EA/ARGUS-NEURO/blob/289671868e36cd1dee7a9ca55410851482e61e44/README.md) · [Ironpulse](https://github.com/Anton-Sergeev-EA/Ironpulse/blob/ff989c50f1e67ea7a65405904ab7dc73f6be6303/README.md) · [Cognivore](https://github.com/Anton-Sergeev-EA/Cognivore/blob/8ca2aaad23280cf283731191be442c398f0f6ed1/README.md)
+
 ## الأدوات التقنية
 
 | المجال | التقنيات والأساليب |
@@ -47,3 +98,4 @@
 **التواصل:** [avsergeev1981@gmail.com](mailto:avsergeev1981@gmail.com) · [Apollonian](https://apollonian.ru/) · [جميع المستودعات](https://github.com/Anton-Sergeev-EA?tab=repositories).
 
 </div>
+
