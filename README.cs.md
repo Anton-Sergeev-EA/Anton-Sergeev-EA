@@ -42,4 +42,4 @@ Přesné/přibližné vektorové indexy v C++ propojené s Pythonem, embeddings,
 
 Převádím provozní požadavky na testovatelné softwarové kontrakty, hodnotím modely vůči datům a referenčním řešením a měřím výkon před tvrzením o zrychlení. Syntetické ML experimenty a laboratorní protokolové testy dokládají svůj popsaný rozsah, nikoli přesnost v provozu, nasazení nebo certifikaci. Každý repozitář uvádí své limity.
 
-**Kontakt:** [kavery@mail.ru](mailto:kavery@mail.ru) · [Apollonian](https://apollonian.ru/) · [všechny repozitáře](https://github.com/Anton-Sergeev-EA/?tab=repositories).
+**Kontakt:** [avsergeev1981@gmail.com](mailto:avsergeev1981@gmail.com) · [Apollonian](https://apollonian.ru/) · [všechny repozitáře](https://github.com/Anton-Sergeev-EA/?tab=repositories).

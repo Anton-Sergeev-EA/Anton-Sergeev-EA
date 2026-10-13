@@ -42,4 +42,4 @@
 
 我将运行需求转化为可测试的软件约定，以数据和基线为依据评估模型，并在提出性能结论前进行测量。 合成数据实验和实验室协议测试只证明其明确的测试范围，不代表现场准确性、部署或认证。各项目说明自身限制。
 
-**联系：** [kavery@mail.ru](mailto:kavery@mail.ru) · [Apollonian](https://apollonian.ru/) · [全部项目](https://github.com/Anton-Sergeev-EA?tab=repositories)。
+**联系：** [avsergeev1981@gmail.com](mailto:avsergeev1981@gmail.com) · [Apollonian](https://apollonian.ru/) · [全部项目](https://github.com/Anton-Sergeev-EA?tab=repositories)。

@@ -42,4 +42,4 @@ Python と連携する C++ の厳密・近似ベクトル索引、埋め込み�
 
 運用上の要件をテスト可能なソフトウェア契約に変換し、データとベースラインに基づいてモデルを評価し、性能を主張する前に測定します。 合成データによる ML 実験や実験室のプロトコル試験は、文書化された範囲を示すものであり、現場での精度、導入、認証を証明するものではありません。制約は各リポジトリに記載しています。
 
-**連絡先：** [kavery@mail.ru](mailto:kavery@mail.ru) · [Apollonian](https://apollonian.ru/) · [全リポジトリ](https://github.com/Anton-Sergeev-EA?tab=repositories)。
+**連絡先：** [avsergeev1981@gmail.com](mailto:avsergeev1981@gmail.com) · [Apollonian](https://apollonian.ru/) · [全リポジトリ](https://github.com/Anton-Sergeev-EA?tab=repositories)。

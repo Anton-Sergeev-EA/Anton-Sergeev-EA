@@ -42,4 +42,4 @@ Python से जुड़े C++ सटीक/अनुमानित वे�
 
 मैं परिचालन आवश्यकताओं को परीक्षण योग्य सॉफ्टवेयर अनुबंधों में बदलता हूँ, मॉडल को डेटा और बेसलाइन के संदर्भ में परखता हूँ और प्रदर्शन के दावे से पहले मापता हूँ।  सिंथेटिक ML प्रयोग तथा प्रयोगशाला प्रोटोकॉल परीक्षण केवल अपना घोषित दायरा दिखाते हैं; वास्तविक स्थल की सटीकता, तैनाती या प्रमाणन नहीं। हर रिपॉजिटरी अपनी सीमाएँ बताती है।
 
-**संपर्क:** [kavery@mail.ru](mailto:kavery@mail.ru) · [Apollonian](https://apollonian.ru/) · [सभी रिपॉजिटरी](https://github.com/Anton-Sergeev-EA?tab=repositories)।
+**संपर्क:** [avsergeev1981@gmail.com](mailto:avsergeev1981@gmail.com) · [Apollonian](https://apollonian.ru/) · [सभी रिपॉजिटरी](https://github.com/Anton-Sergeev-EA?tab=repositories)।

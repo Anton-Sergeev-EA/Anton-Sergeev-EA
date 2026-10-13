@@ -42,4 +42,4 @@
 
 Перевожу эксплуатационные требования в проверяемые программные контракты, оцениваю модели относительно данных и базовых решений, измеряю производительность до заявлений об ускорении.  синтетические ML-эксперименты и протокольные стенды показывают заявленный лабораторный результат, а не точность на реальном объекте, внедрение или сертификацию. Границы описаны в каждом репозитории.
 
-**Связь:** [kavery@mail.ru](mailto:kavery@mail.ru) · [Apollonian](https://apollonian.ru/) · [все репозитории](https://github.com/Anton-Sergeev-EA?tab=repositories).
+**Связь:** [avsergeev1981@gmail.com](mailto:avsergeev1981@gmail.com) · [Apollonian](https://apollonian.ru/) · [все репозитории](https://github.com/Anton-Sergeev-EA?tab=repositories).

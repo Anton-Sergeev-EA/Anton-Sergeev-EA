@@ -44,6 +44,6 @@
 
 أحوّل المتطلبات التشغيلية إلى عقود برمجية قابلة للاختبار، وأقيّم النماذج بالاستناد إلى البيانات والنماذج المرجعية، وأقيس الأداء قبل إطلاق الادعاءات.  تجارب ML على بيانات اصطناعية واختبارات البروتوكولات المختبرية تثبت نطاقها الموثّق، ولا تثبت الدقة الميدانية أو النشر أو الاعتماد. يوضح كل مستودع حدوده.
 
-**التواصل:** [kavery@mail.ru](mailto:kavery@mail.ru) · [Apollonian](https://apollonian.ru/) · [جميع المستودعات](https://github.com/Anton-Sergeev-EA?tab=repositories).
+**التواصل:** [avsergeev1981@gmail.com](mailto:avsergeev1981@gmail.com) · [Apollonian](https://apollonian.ru/) · [جميع المستودعات](https://github.com/Anton-Sergeev-EA?tab=repositories).
 
 </div>

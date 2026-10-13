@@ -42,4 +42,4 @@ Coleta assíncrona Modbus TCP, limites de tempo e reconexão, armazenamento WAL,
 
 Transformo requisitos operacionais em contratos de software testáveis, avalio modelos em relação aos dados e baselines e meço antes de afirmar ganhos de desempenho. Experimentos ML sintéticos e testes de protocolos em laboratório demonstram seu escopo documentado, não precisão em campo, implantação ou certificação. Cada repositório descreve seus limites.
 
-**Contato:** [kavery@mail.ru](mailto:kavery@mail.ru) · [Apollonian](https://apollonian.ru/) · [todos os repositórios](https://github.com/Anton-Sergeev-EA/?tab=repositories).
+**Contato:** [avsergeev1981@gmail.com](mailto:avsergeev1981@gmail.com) · [Apollonian](https://apollonian.ru/) · [todos os repositórios](https://github.com/Anton-Sergeev-EA/?tab=repositories).

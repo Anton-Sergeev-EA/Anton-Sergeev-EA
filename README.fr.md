@@ -42,4 +42,4 @@ Index vectoriels exacts/approximatifs en C++ intégrés à Python, embeddings, B
 
 Je transforme les exigences opérationnelles en contrats logiciels testables, évalue les modèles par rapport aux données et aux baselines, et mesure avant d’annoncer un gain de performance. Les expériences ML synthétiques et les tests de protocoles en laboratoire démontrent leur périmètre documenté, pas la précision sur le terrain, un déploiement ou une certification. Chaque dépôt décrit ses limites.
 
-**Contact:** [kavery@mail.ru](mailto:kavery@mail.ru) · [Apollonian](https://apollonian.ru/) · [tous les dépôts](https://github.com/Anton-Sergeev-EA/?tab=repositories).
+**Contact:** [avsergeev1981@gmail.com](mailto:avsergeev1981@gmail.com) · [Apollonian](https://apollonian.ru/) · [tous les dépôts](https://github.com/Anton-Sergeev-EA/?tab=repositories).
