@@ -7,6 +7,12 @@
 
 I focus on the hard parts: noisy data, failure recovery, concurrency, model evaluation and measurable performance trade-offs.
 
+## Start with one reproducible example
+
+**[When the dominant frequency misses a signal change](https://github.com/Anton-Sergeev-EA/ARGUS-NEURO/blob/main/docs/SIGNAL_DEMO.md)** — a small C++/NumPy feature demo with saved results, no model training required. Adding a weaker 250 Hz tone changes RMS and spectral energy while the dominant frequency stays at 50 Hz. Synthetic signals; no field-accuracy claim. The walkthrough is in Russian.
+
+**EV battery extension:** [capacity, conditional life and care](https://github.com/Anton-Sergeev-EA/ARGUS-NEURO/blob/main/docs/BATTERY.md) — uploaded capacity tests, explicit uncertainty and nine interface languages.
+
 ## Systems in action
 
 | ARGUS-NEURO | Ironpulse | Cognivore |
