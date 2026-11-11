@@ -11,7 +11,7 @@
 
 | ARGUS-NEURO | Ironpulse | Cognivore |
 |---|---|---|
-| [![ARGUS-NEURO](assets/argus-experiment.png)](https://github.com/Anton-Sergeev-EA/ARGUS-NEURO/blob/289671868e36cd1dee7a9ca55410851482e61e44/experiments/2026-09-30_reliability/metrics.json) | [![Ironpulse](assets/ironpulse-online.png)](https://github.com/Anton-Sergeev-EA/Ironpulse/blob/ff989c50f1e67ea7a65405904ab7dc73f6be6303/README.md) | [![Cognivore](https://raw.githubusercontent.com/Anton-Sergeev-EA/Cognivore/8ca2aaad23280cf283731191be442c398f0f6ed1/docs/screenshots/web-ui-en.png)](https://github.com/Anton-Sergeev-EA/Cognivore/blob/8ca2aaad23280cf283731191be442c398f0f6ed1/README.md) |
+| [![ARGUS-NEURO](assets/argus-experiment.png)](https://github.com/Anton-Sergeev-EA/ARGUS-NEURO/blob/289671868e36cd1dee7a9ca55410851482e61e44/experiments/2026-09-30_reliability/metrics.json) | [![Ironpulse](assets/ironpulse-online.png)](https://github.com/Anton-Sergeev-EA/Ironpulse/blob/ff989c50f1e67ea7a65405904ab7dc73f6be6303/README.md) | [![Cognivore](https://raw.githubusercontent.com/Anton-Sergeev-EA/Cognivore/8ca2aaad23280cf283731191be442c398f0f6ed1/docs/screenshots/web-ui-en.png)](https://github.com/Anton-Sergeev-EA/Cognivore/blob/01689074017726ebe3191c222d07f53350232512/README.md) |
 | 合成データによる実験結果 | 稼働中の Modbus シミュレータとダッシュボード | リポジトリ内の画面画像 |
 
 ## 主な開発プロジェクト
@@ -26,8 +26,8 @@ pybind11 で公開する C++20 信号特徴量、従来型の異常検知、PyTo
 
 **確認：** [テスト](https://github.com/Anton-Sergeev-EA/Ironpulse/tree/main/tests) · [ビルド・sanitizer・統合 CI](https://github.com/Anton-Sergeev-EA/Ironpulse/actions)。
 
-### [Cognivore](https://github.com/Anton-Sergeev-EA/Cognivore) — ローカル文書検索と RAG
-Python と連携する C++ の厳密・近似ベクトル索引、埋め込み、BM25 検索、API。索引テストと特定の負荷に対するベンチマークにより、検索動作と性能上のトレードオフを検証できます。
+### [Cognivore](https://github.com/Anton-Sergeev-EA/Cognivore) — 文書向けローカルエージェント実行基盤
+Python と連携する C++ の厳密・近似ベクトル索引、埋め込み、BM25 検索、API。索引テストと特定の負荷に対するベンチマークにより、検索動作と性能上のトレードオフを検証できます。 CLI のエージェントタスクはチェックポイントを SQLite に保存し、再起動後に再開できます。レポートの公開には明示的な承認が必要です。 [`resume-task` / `publish-task`](https://github.com/Anton-Sergeev-EA/Cognivore/blob/01689074017726ebe3191c222d07f53350232512/src/cognivore/cli.py)
 
 **確認：** [ネイティブ実装](https://github.com/Anton-Sergeev-EA/Cognivore/tree/main/native) · [ベンチマーク](https://github.com/Anton-Sergeev-EA/Cognivore/tree/main/benchmarks) · [CI](https://github.com/Anton-Sergeev-EA/Cognivore/actions)。
 
@@ -68,6 +68,9 @@ flowchart TB
     I[Documents] --> J[Chunks / embeddings / BM25]
     J --> K[C++ exact / NSW indexes]
     K --> L[Retrieval / grounded answers]
+    L --> M[run-task / resume-task]
+    M <--> N[(SQLite)]
+    M --> O[publish-task]
   end
 ```
 
@@ -79,7 +82,7 @@ flowchart TB
 
 ## 検証方法
 
-[出典・設定・測定範囲・検証コマンド](docs/EVIDENCE.md) · [ARGUS-NEURO](https://github.com/Anton-Sergeev-EA/ARGUS-NEURO/blob/289671868e36cd1dee7a9ca55410851482e61e44/README.md) · [Ironpulse](https://github.com/Anton-Sergeev-EA/Ironpulse/blob/ff989c50f1e67ea7a65405904ab7dc73f6be6303/README.md) · [Cognivore](https://github.com/Anton-Sergeev-EA/Cognivore/blob/8ca2aaad23280cf283731191be442c398f0f6ed1/README.md)
+[出典・設定・測定範囲・検証コマンド](docs/EVIDENCE.md) · [ARGUS-NEURO](https://github.com/Anton-Sergeev-EA/ARGUS-NEURO/blob/289671868e36cd1dee7a9ca55410851482e61e44/README.md) · [Ironpulse](https://github.com/Anton-Sergeev-EA/Ironpulse/blob/ff989c50f1e67ea7a65405904ab7dc73f6be6303/README.md) · [Cognivore](https://github.com/Anton-Sergeev-EA/Cognivore/blob/01689074017726ebe3191c222d07f53350232512/README.md)
 
 ## 技術と手法
 

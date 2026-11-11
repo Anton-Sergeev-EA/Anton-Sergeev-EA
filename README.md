@@ -17,7 +17,7 @@ I focus on the hard parts: noisy data, failure recovery, concurrency, model eval
 
 | ARGUS-NEURO | Ironpulse | Cognivore |
 |---|---|---|
-| [![ARGUS-NEURO](assets/argus-experiment.png)](https://github.com/Anton-Sergeev-EA/ARGUS-NEURO/blob/289671868e36cd1dee7a9ca55410851482e61e44/experiments/2026-09-30_reliability/metrics.json) | [![Ironpulse](assets/ironpulse-online.png)](https://github.com/Anton-Sergeev-EA/Ironpulse/blob/ff989c50f1e67ea7a65405904ab7dc73f6be6303/README.md) | [![Cognivore](https://raw.githubusercontent.com/Anton-Sergeev-EA/Cognivore/8ca2aaad23280cf283731191be442c398f0f6ed1/docs/screenshots/web-ui-en.png)](https://github.com/Anton-Sergeev-EA/Cognivore/blob/8ca2aaad23280cf283731191be442c398f0f6ed1/README.md) |
+| [![ARGUS-NEURO](assets/argus-experiment.png)](https://github.com/Anton-Sergeev-EA/ARGUS-NEURO/blob/289671868e36cd1dee7a9ca55410851482e61e44/experiments/2026-09-30_reliability/metrics.json) | [![Ironpulse](assets/ironpulse-online.png)](https://github.com/Anton-Sergeev-EA/Ironpulse/blob/ff989c50f1e67ea7a65405904ab7dc73f6be6303/README.md) | [![Cognivore](https://raw.githubusercontent.com/Anton-Sergeev-EA/Cognivore/8ca2aaad23280cf283731191be442c398f0f6ed1/docs/screenshots/web-ui-en.png)](https://github.com/Anton-Sergeev-EA/Cognivore/blob/01689074017726ebe3191c222d07f53350232512/README.md) |
 | Synthetic experiment results | Live Modbus simulator and dashboard | Repository interface snapshot |
 
 ## Selected engineering work
@@ -32,8 +32,8 @@ Asynchronous Modbus TCP acquisition, timeouts and reconnection, WAL storage, sta
 
 **Inspect:** [tests](https://github.com/Anton-Sergeev-EA/Ironpulse/tree/main/tests) · [build, sanitizers and integration CI](https://github.com/Anton-Sergeev-EA/Ironpulse/actions).
 
-### [Cognivore](https://github.com/Anton-Sergeev-EA/Cognivore) — local document retrieval and RAG
-Native C++ exact/approximate vector indexes integrated with Python, embeddings, BM25 retrieval and APIs. Index tests and workload-specific benchmarks make retrieval behaviour and performance trade-offs inspectable.
+### [Cognivore](https://github.com/Anton-Sergeev-EA/Cognivore) — local agent harness for documents
+Native C++ exact/approximate vector indexes integrated with Python, embeddings, BM25 retrieval and APIs. Index tests and workload-specific benchmarks make retrieval behaviour and performance trade-offs inspectable. CLI agent tasks save checkpoints in SQLite and resume after a restart. Publishing a report requires explicit approval. [`resume-task` / `publish-task`](https://github.com/Anton-Sergeev-EA/Cognivore/blob/01689074017726ebe3191c222d07f53350232512/src/cognivore/cli.py)
 
 **Inspect:** [native implementation](https://github.com/Anton-Sergeev-EA/Cognivore/tree/main/native) · [benchmarks](https://github.com/Anton-Sergeev-EA/Cognivore/tree/main/benchmarks) · [CI](https://github.com/Anton-Sergeev-EA/Cognivore/actions).
 
@@ -74,6 +74,9 @@ flowchart TB
     I[Documents] --> J[Chunks / embeddings / BM25]
     J --> K[C++ exact / NSW indexes]
     K --> L[Retrieval / grounded answers]
+    L --> M[run-task / resume-task]
+    M <--> N[(SQLite)]
+    M --> O[publish-task]
   end
 ```
 
@@ -85,7 +88,7 @@ flowchart TB
 
 ## Verify the work
 
-[Source, configuration, benchmark scope and verification commands](docs/EVIDENCE.md) · [ARGUS-NEURO](https://github.com/Anton-Sergeev-EA/ARGUS-NEURO/blob/289671868e36cd1dee7a9ca55410851482e61e44/README.md) · [Ironpulse](https://github.com/Anton-Sergeev-EA/Ironpulse/blob/ff989c50f1e67ea7a65405904ab7dc73f6be6303/README.md) · [Cognivore](https://github.com/Anton-Sergeev-EA/Cognivore/blob/8ca2aaad23280cf283731191be442c398f0f6ed1/README.md)
+[Source, configuration, benchmark scope and verification commands](docs/EVIDENCE.md) · [ARGUS-NEURO](https://github.com/Anton-Sergeev-EA/ARGUS-NEURO/blob/289671868e36cd1dee7a9ca55410851482e61e44/README.md) · [Ironpulse](https://github.com/Anton-Sergeev-EA/Ironpulse/blob/ff989c50f1e67ea7a65405904ab7dc73f6be6303/README.md) · [Cognivore](https://github.com/Anton-Sergeev-EA/Cognivore/blob/01689074017726ebe3191c222d07f53350232512/README.md)
 
 ## Technical toolkit
 

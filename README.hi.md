@@ -11,7 +11,7 @@
 
 | ARGUS-NEURO | Ironpulse | Cognivore |
 |---|---|---|
-| [![ARGUS-NEURO](assets/argus-experiment.png)](https://github.com/Anton-Sergeev-EA/ARGUS-NEURO/blob/289671868e36cd1dee7a9ca55410851482e61e44/experiments/2026-09-30_reliability/metrics.json) | [![Ironpulse](assets/ironpulse-online.png)](https://github.com/Anton-Sergeev-EA/Ironpulse/blob/ff989c50f1e67ea7a65405904ab7dc73f6be6303/README.md) | [![Cognivore](https://raw.githubusercontent.com/Anton-Sergeev-EA/Cognivore/8ca2aaad23280cf283731191be442c398f0f6ed1/docs/screenshots/web-ui-en.png)](https://github.com/Anton-Sergeev-EA/Cognivore/blob/8ca2aaad23280cf283731191be442c398f0f6ed1/README.md) |
+| [![ARGUS-NEURO](assets/argus-experiment.png)](https://github.com/Anton-Sergeev-EA/ARGUS-NEURO/blob/289671868e36cd1dee7a9ca55410851482e61e44/experiments/2026-09-30_reliability/metrics.json) | [![Ironpulse](assets/ironpulse-online.png)](https://github.com/Anton-Sergeev-EA/Ironpulse/blob/ff989c50f1e67ea7a65405904ab7dc73f6be6303/README.md) | [![Cognivore](https://raw.githubusercontent.com/Anton-Sergeev-EA/Cognivore/8ca2aaad23280cf283731191be442c398f0f6ed1/docs/screenshots/web-ui-en.png)](https://github.com/Anton-Sergeev-EA/Cognivore/blob/01689074017726ebe3191c222d07f53350232512/README.md) |
 | सिंथेटिक प्रयोग के परिणाम | चलता हुआ Modbus सिम्युलेटर और डैशबोर्ड | रिपॉज़िटरी से इंटरफ़ेस का चित्र |
 
 ## चुनिंदा इंजीनियरिंग परियोजनाएँ
@@ -26,8 +26,8 @@ pybind11 के माध्यम से C++20 सिग्नल फीचर,
 
 **देखें:** [परीक्षण](https://github.com/Anton-Sergeev-EA/Ironpulse/tree/main/tests) · [बिल्ड, सैनिटाइज़र और एकीकरण CI](https://github.com/Anton-Sergeev-EA/Ironpulse/actions)।
 
-### [Cognivore](https://github.com/Anton-Sergeev-EA/Cognivore) — स्थानीय दस्तावेज़ खोज और RAG
-Python से जुड़े C++ सटीक/अनुमानित वेक्टर इंडेक्स, embeddings, BM25 और API। इंडेक्स परीक्षण तथा विशिष्ट वर्कलोड के बेंचमार्क खोज व्यवहार और प्रदर्शन के समझौतों को स्पष्ट करते हैं।
+### [Cognivore](https://github.com/Anton-Sergeev-EA/Cognivore) — दस्तावेज़ों के लिए स्थानीय एजेंट रनटाइम
+Python से जुड़े C++ सटीक/अनुमानित वेक्टर इंडेक्स, embeddings, BM25 और API। इंडेक्स परीक्षण तथा विशिष्ट वर्कलोड के बेंचमार्क खोज व्यवहार और प्रदर्शन के समझौतों को स्पष्ट करते हैं। CLI में एजेंट के कार्य SQLite में चेकपॉइंट सहेजते हैं और पुनः आरंभ के बाद आगे बढ़ते हैं। रिपोर्ट प्रकाशित करने के लिए स्पष्ट अनुमोदन आवश्यक है। [`resume-task` / `publish-task`](https://github.com/Anton-Sergeev-EA/Cognivore/blob/01689074017726ebe3191c222d07f53350232512/src/cognivore/cli.py)
 
 **देखें:** [नेटिव कार्यान्वयन](https://github.com/Anton-Sergeev-EA/Cognivore/tree/main/native) · [बेंचमार्क](https://github.com/Anton-Sergeev-EA/Cognivore/tree/main/benchmarks) · [CI](https://github.com/Anton-Sergeev-EA/Cognivore/actions)।
 
@@ -68,6 +68,9 @@ flowchart TB
     I[Documents] --> J[Chunks / embeddings / BM25]
     J --> K[C++ exact / NSW indexes]
     K --> L[Retrieval / grounded answers]
+    L --> M[run-task / resume-task]
+    M <--> N[(SQLite)]
+    M --> O[publish-task]
   end
 ```
 
@@ -79,7 +82,7 @@ flowchart TB
 
 ## काम की जाँच
 
-[स्रोत, कॉन्फ़िगरेशन, बेंचमार्क का दायरा और जाँच कमांड](docs/EVIDENCE.md) · [ARGUS-NEURO](https://github.com/Anton-Sergeev-EA/ARGUS-NEURO/blob/289671868e36cd1dee7a9ca55410851482e61e44/README.md) · [Ironpulse](https://github.com/Anton-Sergeev-EA/Ironpulse/blob/ff989c50f1e67ea7a65405904ab7dc73f6be6303/README.md) · [Cognivore](https://github.com/Anton-Sergeev-EA/Cognivore/blob/8ca2aaad23280cf283731191be442c398f0f6ed1/README.md)
+[स्रोत, कॉन्फ़िगरेशन, बेंचमार्क का दायरा और जाँच कमांड](docs/EVIDENCE.md) · [ARGUS-NEURO](https://github.com/Anton-Sergeev-EA/ARGUS-NEURO/blob/289671868e36cd1dee7a9ca55410851482e61e44/README.md) · [Ironpulse](https://github.com/Anton-Sergeev-EA/Ironpulse/blob/ff989c50f1e67ea7a65405904ab7dc73f6be6303/README.md) · [Cognivore](https://github.com/Anton-Sergeev-EA/Cognivore/blob/01689074017726ebe3191c222d07f53350232512/README.md)
 
 ## तकनीकी उपकरण
 

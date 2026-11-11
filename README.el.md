@@ -11,7 +11,7 @@
 
 | ARGUS-NEURO | Ironpulse | Cognivore |
 |---|---|---|
-| [![ARGUS-NEURO](assets/argus-experiment.png)](https://github.com/Anton-Sergeev-EA/ARGUS-NEURO/blob/289671868e36cd1dee7a9ca55410851482e61e44/experiments/2026-09-30_reliability/metrics.json) | [![Ironpulse](assets/ironpulse-online.png)](https://github.com/Anton-Sergeev-EA/Ironpulse/blob/ff989c50f1e67ea7a65405904ab7dc73f6be6303/README.md) | [![Cognivore](https://raw.githubusercontent.com/Anton-Sergeev-EA/Cognivore/8ca2aaad23280cf283731191be442c398f0f6ed1/docs/screenshots/web-ui-en.png)](https://github.com/Anton-Sergeev-EA/Cognivore/blob/8ca2aaad23280cf283731191be442c398f0f6ed1/README.md) |
+| [![ARGUS-NEURO](assets/argus-experiment.png)](https://github.com/Anton-Sergeev-EA/ARGUS-NEURO/blob/289671868e36cd1dee7a9ca55410851482e61e44/experiments/2026-09-30_reliability/metrics.json) | [![Ironpulse](assets/ironpulse-online.png)](https://github.com/Anton-Sergeev-EA/Ironpulse/blob/ff989c50f1e67ea7a65405904ab7dc73f6be6303/README.md) | [![Cognivore](https://raw.githubusercontent.com/Anton-Sergeev-EA/Cognivore/8ca2aaad23280cf283731191be442c398f0f6ed1/docs/screenshots/web-ui-en.png)](https://github.com/Anton-Sergeev-EA/Cognivore/blob/01689074017726ebe3191c222d07f53350232512/README.md) |
 | Αποτελέσματα συνθετικού πειράματος | Προσομοιωτής Modbus και πίνακας σε λειτουργία | Στιγμιότυπο διεπαφής από το αποθετήριο |
 
 ## Επιλεγμένα τεχνικά έργα
@@ -26,8 +26,8 @@
 
 **Για έλεγχο:** [δοκιμές](https://github.com/Anton-Sergeev-EA/Ironpulse/tree/main/tests) · [μεταγλώττιση, sanitizers και ολοκλήρωση](https://github.com/Anton-Sergeev-EA/Ironpulse/actions).
 
-### [Cognivore](https://github.com/Anton-Sergeev-EA/Cognivore) — τοπική αναζήτηση εγγράφων και RAG
-Ακριβή/προσεγγιστικά διανυσματικά ευρετήρια σε C++ με σύνδεση Python, embeddings, BM25 και API. Οι δοκιμές ευρετηρίων και οι μετρήσεις συγκεκριμένων φορτίων επιτρέπουν τον έλεγχο της αναζήτησης και των συμβιβασμών απόδοσης.
+### [Cognivore](https://github.com/Anton-Sergeev-EA/Cognivore) — τοπικό περιβάλλον εκτέλεσης πρακτόρων για έγγραφα
+Ακριβή/προσεγγιστικά διανυσματικά ευρετήρια σε C++ με σύνδεση Python, embeddings, BM25 και API. Οι δοκιμές ευρετηρίων και οι μετρήσεις συγκεκριμένων φορτίων επιτρέπουν τον έλεγχο της αναζήτησης και των συμβιβασμών απόδοσης. Οι εργασίες του πράκτορα στη γραμμή εντολών αποθηκεύουν σημεία συνέχισης στο SQLite και συνεχίζονται μετά από επανεκκίνηση. Η δημοσίευση αναφοράς απαιτεί ρητή έγκριση. [`resume-task` / `publish-task`](https://github.com/Anton-Sergeev-EA/Cognivore/blob/01689074017726ebe3191c222d07f53350232512/src/cognivore/cli.py)
 
 **Για έλεγχο:** [εγγενής υλοποίηση](https://github.com/Anton-Sergeev-EA/Cognivore/tree/main/native) · [μετρήσεις απόδοσης](https://github.com/Anton-Sergeev-EA/Cognivore/tree/main/benchmarks) · [CI](https://github.com/Anton-Sergeev-EA/Cognivore/actions).
 
@@ -68,6 +68,9 @@ flowchart TB
     I[Documents] --> J[Chunks / embeddings / BM25]
     J --> K[C++ exact / NSW indexes]
     K --> L[Retrieval / grounded answers]
+    L --> M[run-task / resume-task]
+    M <--> N[(SQLite)]
+    M --> O[publish-task]
   end
 ```
 
@@ -79,7 +82,7 @@ flowchart TB
 
 ## Επαλήθευση
 
-[Πηγές, ρυθμίσεις, πεδίο μετρήσεων και εντολές ελέγχου](docs/EVIDENCE.md) · [ARGUS-NEURO](https://github.com/Anton-Sergeev-EA/ARGUS-NEURO/blob/289671868e36cd1dee7a9ca55410851482e61e44/README.md) · [Ironpulse](https://github.com/Anton-Sergeev-EA/Ironpulse/blob/ff989c50f1e67ea7a65405904ab7dc73f6be6303/README.md) · [Cognivore](https://github.com/Anton-Sergeev-EA/Cognivore/blob/8ca2aaad23280cf283731191be442c398f0f6ed1/README.md)
+[Πηγές, ρυθμίσεις, πεδίο μετρήσεων και εντολές ελέγχου](docs/EVIDENCE.md) · [ARGUS-NEURO](https://github.com/Anton-Sergeev-EA/ARGUS-NEURO/blob/289671868e36cd1dee7a9ca55410851482e61e44/README.md) · [Ironpulse](https://github.com/Anton-Sergeev-EA/Ironpulse/blob/ff989c50f1e67ea7a65405904ab7dc73f6be6303/README.md) · [Cognivore](https://github.com/Anton-Sergeev-EA/Cognivore/blob/01689074017726ebe3191c222d07f53350232512/README.md)
 
 ## Τεχνικά εργαλεία
 

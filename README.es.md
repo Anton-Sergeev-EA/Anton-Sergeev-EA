@@ -11,7 +11,7 @@ Me centro en los retos difíciles: datos ruidosos, recuperación ante fallos, co
 
 | ARGUS-NEURO | Ironpulse | Cognivore |
 |---|---|---|
-| [![ARGUS-NEURO](assets/argus-experiment.png)](https://github.com/Anton-Sergeev-EA/ARGUS-NEURO/blob/289671868e36cd1dee7a9ca55410851482e61e44/experiments/2026-09-30_reliability/metrics.json) | [![Ironpulse](assets/ironpulse-online.png)](https://github.com/Anton-Sergeev-EA/Ironpulse/blob/ff989c50f1e67ea7a65405904ab7dc73f6be6303/README.md) | [![Cognivore](https://raw.githubusercontent.com/Anton-Sergeev-EA/Cognivore/8ca2aaad23280cf283731191be442c398f0f6ed1/docs/screenshots/web-ui-en.png)](https://github.com/Anton-Sergeev-EA/Cognivore/blob/8ca2aaad23280cf283731191be442c398f0f6ed1/README.md) |
+| [![ARGUS-NEURO](assets/argus-experiment.png)](https://github.com/Anton-Sergeev-EA/ARGUS-NEURO/blob/289671868e36cd1dee7a9ca55410851482e61e44/experiments/2026-09-30_reliability/metrics.json) | [![Ironpulse](assets/ironpulse-online.png)](https://github.com/Anton-Sergeev-EA/Ironpulse/blob/ff989c50f1e67ea7a65405904ab7dc73f6be6303/README.md) | [![Cognivore](https://raw.githubusercontent.com/Anton-Sergeev-EA/Cognivore/8ca2aaad23280cf283731191be442c398f0f6ed1/docs/screenshots/web-ui-en.png)](https://github.com/Anton-Sergeev-EA/Cognivore/blob/01689074017726ebe3191c222d07f53350232512/README.md) |
 | Resultados de un experimento sintético | Simulador Modbus y panel en funcionamiento | Captura de la interfaz del repositorio |
 
 ## Proyectos destacados
@@ -26,8 +26,8 @@ Adquisición asíncrona Modbus TCP, tiempos de espera y reconexión, almacenamie
 
 **Revisar:** [pruebas](https://github.com/Anton-Sergeev-EA/Ironpulse/tree/main/tests) · [compilación, sanitizers e integración CI](https://github.com/Anton-Sergeev-EA/Ironpulse/actions).
 
-### [Cognivore](https://github.com/Anton-Sergeev-EA/Cognivore) — búsqueda documental local y RAG
-Índices vectoriales exactos/aproximados en C++ integrados con Python, embeddings, BM25 y API. Las pruebas de índices y benchmarks con cargas específicas permiten revisar el comportamiento y los compromisos de rendimiento.
+### [Cognivore](https://github.com/Anton-Sergeev-EA/Cognivore) — entorno local para agentes documentales
+Índices vectoriales exactos/aproximados en C++ integrados con Python, embeddings, BM25 y API. Las pruebas de índices y benchmarks con cargas específicas permiten revisar el comportamiento y los compromisos de rendimiento. Las tareas del agente en la CLI guardan puntos de control en SQLite y se reanudan tras reiniciar. Publicar un informe requiere aprobación explícita. [`resume-task` / `publish-task`](https://github.com/Anton-Sergeev-EA/Cognivore/blob/01689074017726ebe3191c222d07f53350232512/src/cognivore/cli.py)
 
 **Revisar:** [implementación nativa](https://github.com/Anton-Sergeev-EA/Cognivore/tree/main/native) · [benchmarks](https://github.com/Anton-Sergeev-EA/Cognivore/tree/main/benchmarks) · [CI](https://github.com/Anton-Sergeev-EA/Cognivore/actions).
 
@@ -68,6 +68,9 @@ flowchart TB
     I[Documents] --> J[Chunks / embeddings / BM25]
     J --> K[C++ exact / NSW indexes]
     K --> L[Retrieval / grounded answers]
+    L --> M[run-task / resume-task]
+    M <--> N[(SQLite)]
+    M --> O[publish-task]
   end
 ```
 
@@ -79,7 +82,7 @@ flowchart TB
 
 ## Cómo verificar
 
-[Fuentes, configuración, alcance y comandos de verificación](docs/EVIDENCE.md) · [ARGUS-NEURO](https://github.com/Anton-Sergeev-EA/ARGUS-NEURO/blob/289671868e36cd1dee7a9ca55410851482e61e44/README.md) · [Ironpulse](https://github.com/Anton-Sergeev-EA/Ironpulse/blob/ff989c50f1e67ea7a65405904ab7dc73f6be6303/README.md) · [Cognivore](https://github.com/Anton-Sergeev-EA/Cognivore/blob/8ca2aaad23280cf283731191be442c398f0f6ed1/README.md)
+[Fuentes, configuración, alcance y comandos de verificación](docs/EVIDENCE.md) · [ARGUS-NEURO](https://github.com/Anton-Sergeev-EA/ARGUS-NEURO/blob/289671868e36cd1dee7a9ca55410851482e61e44/README.md) · [Ironpulse](https://github.com/Anton-Sergeev-EA/Ironpulse/blob/ff989c50f1e67ea7a65405904ab7dc73f6be6303/README.md) · [Cognivore](https://github.com/Anton-Sergeev-EA/Cognivore/blob/01689074017726ebe3191c222d07f53350232512/README.md)
 
 ## Herramientas técnicas
 

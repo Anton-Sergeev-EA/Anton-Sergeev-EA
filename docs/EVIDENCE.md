@@ -50,3 +50,7 @@ To reproduce: use the repository's documented environment, run `python benchmark
 ## Reading path
 
 Start with the three visuals, inspect the metric sources and engineering decisions, then run the chosen project's documented tests. The architecture diagram presents independent pipelines; it does not claim that all three products form one deployed system. External adoption, customer results and independent reviews should only be added with verifiable public evidence.
+
+## Cognivore agent harness
+
+The [CLI](https://github.com/Anton-Sergeev-EA/Cognivore/blob/01689074017726ebe3191c222d07f53350232512/src/cognivore/cli.py) exposes `run-task`, `resume-task` and `publish-task`. The [recovery test](https://github.com/Anton-Sergeev-EA/Cognivore/blob/01689074017726ebe3191c222d07f53350232512/tests/test_resumable_task.py) interrupts the agent after a tool call, reopens the SQLite database, checks that the tool call is not replayed, and verifies that repeated approval returns the same published report. Run `pytest tests/test_resumable_task.py tests/test_comparison_workflow.py` in Cognivore.
