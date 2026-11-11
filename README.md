@@ -17,7 +17,7 @@ I focus on the hard parts: noisy data, failure recovery, concurrency, model eval
 
 | ARGUS-NEURO | Ironpulse | Cognivore |
 |---|---|---|
-| [![ARGUS-NEURO](assets/argus-experiment.png)](https://github.com/Anton-Sergeev-EA/ARGUS-NEURO/blob/289671868e36cd1dee7a9ca55410851482e61e44/experiments/2026-09-30_reliability/metrics.json) | [![Ironpulse](assets/ironpulse-online.png)](https://github.com/Anton-Sergeev-EA/Ironpulse/blob/ff989c50f1e67ea7a65405904ab7dc73f6be6303/README.md) | [![Specification review with source citations](assets/cognivore-review.png)](https://github.com/Anton-Sergeev-EA/Cognivore/blob/bc037323eb646cc82bb230969743d9b6a11d3dfa/README.md#review-specifications-in-the-browser) |
+| [![ARGUS-NEURO](assets/argus-experiment.png)](https://github.com/Anton-Sergeev-EA/ARGUS-NEURO/blob/289671868e36cd1dee7a9ca55410851482e61e44/experiments/2026-09-30_reliability/metrics.json) | [![Ironpulse](assets/ironpulse-online.png)](https://github.com/Anton-Sergeev-EA/Ironpulse/blob/ff989c50f1e67ea7a65405904ab7dc73f6be6303/README.md) | [![Specification review with source citations](assets/cognivore-review.png)](https://github.com/Anton-Sergeev-EA/Cognivore/blob/d3f1e689f7d23c32a44ede8c70a975ad94c0bb5c/README.md#review-specifications-in-the-browser) |
 | Synthetic experiment results | Live Modbus simulator and dashboard | Specification review with source citations |
 
 ## Selected engineering work
@@ -35,7 +35,7 @@ Asynchronous Modbus TCP acquisition, timeouts and reconnection, WAL storage, sta
 ### [Cognivore](https://github.com/Anton-Sergeev-EA/Cognivore) — local agent harness for documents
 Native C++ exact/approximate vector indexes integrated with Python, embeddings, BM25 retrieval and APIs. Index tests and workload-specific benchmarks make retrieval behaviour and performance trade-offs inspectable. CLI agent tasks save checkpoints in SQLite and resume after a restart. Publishing a report requires explicit approval. [`resume-task` / `publish-task`](https://github.com/Anton-Sergeev-EA/Cognivore/blob/01689074017726ebe3191c222d07f53350232512/src/cognivore/cli.py)
 
-In the browser, compare two versions of a specification, review side-by-side citations, and approve a Markdown report. SQLite saves decisions so the review can resume after a restart. [Browser demo](https://github.com/Anton-Sergeev-EA/Cognivore/blob/bc037323eb646cc82bb230969743d9b6a11d3dfa/README.md#review-specifications-in-the-browser).
+In the browser, compare two versions of a specification, review side-by-side citations, and approve a Markdown report. SQLite saves decisions so the review can resume after a restart. Ambiguous findings show alternative source citations in the browser and in the report. [Browser demo](https://github.com/Anton-Sergeev-EA/Cognivore/blob/d3f1e689f7d23c32a44ede8c70a975ad94c0bb5c/README.md#review-specifications-in-the-browser).
 
 **Inspect:** [native implementation](https://github.com/Anton-Sergeev-EA/Cognivore/tree/main/native) · [benchmarks](https://github.com/Anton-Sergeev-EA/Cognivore/tree/main/benchmarks) · [CI](https://github.com/Anton-Sergeev-EA/Cognivore/actions).
 
@@ -55,6 +55,7 @@ Recorded experiments and repository benchmarks; conditions and limitations are d
 | ARGUS · anomaly autoencoder | F1 **0.669** · recall **0.585** | 2,030 synthetic test windows; trajectory split; [metrics](https://github.com/Anton-Sergeev-EA/ARGUS-NEURO/blob/289671868e36cd1dee7a9ca55410851482e61e44/experiments/2026-09-30_reliability/metrics.json) |
 | Cognivore · index build ↓ | C++ **0.027 s** vs NumPy **0.615 s** | 3,000 × 384 uniform random vectors; 2-core CI-class machine; NumPy `.add()` loop; [benchmark](https://github.com/Anton-Sergeev-EA/Cognivore/blob/8ca2aaad23280cf283731191be442c398f0f6ed1/README.md#benchmarks) |
 | Cognivore · NSW Recall@10 / latency | **0.93 / 0.46 ms** | 3,000 vectors; ef=150; same reported benchmark; [method](https://github.com/Anton-Sergeev-EA/Cognivore/blob/8ca2aaad23280cf283731191be442c398f0f6ed1/benchmarks/bench_index.py) |
+| Cognivore · specification review | **13/13** annotated findings, **0** extra | 10 synthetic pairs. The offline matcher missed the alignment in one separately reported NIST excerpt. [Evaluation](https://github.com/Anton-Sergeev-EA/Cognivore/blob/d3f1e689f7d23c32a44ede8c70a975ad94c0bb5c/benchmarks/REVIEW.md) |
 
 ## Architecture
 
@@ -93,7 +94,7 @@ flowchart TB
 
 ## Verify the work
 
-[Source, configuration, benchmark scope and verification commands](docs/EVIDENCE.md) · [ARGUS-NEURO](https://github.com/Anton-Sergeev-EA/ARGUS-NEURO/blob/289671868e36cd1dee7a9ca55410851482e61e44/README.md) · [Ironpulse](https://github.com/Anton-Sergeev-EA/Ironpulse/blob/ff989c50f1e67ea7a65405904ab7dc73f6be6303/README.md) · [Cognivore](https://github.com/Anton-Sergeev-EA/Cognivore/blob/bc037323eb646cc82bb230969743d9b6a11d3dfa/README.md)
+[Source, configuration, benchmark scope and verification commands](docs/EVIDENCE.md) · [ARGUS-NEURO](https://github.com/Anton-Sergeev-EA/ARGUS-NEURO/blob/289671868e36cd1dee7a9ca55410851482e61e44/README.md) · [Ironpulse](https://github.com/Anton-Sergeev-EA/Ironpulse/blob/ff989c50f1e67ea7a65405904ab7dc73f6be6303/README.md) · [Cognivore](https://github.com/Anton-Sergeev-EA/Cognivore/blob/d3f1e689f7d23c32a44ede8c70a975ad94c0bb5c/README.md)
 
 ## Technical toolkit
 
