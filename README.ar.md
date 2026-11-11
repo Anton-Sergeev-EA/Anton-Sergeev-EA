@@ -13,7 +13,7 @@
 
 | ARGUS-NEURO | Ironpulse | Cognivore |
 |---|---|---|
-| [![ARGUS-NEURO](assets/argus-experiment.png)](https://github.com/Anton-Sergeev-EA/ARGUS-NEURO/blob/289671868e36cd1dee7a9ca55410851482e61e44/experiments/2026-09-30_reliability/metrics.json) | [![Ironpulse](assets/ironpulse-online.png)](https://github.com/Anton-Sergeev-EA/Ironpulse/blob/ff989c50f1e67ea7a65405904ab7dc73f6be6303/README.md) | [![Cognivore](https://raw.githubusercontent.com/Anton-Sergeev-EA/Cognivore/8ca2aaad23280cf283731191be442c398f0f6ed1/docs/screenshots/web-ui-en.png)](https://github.com/Anton-Sergeev-EA/Cognivore/blob/01689074017726ebe3191c222d07f53350232512/README.md) |
+| [![ARGUS-NEURO](assets/argus-experiment.png)](https://github.com/Anton-Sergeev-EA/ARGUS-NEURO/blob/289671868e36cd1dee7a9ca55410851482e61e44/experiments/2026-09-30_reliability/metrics.json) | [![Ironpulse](assets/ironpulse-online.png)](https://github.com/Anton-Sergeev-EA/Ironpulse/blob/ff989c50f1e67ea7a65405904ab7dc73f6be6303/README.md) | [![مراجعة المواصفات مع الاقتباسات](assets/cognivore-review.png)](https://github.com/Anton-Sergeev-EA/Cognivore/blob/bc037323eb646cc82bb230969743d9b6a11d3dfa/README.md#review-specifications-in-the-browser) |
 | نتائج تجربة ببيانات اصطناعية | محاكي Modbus ولوحة متابعة يعملان فعلياً | لقطة الواجهة من المستودع |
 
 ## مشاريع هندسية مختارة
@@ -30,6 +30,8 @@
 
 ### [Cognivore](https://github.com/Anton-Sergeev-EA/Cognivore) — بيئة محلية لتشغيل وكلاء المستندات
 فهارس متجهات دقيقة وتقريبية مكتوبة بلغة C++ ومتكاملة مع Python، وتمثيلات embeddings، واسترجاع BM25 وواجهات API. تتيح اختبارات الفهارس وقياسات أحمال عمل محددة فحص سلوك البحث والمفاضلات المتعلقة بالأداء. تحفظ مهام الوكيل في واجهة سطر الأوامر نقاط الاستئناف في SQLite وتتابع العمل بعد إعادة التشغيل. يتطلب نشر التقرير موافقة صريحة. [`resume-task` / `publish-task`](https://github.com/Anton-Sergeev-EA/Cognivore/blob/01689074017726ebe3191c222d07f53350232512/src/cognivore/cli.py)
+
+قارن نسختين من المواصفات في المتصفح، وراجع الاقتباسات جنبًا إلى جنب، واعتمد تقرير Markdown. يحفظ SQLite القرارات لاستئناف المراجعة بعد إعادة التشغيل. [عرض توضيحي في المتصفح](https://github.com/Anton-Sergeev-EA/Cognivore/blob/bc037323eb646cc82bb230969743d9b6a11d3dfa/README.md#review-specifications-in-the-browser).
 
 **للفحص:** [التنفيذ الأصلي](https://github.com/Anton-Sergeev-EA/Cognivore/tree/main/native) · [قياسات الأداء](https://github.com/Anton-Sergeev-EA/Cognivore/tree/main/benchmarks) · [CI](https://github.com/Anton-Sergeev-EA/Cognivore/actions).
 
@@ -73,6 +75,9 @@ flowchart TB
     L --> M[run-task / resume-task]
     M <--> N[(SQLite)]
     M --> O[publish-task]
+    K --> P[Specification review]
+    P <--> N
+    P --> Q[Approved Markdown report]
   end
 ```
 
@@ -84,7 +89,7 @@ flowchart TB
 
 ## كيفية التحقق
 
-[المصادر والإعدادات ونطاق القياس وأوامر التحقق](docs/EVIDENCE.md) · [ARGUS-NEURO](https://github.com/Anton-Sergeev-EA/ARGUS-NEURO/blob/289671868e36cd1dee7a9ca55410851482e61e44/README.md) · [Ironpulse](https://github.com/Anton-Sergeev-EA/Ironpulse/blob/ff989c50f1e67ea7a65405904ab7dc73f6be6303/README.md) · [Cognivore](https://github.com/Anton-Sergeev-EA/Cognivore/blob/01689074017726ebe3191c222d07f53350232512/README.md)
+[المصادر والإعدادات ونطاق القياس وأوامر التحقق](docs/EVIDENCE.md) · [ARGUS-NEURO](https://github.com/Anton-Sergeev-EA/ARGUS-NEURO/blob/289671868e36cd1dee7a9ca55410851482e61e44/README.md) · [Ironpulse](https://github.com/Anton-Sergeev-EA/Ironpulse/blob/ff989c50f1e67ea7a65405904ab7dc73f6be6303/README.md) · [Cognivore](https://github.com/Anton-Sergeev-EA/Cognivore/blob/bc037323eb646cc82bb230969743d9b6a11d3dfa/README.md)
 
 ## الأدوات التقنية
 

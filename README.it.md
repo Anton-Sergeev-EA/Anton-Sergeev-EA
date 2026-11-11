@@ -11,7 +11,7 @@ Mi concentro sulle sfide più complesse: dati rumorosi, recupero dai guasti, con
 
 | ARGUS-NEURO | Ironpulse | Cognivore |
 |---|---|---|
-| [![ARGUS-NEURO](assets/argus-experiment.png)](https://github.com/Anton-Sergeev-EA/ARGUS-NEURO/blob/289671868e36cd1dee7a9ca55410851482e61e44/experiments/2026-09-30_reliability/metrics.json) | [![Ironpulse](assets/ironpulse-online.png)](https://github.com/Anton-Sergeev-EA/Ironpulse/blob/ff989c50f1e67ea7a65405904ab7dc73f6be6303/README.md) | [![Cognivore](https://raw.githubusercontent.com/Anton-Sergeev-EA/Cognivore/8ca2aaad23280cf283731191be442c398f0f6ed1/docs/screenshots/web-ui-en.png)](https://github.com/Anton-Sergeev-EA/Cognivore/blob/01689074017726ebe3191c222d07f53350232512/README.md) |
+| [![ARGUS-NEURO](assets/argus-experiment.png)](https://github.com/Anton-Sergeev-EA/ARGUS-NEURO/blob/289671868e36cd1dee7a9ca55410851482e61e44/experiments/2026-09-30_reliability/metrics.json) | [![Ironpulse](assets/ironpulse-online.png)](https://github.com/Anton-Sergeev-EA/Ironpulse/blob/ff989c50f1e67ea7a65405904ab7dc73f6be6303/README.md) | [![Revisione delle specifiche con citazioni](assets/cognivore-review.png)](https://github.com/Anton-Sergeev-EA/Cognivore/blob/bc037323eb646cc82bb230969743d9b6a11d3dfa/README.md#review-specifications-in-the-browser) |
 | Risultati di un esperimento sintetico | Simulatore Modbus e dashboard in funzione | Schermata dell’interfaccia dal repository |
 
 ## Progetti selezionati
@@ -28,6 +28,8 @@ Acquisizione asincrona Modbus TCP, timeout e riconnessione, archiviazione WAL, r
 
 ### [Cognivore](https://github.com/Anton-Sergeev-EA/Cognivore) — ambiente locale per agenti documentali
 Indici vettoriali esatti/approssimati in C++ integrati con Python, embeddings, BM25 e API. Test degli indici e benchmark su carichi specifici rendono verificabili comportamento della ricerca e compromessi prestazionali. Le attività dell’agente nella CLI salvano i punti di ripristino in SQLite e riprendono dopo un riavvio. La pubblicazione di un report richiede un’approvazione esplicita. [`resume-task` / `publish-task`](https://github.com/Anton-Sergeev-EA/Cognivore/blob/01689074017726ebe3191c222d07f53350232512/src/cognivore/cli.py)
+
+Confronta due versioni di una specifica nel browser, verifica le citazioni affiancate e approva il report Markdown. SQLite conserva le decisioni per riprendere la revisione dopo un riavvio. [Demo nel browser](https://github.com/Anton-Sergeev-EA/Cognivore/blob/bc037323eb646cc82bb230969743d9b6a11d3dfa/README.md#review-specifications-in-the-browser).
 
 **Da esaminare:** [implementazione nativa](https://github.com/Anton-Sergeev-EA/Cognivore/tree/main/native) · [benchmark](https://github.com/Anton-Sergeev-EA/Cognivore/tree/main/benchmarks) · [CI](https://github.com/Anton-Sergeev-EA/Cognivore/actions).
 
@@ -71,6 +73,9 @@ flowchart TB
     L --> M[run-task / resume-task]
     M <--> N[(SQLite)]
     M --> O[publish-task]
+    K --> P[Specification review]
+    P <--> N
+    P --> Q[Approved Markdown report]
   end
 ```
 
@@ -82,7 +87,7 @@ flowchart TB
 
 ## Come verificare
 
-[Fonti, configurazione, ambito e comandi di verifica](docs/EVIDENCE.md) · [ARGUS-NEURO](https://github.com/Anton-Sergeev-EA/ARGUS-NEURO/blob/289671868e36cd1dee7a9ca55410851482e61e44/README.md) · [Ironpulse](https://github.com/Anton-Sergeev-EA/Ironpulse/blob/ff989c50f1e67ea7a65405904ab7dc73f6be6303/README.md) · [Cognivore](https://github.com/Anton-Sergeev-EA/Cognivore/blob/01689074017726ebe3191c222d07f53350232512/README.md)
+[Fonti, configurazione, ambito e comandi di verifica](docs/EVIDENCE.md) · [ARGUS-NEURO](https://github.com/Anton-Sergeev-EA/ARGUS-NEURO/blob/289671868e36cd1dee7a9ca55410851482e61e44/README.md) · [Ironpulse](https://github.com/Anton-Sergeev-EA/Ironpulse/blob/ff989c50f1e67ea7a65405904ab7dc73f6be6303/README.md) · [Cognivore](https://github.com/Anton-Sergeev-EA/Cognivore/blob/bc037323eb646cc82bb230969743d9b6a11d3dfa/README.md)
 
 ## Strumenti tecnici
 

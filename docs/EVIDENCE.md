@@ -54,3 +54,9 @@ Start with the three visuals, inspect the metric sources and engineering decisio
 ## Cognivore agent harness
 
 The [CLI](https://github.com/Anton-Sergeev-EA/Cognivore/blob/01689074017726ebe3191c222d07f53350232512/src/cognivore/cli.py) exposes `run-task`, `resume-task` and `publish-task`. The [recovery test](https://github.com/Anton-Sergeev-EA/Cognivore/blob/01689074017726ebe3191c222d07f53350232512/tests/test_resumable_task.py) interrupts the agent after a tool call, reopens the SQLite database, checks that the tool call is not replayed, and verifies that repeated approval returns the same published report. Run `pytest tests/test_resumable_task.py tests/test_comparison_workflow.py` in Cognivore.
+
+## Cognivore browser specification review
+
+The profile screenshot shows the English telemetry gateway demo running locally in Chrome. The [earlier revision](https://github.com/Anton-Sergeev-EA/Cognivore/blob/bc037323eb646cc82bb230969743d9b6a11d3dfa/src/cognivore/web/static/demo-before.md) and [later revision](https://github.com/Anton-Sergeev-EA/Cognivore/blob/bc037323eb646cc82bb230969743d9b6a11d3dfa/src/cognivore/web/static/demo-after.md) produce five annotated findings with the offline hashing embedder. This is a demonstration case.
+
+The [matching tests](https://github.com/Anton-Sergeev-EA/Cognivore/blob/bc037323eb646cc82bb230969743d9b6a11d3dfa/tests/test_review.py) cover the annotated changes, ambiguous matches, and signal detection in German and Russian. The [web test](https://github.com/Anton-Sergeev-EA/Cognivore/blob/bc037323eb646cc82bb230969743d9b6a11d3dfa/tests/test_review_web.py) covers recovery after reopening the app, approval and export. Run `pytest tests/test_review.py tests/test_review_web.py` in Cognivore.
