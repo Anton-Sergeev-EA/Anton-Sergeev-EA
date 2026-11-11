@@ -11,7 +11,7 @@
 
 | ARGUS-NEURO | Ironpulse | Cognivore |
 |---|---|---|
-| [![ARGUS-NEURO](assets/argus-experiment.png)](https://github.com/Anton-Sergeev-EA/ARGUS-NEURO/blob/289671868e36cd1dee7a9ca55410851482e61e44/experiments/2026-09-30_reliability/metrics.json) | [![Ironpulse](assets/ironpulse-online.png)](https://github.com/Anton-Sergeev-EA/Ironpulse/blob/ff989c50f1e67ea7a65405904ab7dc73f6be6303/README.md) | [![स्रोत उद्धरणों के साथ विनिर्देश समीक्षा](assets/cognivore-review.png)](https://github.com/Anton-Sergeev-EA/Cognivore/blob/bc037323eb646cc82bb230969743d9b6a11d3dfa/README.md#review-specifications-in-the-browser) |
+| [![ARGUS-NEURO](assets/argus-experiment.png)](https://github.com/Anton-Sergeev-EA/ARGUS-NEURO/blob/289671868e36cd1dee7a9ca55410851482e61e44/experiments/2026-09-30_reliability/metrics.json) | [![Ironpulse](assets/ironpulse-online.png)](https://github.com/Anton-Sergeev-EA/Ironpulse/blob/ff989c50f1e67ea7a65405904ab7dc73f6be6303/README.md) | [![स्रोत उद्धरणों के साथ विनिर्देश समीक्षा](assets/cognivore-review.png)](https://github.com/Anton-Sergeev-EA/Cognivore/blob/f1ee363dbd937f4e17cb86b9fbe5c455dd0cec24/README.md#review-specifications-in-the-browser) |
 | सिंथेटिक प्रयोग के परिणाम | चलता हुआ Modbus सिम्युलेटर और डैशबोर्ड | रिपॉज़िटरी से इंटरफ़ेस का चित्र |
 
 ## चुनिंदा इंजीनियरिंग परियोजनाएँ
@@ -29,7 +29,7 @@ pybind11 के माध्यम से C++20 सिग्नल फीचर,
 ### [Cognivore](https://github.com/Anton-Sergeev-EA/Cognivore) — दस्तावेज़ों के लिए स्थानीय एजेंट रनटाइम
 Python से जुड़े C++ सटीक/अनुमानित वेक्टर इंडेक्स, embeddings, BM25 और API। इंडेक्स परीक्षण तथा विशिष्ट वर्कलोड के बेंचमार्क खोज व्यवहार और प्रदर्शन के समझौतों को स्पष्ट करते हैं। CLI में एजेंट के कार्य SQLite में चेकपॉइंट सहेजते हैं और पुनः आरंभ के बाद आगे बढ़ते हैं। रिपोर्ट प्रकाशित करने के लिए स्पष्ट अनुमोदन आवश्यक है। [`resume-task` / `publish-task`](https://github.com/Anton-Sergeev-EA/Cognivore/blob/01689074017726ebe3191c222d07f53350232512/src/cognivore/cli.py)
 
-ब्राउज़र में विनिर्देश के दो संस्करणों की तुलना करें, उद्धरण साथ-साथ देखें और Markdown रिपोर्ट को मंज़ूरी दें। SQLite निर्णय सहेजता है ताकि पुनः आरंभ के बाद समीक्षा जारी रखी जा सके। [ब्राउज़र डेमो](https://github.com/Anton-Sergeev-EA/Cognivore/blob/bc037323eb646cc82bb230969743d9b6a11d3dfa/README.md#review-specifications-in-the-browser).
+ब्राउज़र में विनिर्देश के दो संस्करणों की तुलना करें, उद्धरण साथ-साथ देखें और Markdown रिपोर्ट को मंज़ूरी दें। SQLite निर्णय सहेजता है ताकि पुनः आरंभ के बाद समीक्षा जारी रखी जा सके। [ब्राउज़र डेमो](https://github.com/Anton-Sergeev-EA/Cognivore/blob/f1ee363dbd937f4e17cb86b9fbe5c455dd0cec24/README.md#review-specifications-in-the-browser).
 
 **देखें:** [नेटिव कार्यान्वयन](https://github.com/Anton-Sergeev-EA/Cognivore/tree/main/native) · [बेंचमार्क](https://github.com/Anton-Sergeev-EA/Cognivore/tree/main/benchmarks) · [CI](https://github.com/Anton-Sergeev-EA/Cognivore/actions)।
 
@@ -87,7 +87,7 @@ flowchart TB
 
 ## काम की जाँच
 
-[स्रोत, कॉन्फ़िगरेशन, बेंचमार्क का दायरा और जाँच कमांड](docs/EVIDENCE.md) · [ARGUS-NEURO](https://github.com/Anton-Sergeev-EA/ARGUS-NEURO/blob/289671868e36cd1dee7a9ca55410851482e61e44/README.md) · [Ironpulse](https://github.com/Anton-Sergeev-EA/Ironpulse/blob/ff989c50f1e67ea7a65405904ab7dc73f6be6303/README.md) · [Cognivore](https://github.com/Anton-Sergeev-EA/Cognivore/blob/bc037323eb646cc82bb230969743d9b6a11d3dfa/README.md)
+[स्रोत, कॉन्फ़िगरेशन, बेंचमार्क का दायरा और जाँच कमांड](docs/EVIDENCE.md) · [ARGUS-NEURO](https://github.com/Anton-Sergeev-EA/ARGUS-NEURO/blob/289671868e36cd1dee7a9ca55410851482e61e44/README.md) · [Ironpulse](https://github.com/Anton-Sergeev-EA/Ironpulse/blob/ff989c50f1e67ea7a65405904ab7dc73f6be6303/README.md) · [Cognivore](https://github.com/Anton-Sergeev-EA/Cognivore/blob/f1ee363dbd937f4e17cb86b9fbe5c455dd0cec24/README.md)
 
 ## तकनीकी उपकरण
 

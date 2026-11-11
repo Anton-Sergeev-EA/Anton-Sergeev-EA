@@ -11,7 +11,7 @@ Zaměřuji se na náročné technické problémy: zašuměná data, obnovu po se
 
 | ARGUS-NEURO | Ironpulse | Cognivore |
 |---|---|---|
-| [![ARGUS-NEURO](assets/argus-experiment.png)](https://github.com/Anton-Sergeev-EA/ARGUS-NEURO/blob/289671868e36cd1dee7a9ca55410851482e61e44/experiments/2026-09-30_reliability/metrics.json) | [![Ironpulse](assets/ironpulse-online.png)](https://github.com/Anton-Sergeev-EA/Ironpulse/blob/ff989c50f1e67ea7a65405904ab7dc73f6be6303/README.md) | [![Kontrola specifikací s citacemi](assets/cognivore-review.png)](https://github.com/Anton-Sergeev-EA/Cognivore/blob/bc037323eb646cc82bb230969743d9b6a11d3dfa/README.md#review-specifications-in-the-browser) |
+| [![ARGUS-NEURO](assets/argus-experiment.png)](https://github.com/Anton-Sergeev-EA/ARGUS-NEURO/blob/289671868e36cd1dee7a9ca55410851482e61e44/experiments/2026-09-30_reliability/metrics.json) | [![Ironpulse](assets/ironpulse-online.png)](https://github.com/Anton-Sergeev-EA/Ironpulse/blob/ff989c50f1e67ea7a65405904ab7dc73f6be6303/README.md) | [![Kontrola specifikací s citacemi](assets/cognivore-review.png)](https://github.com/Anton-Sergeev-EA/Cognivore/blob/f1ee363dbd937f4e17cb86b9fbe5c455dd0cec24/README.md#review-specifications-in-the-browser) |
 | Výsledky syntetického experimentu | Běžící simulátor Modbus a dashboard | Snímek rozhraní z repozitáře |
 
 ## Vybrané technické projekty
@@ -29,7 +29,7 @@ Asynchronní sběr Modbus TCP, časové limity a opětovné připojení, úloži
 ### [Cognivore](https://github.com/Anton-Sergeev-EA/Cognivore) — lokální prostředí pro dokumentové agenty
 Přesné/přibližné vektorové indexy v C++ propojené s Pythonem, embeddings, BM25 a API. Testy indexů a benchmarky konkrétních zátěží umožňují ověřit chování vyhledávání a výkonnostní kompromisy. Úlohy agenta v CLI ukládají kontrolní body do SQLite a po restartu pokračují. Zveřejnění zprávy vyžaduje výslovné schválení. [`resume-task` / `publish-task`](https://github.com/Anton-Sergeev-EA/Cognivore/blob/01689074017726ebe3191c222d07f53350232512/src/cognivore/cli.py)
 
-V prohlížeči porovnejte dvě verze specifikace, zkontrolujte citace vedle sebe a schvalte zprávu v Markdownu. SQLite ukládá rozhodnutí pro pokračování po restartu. [Ukázka v prohlížeči](https://github.com/Anton-Sergeev-EA/Cognivore/blob/bc037323eb646cc82bb230969743d9b6a11d3dfa/README.md#review-specifications-in-the-browser).
+V prohlížeči porovnejte dvě verze specifikace, zkontrolujte citace vedle sebe a schvalte zprávu v Markdownu. SQLite ukládá rozhodnutí pro pokračování po restartu. [Ukázka v prohlížeči](https://github.com/Anton-Sergeev-EA/Cognivore/blob/f1ee363dbd937f4e17cb86b9fbe5c455dd0cec24/README.md#review-specifications-in-the-browser).
 
 **K ověření:** [nativní implementace](https://github.com/Anton-Sergeev-EA/Cognivore/tree/main/native) · [benchmarky](https://github.com/Anton-Sergeev-EA/Cognivore/tree/main/benchmarks) · [CI](https://github.com/Anton-Sergeev-EA/Cognivore/actions).
 
@@ -87,7 +87,7 @@ flowchart TB
 
 ## Jak ověřit
 
-[Zdroje, konfigurace, rozsah měření a ověřovací příkazy](docs/EVIDENCE.md) · [ARGUS-NEURO](https://github.com/Anton-Sergeev-EA/ARGUS-NEURO/blob/289671868e36cd1dee7a9ca55410851482e61e44/README.md) · [Ironpulse](https://github.com/Anton-Sergeev-EA/Ironpulse/blob/ff989c50f1e67ea7a65405904ab7dc73f6be6303/README.md) · [Cognivore](https://github.com/Anton-Sergeev-EA/Cognivore/blob/bc037323eb646cc82bb230969743d9b6a11d3dfa/README.md)
+[Zdroje, konfigurace, rozsah měření a ověřovací příkazy](docs/EVIDENCE.md) · [ARGUS-NEURO](https://github.com/Anton-Sergeev-EA/ARGUS-NEURO/blob/289671868e36cd1dee7a9ca55410851482e61e44/README.md) · [Ironpulse](https://github.com/Anton-Sergeev-EA/Ironpulse/blob/ff989c50f1e67ea7a65405904ab7dc73f6be6303/README.md) · [Cognivore](https://github.com/Anton-Sergeev-EA/Cognivore/blob/f1ee363dbd937f4e17cb86b9fbe5c455dd0cec24/README.md)
 
 ## Technické nástroje
 

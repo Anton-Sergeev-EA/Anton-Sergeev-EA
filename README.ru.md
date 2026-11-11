@@ -17,7 +17,7 @@
 
 | ARGUS-NEURO | Ironpulse | Cognivore |
 |---|---|---|
-| [![ARGUS-NEURO](assets/argus-experiment.png)](https://github.com/Anton-Sergeev-EA/ARGUS-NEURO/blob/289671868e36cd1dee7a9ca55410851482e61e44/experiments/2026-09-30_reliability/metrics.json) | [![Ironpulse](assets/ironpulse-online.png)](https://github.com/Anton-Sergeev-EA/Ironpulse/blob/ff989c50f1e67ea7a65405904ab7dc73f6be6303/README.md) | [![Проверка спецификаций с цитатами](assets/cognivore-review.png)](https://github.com/Anton-Sergeev-EA/Cognivore/blob/bc037323eb646cc82bb230969743d9b6a11d3dfa/README.md#review-specifications-in-the-browser) |
+| [![ARGUS-NEURO](assets/argus-experiment.png)](https://github.com/Anton-Sergeev-EA/ARGUS-NEURO/blob/289671868e36cd1dee7a9ca55410851482e61e44/experiments/2026-09-30_reliability/metrics.json) | [![Ironpulse](assets/ironpulse-online.png)](https://github.com/Anton-Sergeev-EA/Ironpulse/blob/ff989c50f1e67ea7a65405904ab7dc73f6be6303/README.md) | [![Проверка спецификаций с цитатами](assets/cognivore-review.png)](https://github.com/Anton-Sergeev-EA/Cognivore/blob/f1ee363dbd937f4e17cb86b9fbe5c455dd0cec24/README.md#review-specifications-in-the-browser) |
 | Результаты синтетического эксперимента | Работающие симулятор Modbus и панель | Проверка спецификаций с цитатами |
 
 ## Избранные инженерные проекты
@@ -35,7 +35,7 @@
 ### [Cognivore](https://github.com/Anton-Sergeev-EA/Cognivore) — локальный агентный harness для документов
 Индексы точного и приближённого векторного поиска на C++ с интеграцией в Python, embeddings, BM25 и API. Тесты индексов и измерения на конкретных нагрузках показывают поведение поиска и компромиссы производительности. Задачи агента в CLI сохраняют контрольные точки в SQLite и продолжаются после перезапуска. Публикация отчёта требует явного подтверждения. [`resume-task` / `publish-task`](https://github.com/Anton-Sergeev-EA/Cognivore/blob/01689074017726ebe3191c222d07f53350232512/src/cognivore/cli.py)
 
-В браузере можно сравнить две версии спецификации, сверить цитаты рядом и утвердить отчёт в Markdown. Решения сохраняются в SQLite, поэтому проверку можно продолжить после перезапуска. [Демо в браузере](https://github.com/Anton-Sergeev-EA/Cognivore/blob/bc037323eb646cc82bb230969743d9b6a11d3dfa/README.md#review-specifications-in-the-browser).
+В браузере можно сравнить две версии спецификации, сверить цитаты рядом и утвердить отчёт в Markdown. Решения сохраняются в SQLite, поэтому проверку можно продолжить после перезапуска. Заголовки разделов помогают локальной семантической модели сопоставлять переформулированные требования. [Демо в браузере](https://github.com/Anton-Sergeev-EA/Cognivore/blob/f1ee363dbd937f4e17cb86b9fbe5c455dd0cec24/README.md#review-specifications-in-the-browser).
 
 **Для проверки:** [нативная реализация](https://github.com/Anton-Sergeev-EA/Cognivore/tree/main/native) · [бенчмарки](https://github.com/Anton-Sergeev-EA/Cognivore/tree/main/benchmarks) · [CI](https://github.com/Anton-Sergeev-EA/Cognivore/actions).
 
@@ -55,6 +55,8 @@
 | ARGUS · anomaly autoencoder | F1 **0.669** · recall **0.585** | 2 030 синтетических тестовых окон; разбиение по траекториям; [metrics](https://github.com/Anton-Sergeev-EA/ARGUS-NEURO/blob/289671868e36cd1dee7a9ca55410851482e61e44/experiments/2026-09-30_reliability/metrics.json) |
 | Cognivore · index build ↓ | C++ **0.027 s** vs NumPy **0.615 s** | 3 000 × 384 случайных векторов; 2 ядра; NumPy: цикл `.add()`; [benchmark](https://github.com/Anton-Sergeev-EA/Cognivore/blob/8ca2aaad23280cf283731191be442c398f0f6ed1/README.md#benchmarks) |
 | Cognivore · NSW Recall@10 / latency | **0.93 / 0.46 ms** | 3 000 векторов; ef=150; тот же бенчмарк; [method](https://github.com/Anton-Sergeev-EA/Cognivore/blob/8ca2aaad23280cf283731191be442c398f0f6ed1/benchmarks/bench_index.py) |
+| Cognivore · проверка спецификаций | **13 из 13**, без лишних находок | 10 синтетических пар. [Бенчмарк](https://github.com/Anton-Sergeev-EA/Cognivore/blob/f1ee363dbd937f4e17cb86b9fbe5c455dd0cec24/benchmarks/REVIEW.md) |
+| Cognivore · опубликованные фрагменты | **2 из 2** с заголовками, **1 из 2** на той же модели только с текстом строк | Примеры NIST и WCAG. Построчное сравнение также нашло оба изменения. [Бенчмарк](https://github.com/Anton-Sergeev-EA/Cognivore/blob/f1ee363dbd937f4e17cb86b9fbe5c455dd0cec24/benchmarks/REVIEW.md#section-context-on-published-cases) |
 
 ## Архитектура
 
@@ -93,7 +95,7 @@ flowchart TB
 
 ## Как проверить
 
-[Источники, конфигурация, условия измерений и команды проверки](docs/EVIDENCE.md) · [ARGUS-NEURO](https://github.com/Anton-Sergeev-EA/ARGUS-NEURO/blob/289671868e36cd1dee7a9ca55410851482e61e44/README.md) · [Ironpulse](https://github.com/Anton-Sergeev-EA/Ironpulse/blob/ff989c50f1e67ea7a65405904ab7dc73f6be6303/README.md) · [Cognivore](https://github.com/Anton-Sergeev-EA/Cognivore/blob/bc037323eb646cc82bb230969743d9b6a11d3dfa/README.md)
+[Источники, конфигурация, условия измерений и команды проверки](docs/EVIDENCE.md) · [ARGUS-NEURO](https://github.com/Anton-Sergeev-EA/ARGUS-NEURO/blob/289671868e36cd1dee7a9ca55410851482e61e44/README.md) · [Ironpulse](https://github.com/Anton-Sergeev-EA/Ironpulse/blob/ff989c50f1e67ea7a65405904ab7dc73f6be6303/README.md) · [Cognivore](https://github.com/Anton-Sergeev-EA/Cognivore/blob/f1ee363dbd937f4e17cb86b9fbe5c455dd0cec24/README.md)
 
 ## Технический инструментарий
 

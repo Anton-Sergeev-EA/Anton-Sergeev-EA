@@ -11,7 +11,7 @@
 
 | ARGUS-NEURO | Ironpulse | Cognivore |
 |---|---|---|
-| [![ARGUS-NEURO](assets/argus-experiment.png)](https://github.com/Anton-Sergeev-EA/ARGUS-NEURO/blob/289671868e36cd1dee7a9ca55410851482e61e44/experiments/2026-09-30_reliability/metrics.json) | [![Ironpulse](assets/ironpulse-online.png)](https://github.com/Anton-Sergeev-EA/Ironpulse/blob/ff989c50f1e67ea7a65405904ab7dc73f6be6303/README.md) | [![Έλεγχος προδιαγραφών με παραθέματα](assets/cognivore-review.png)](https://github.com/Anton-Sergeev-EA/Cognivore/blob/bc037323eb646cc82bb230969743d9b6a11d3dfa/README.md#review-specifications-in-the-browser) |
+| [![ARGUS-NEURO](assets/argus-experiment.png)](https://github.com/Anton-Sergeev-EA/ARGUS-NEURO/blob/289671868e36cd1dee7a9ca55410851482e61e44/experiments/2026-09-30_reliability/metrics.json) | [![Ironpulse](assets/ironpulse-online.png)](https://github.com/Anton-Sergeev-EA/Ironpulse/blob/ff989c50f1e67ea7a65405904ab7dc73f6be6303/README.md) | [![Έλεγχος προδιαγραφών με παραθέματα](assets/cognivore-review.png)](https://github.com/Anton-Sergeev-EA/Cognivore/blob/f1ee363dbd937f4e17cb86b9fbe5c455dd0cec24/README.md#review-specifications-in-the-browser) |
 | Αποτελέσματα συνθετικού πειράματος | Προσομοιωτής Modbus και πίνακας σε λειτουργία | Στιγμιότυπο διεπαφής από το αποθετήριο |
 
 ## Επιλεγμένα τεχνικά έργα
@@ -29,7 +29,7 @@
 ### [Cognivore](https://github.com/Anton-Sergeev-EA/Cognivore) — τοπικό περιβάλλον εκτέλεσης πρακτόρων για έγγραφα
 Ακριβή/προσεγγιστικά διανυσματικά ευρετήρια σε C++ με σύνδεση Python, embeddings, BM25 και API. Οι δοκιμές ευρετηρίων και οι μετρήσεις συγκεκριμένων φορτίων επιτρέπουν τον έλεγχο της αναζήτησης και των συμβιβασμών απόδοσης. Οι εργασίες του πράκτορα στη γραμμή εντολών αποθηκεύουν σημεία συνέχισης στο SQLite και συνεχίζονται μετά από επανεκκίνηση. Η δημοσίευση αναφοράς απαιτεί ρητή έγκριση. [`resume-task` / `publish-task`](https://github.com/Anton-Sergeev-EA/Cognivore/blob/01689074017726ebe3191c222d07f53350232512/src/cognivore/cli.py)
 
-Συγκρίνετε δύο εκδόσεις μιας προδιαγραφής στον περιηγητή, ελέγξτε τα αποσπάσματα δίπλα δίπλα και εγκρίνετε μια αναφορά Markdown. Το SQLite αποθηκεύει τις αποφάσεις για συνέχιση μετά από επανεκκίνηση. [Επίδειξη στον περιηγητή](https://github.com/Anton-Sergeev-EA/Cognivore/blob/bc037323eb646cc82bb230969743d9b6a11d3dfa/README.md#review-specifications-in-the-browser).
+Συγκρίνετε δύο εκδόσεις μιας προδιαγραφής στον περιηγητή, ελέγξτε τα αποσπάσματα δίπλα δίπλα και εγκρίνετε μια αναφορά Markdown. Το SQLite αποθηκεύει τις αποφάσεις για συνέχιση μετά από επανεκκίνηση. [Επίδειξη στον περιηγητή](https://github.com/Anton-Sergeev-EA/Cognivore/blob/f1ee363dbd937f4e17cb86b9fbe5c455dd0cec24/README.md#review-specifications-in-the-browser).
 
 **Για έλεγχο:** [εγγενής υλοποίηση](https://github.com/Anton-Sergeev-EA/Cognivore/tree/main/native) · [μετρήσεις απόδοσης](https://github.com/Anton-Sergeev-EA/Cognivore/tree/main/benchmarks) · [CI](https://github.com/Anton-Sergeev-EA/Cognivore/actions).
 
@@ -87,7 +87,7 @@ flowchart TB
 
 ## Επαλήθευση
 
-[Πηγές, ρυθμίσεις, πεδίο μετρήσεων και εντολές ελέγχου](docs/EVIDENCE.md) · [ARGUS-NEURO](https://github.com/Anton-Sergeev-EA/ARGUS-NEURO/blob/289671868e36cd1dee7a9ca55410851482e61e44/README.md) · [Ironpulse](https://github.com/Anton-Sergeev-EA/Ironpulse/blob/ff989c50f1e67ea7a65405904ab7dc73f6be6303/README.md) · [Cognivore](https://github.com/Anton-Sergeev-EA/Cognivore/blob/bc037323eb646cc82bb230969743d9b6a11d3dfa/README.md)
+[Πηγές, ρυθμίσεις, πεδίο μετρήσεων και εντολές ελέγχου](docs/EVIDENCE.md) · [ARGUS-NEURO](https://github.com/Anton-Sergeev-EA/ARGUS-NEURO/blob/289671868e36cd1dee7a9ca55410851482e61e44/README.md) · [Ironpulse](https://github.com/Anton-Sergeev-EA/Ironpulse/blob/ff989c50f1e67ea7a65405904ab7dc73f6be6303/README.md) · [Cognivore](https://github.com/Anton-Sergeev-EA/Cognivore/blob/f1ee363dbd937f4e17cb86b9fbe5c455dd0cec24/README.md)
 
 ## Τεχνικά εργαλεία
 
